@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 5665f898bd7bd3f49bb790f44afe519e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AntiqueRobot_AntiqueScreen
+    100002: AntiqueRobot_AntiqueScreen_Boiler_Glass
+    100004: AntiqueRobot_Base
+    100006: AntiqueRobot_Base_BaseGlass
+    100008: AntiqueRobot_Base_lightBulb_GlassR
+    100010: AntiqueRobot_Boiler2
+    100012: AntiqueRobot_Boiler2_BoilerWheel
+    100014: AntiqueRobot_Head2
+    100016: AntiqueRobot_Head2_HeadSide
+    100018: //RootNode
+    100020: AntiqueRobot_Pole
+    100022: AntiqueRobot_Speaker
+    100024: Headset_AntiqueRobot
+    100026: Headset_AntiqueRobot_Head_Glass
+    400000: AntiqueRobot_AntiqueScreen
+    400002: AntiqueRobot_AntiqueScreen_Boiler_Glass
+    400004: AntiqueRobot_Base
+    400006: AntiqueRobot_Base_BaseGlass
+    400008: AntiqueRobot_Base_lightBulb_GlassR
+    400010: AntiqueRobot_Boiler2
+    400012: AntiqueRobot_Boiler2_BoilerWheel
+    400014: AntiqueRobot_Head2
+    400016: AntiqueRobot_Head2_HeadSide
+    400018: //RootNode
+    400020: AntiqueRobot_Pole
+    400022: AntiqueRobot_Speaker
+    400024: Headset_AntiqueRobot
+    400026: Headset_AntiqueRobot_Head_Glass
+    2100000: AntiqueRobot_AntiqueScreenMat
+    2100002: AntiqueRobot_AntiqueScreen_Boiler_GlassMat
+    2100004: AntiqueRobot_BaseMat
+    2100006: AntiqueRobot_Base_BaseGlassMat
+    2100008: AntiqueRobot_Base_lightBulb_GlassRMat
+    2100010: AntiqueRobot_Boiler2Mat
+    2100012: AntiqueRobot_Boiler2_BoilerWheelMat
+    2100014: AntiqueRobot_Head2Mat
+    2100016: AntiqueRobot_Head2_HeadSideMat
+    2100018: AntiqueRobot_PoleMat
+    2100020: AntiqueRobot_SpeakerMat
+    2100022: Headset_AntiqueRobotMat
+    2100024: Headset_AntiqueRobot_Head_GlassMat
+    2300000: AntiqueRobot_AntiqueScreen
+    2300002: AntiqueRobot_AntiqueScreen_Boiler_Glass
+    2300004: AntiqueRobot_Base
+    2300006: AntiqueRobot_Base_BaseGlass
+    2300008: AntiqueRobot_Base_lightBulb_GlassR
+    2300010: AntiqueRobot_Boiler2
+    2300012: AntiqueRobot_Boiler2_BoilerWheel
+    2300014: AntiqueRobot_Head2
+    2300016: AntiqueRobot_Head2_HeadSide
+    2300018: AntiqueRobot_Pole
+    2300020: AntiqueRobot_Speaker
+    2300022: Headset_AntiqueRobot
+    2300024: Headset_AntiqueRobot_Head_Glass
+    3300000: AntiqueRobot_AntiqueScreen
+    3300002: AntiqueRobot_AntiqueScreen_Boiler_Glass
+    3300004: AntiqueRobot_Base
+    3300006: AntiqueRobot_Base_BaseGlass
+    3300008: AntiqueRobot_Base_lightBulb_GlassR
+    3300010: AntiqueRobot_Boiler2
+    3300012: AntiqueRobot_Boiler2_BoilerWheel
+    3300014: AntiqueRobot_Head2
+    3300016: AntiqueRobot_Head2_HeadSide
+    3300018: AntiqueRobot_Pole
+    3300020: AntiqueRobot_Speaker
+    3300022: Headset_AntiqueRobot
+    3300024: Headset_AntiqueRobot_Head_Glass
+    4300000: AntiqueRobot_AntiqueScreen
+    4300002: AntiqueRobot_AntiqueScreen_Boiler_Glass
+    4300004: AntiqueRobot_Base
+    4300006: AntiqueRobot_Base_BaseGlass
+    4300008: AntiqueRobot_Base_lightBulb_GlassR
+    4300010: AntiqueRobot_Boiler2
+    4300012: AntiqueRobot_Boiler2_BoilerWheel
+    4300014: AntiqueRobot_Head2
+    4300016: AntiqueRobot_Head2_HeadSide
+    4300018: AntiqueRobot_Pole
+    4300020: AntiqueRobot_Speaker
+    4300022: Headset_AntiqueRobot
+    4300024: Headset_AntiqueRobot_Head_Glass
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

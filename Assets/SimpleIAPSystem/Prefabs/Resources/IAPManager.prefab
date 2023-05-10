@@ -1,0 +1,736 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  - component: {fileID: 11400004}
+  - component: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: IAPManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cafc064c316f49744b1ae08c43a9a12e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoInitialize: 1
+  storeKeys:
+    googleKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjYX/247NzhABTYMScnFHTl3J6e7ilc9VagxOAskyG2Rsxy4DVeoZY3mbGH7fkC+MbeeM41WIWbnUwS8uI4fV86Dyp/f8oimWt+gVchwoGYK+cSL405kccXakt3iBsrQo45aUaiC0lVXiuNHE7H+P3TV48zQoCHV/zsjsDEe9+JrFd8ThUV1wL89nksddCAJcsKdl8WODzFntLzAVFmzS8Di2YDdj3spksMdqMq+Hag5A5CZTLkydFM7ZlOvTqeHayluTFJf+hvKYvbQoAxPWZ05neHuEBCFfVP3jxN294JEVLwH+xllT3OO3+LybzQ5zur6OqsCQdUYSt9LlBE282wIDAQAB
+  IAPs:
+  - id: 1449154555.24286565
+    name: IAP
+    items:
+    - id: BP
+      storeIDs:
+      - store: GooglePlay
+        id: bp
+      - store: AppleAppStore
+        id: BP
+      type: 0
+      title: Beat  pack
+      description: Please wait for data fetching.
+      realPrice: $0.00
+      fetch: 1
+      icon: {fileID: 21300000, guid: 93da8da2aa995474fad95ad69cc92b87, type: 3}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 4000
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 1
+      platformFoldout: 1
+    - id: LBP
+      storeIDs:
+      - store: GooglePlay
+        id: lbp
+      - store: AppleAppStore
+        id: LBP
+      type: 0
+      title: Large  beat  pack
+      description: Please wait for data fetching.
+      realPrice: $0.00
+      fetch: 1
+      icon: {fileID: 21300000, guid: 422b15393017be44abda6aaba33af008, type: 3}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 10000
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 1
+      platformFoldout: 1
+    - id: SP
+      storeIDs:
+      - store: GooglePlay
+        id: sbp
+      - store: AppleAppStore
+        id: SP
+      type: 0
+      title: Supporter  pack
+      description: Please wait for data fetching.
+      realPrice: $0.00
+      fetch: 1
+      icon: {fileID: 21300000, guid: 5e19dbc2fc215134b99aa2b8b079d71b, type: 3}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 50000
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 1
+      platformFoldout: 1
+    foldout: 1
+  - id: 1569473388.05953290
+    name: IG-Items
+    items:
+    - id: GoldHead
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldRail
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldBase
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldHeadset
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldPole
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldArmrod
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldSpeaker
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldGear
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: AntiqueRail
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1000
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: AntiqueHead
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1000
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: AntiqueBase
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1000
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: AntiquePole
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1000
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: AntiqueHeadset
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1000
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: AntiqueSpeaker
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1000
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: AntiqueGear
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1000
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: AntiqueArmrod
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1000
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldAntiqueRail
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldAntiqueHead
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldAntiqueBase
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldAntiqueHeadset
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldAntiquePole
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldAntiqueArmrod
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldAntiqueSpeaker
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldAntiqueGear
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 1500
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    foldout: 0
+  - id: 1569567097.03685561
+    name: Equipment
+    items:
+    - id: ChromeEquipment
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 0
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldEquipment
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 0
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: AntiqueEquipment
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 0
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: GoldAntiqueEquipment
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 0
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    foldout: 0
+  - id: 1570528301.22881943
+    name: Music
+    items:
+    - id: ChromeMusic
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 0
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    - id: AntiqueMusic
+      storeIDs: []
+      type: 1
+      title: 
+      description: 
+      realPrice: 
+      fetch: 0
+      icon: {fileID: 0}
+      usageCount: 1
+      virtualPrice:
+      - name: beats
+        amount: 0
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 2
+      platformFoldout: 0
+    foldout: 0
+  currencies:
+  - name: beats
+    amount: 0
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede593cb3d7afa745b31541dc1b842f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  memoryOnly: 0
+  encrypt: 0
+  obfuscKey: 
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a3624475fe7d74292ab7640dc0ba31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

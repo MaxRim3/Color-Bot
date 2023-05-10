@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ae18f85743dfd09458ba8666b75239a9
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _ROBOT2Normal: {fileID: 2800000, guid: a8098f6f5aabaf243a7a5b90587a5398, type: 3}
+  - _ROBOT2Albedo: {fileID: 2800000, guid: 3b7aa890fe020d64f9a036e36e21e5d5, type: 3}
+  - _magma_planets_hd_6sided: {fileID: 8900000, guid: 8f3789f268ed9b94283e31027ccd8172,
+      type: 3}
+  - _TextureSample0: {fileID: 2800000, guid: f11785d24370aa34f8cbe5ef27e75584, type: 3}
+  - _ROBOT2Gloss: {fileID: 2800000, guid: 74cac35a533fdec4d85e74983f139f31, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

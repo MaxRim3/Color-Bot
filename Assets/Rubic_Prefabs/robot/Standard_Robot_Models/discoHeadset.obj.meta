@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 57f5917891d511d49a8db99381205a97
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: discoHeadset_robot_ROBOT_crown
+    100004: discoHeadset_robot_ROBOT_pCylinder44
+    100006: discoHeadset_robot_ROBOT_pCylinder46
+    100008: discoHeadset_robot_ROBOT_pCylinder47
+    100010: discoHeadset_robot_ROBOT_pCylinder48
+    100012: discoHeadset_robot_ROBOT_pCylinder49
+    100014: discoHeadset_robot_ROBOT_pCylinder50
+    100016: discoHeadset_robot_ROBOT_pCylinder51
+    100018: discoHeadset_robot_ROBOT_pCylinder52
+    100020: discoHeadset_robot_ROBOT_pCylinder53
+    100022: discoHeadset_robot_ROBOT_pCylinder67
+    100024: discoHeadset_robot_ROBOT_pCylinder68
+    100026: discoHeadset_robot_ROBOT_pCylinder70
+    100028: discoHeadset_robot_ROBOT_pCylinder72
+    100030: discoHeadset_robot_ROBOT_pCylinder73
+    100032: discoHeadset_robot_ROBOT_pCylinder79
+    100034: discoHeadset_robot_ROBOT_pCylinder80
+    100036: discoHeadset_robot_ROBOT_pSphere3
+    100038: pCylinder71_discoHeadset_robot_ROBOT
+    400000: //RootNode
+    400002: discoHeadset_robot_ROBOT_crown
+    400004: discoHeadset_robot_ROBOT_pCylinder44
+    400006: discoHeadset_robot_ROBOT_pCylinder46
+    400008: discoHeadset_robot_ROBOT_pCylinder47
+    400010: discoHeadset_robot_ROBOT_pCylinder48
+    400012: discoHeadset_robot_ROBOT_pCylinder49
+    400014: discoHeadset_robot_ROBOT_pCylinder50
+    400016: discoHeadset_robot_ROBOT_pCylinder51
+    400018: discoHeadset_robot_ROBOT_pCylinder52
+    400020: discoHeadset_robot_ROBOT_pCylinder53
+    400022: discoHeadset_robot_ROBOT_pCylinder67
+    400024: discoHeadset_robot_ROBOT_pCylinder68
+    400026: discoHeadset_robot_ROBOT_pCylinder70
+    400028: discoHeadset_robot_ROBOT_pCylinder72
+    400030: discoHeadset_robot_ROBOT_pCylinder73
+    400032: discoHeadset_robot_ROBOT_pCylinder79
+    400034: discoHeadset_robot_ROBOT_pCylinder80
+    400036: discoHeadset_robot_ROBOT_pSphere3
+    400038: pCylinder71_discoHeadset_robot_ROBOT
+    2100000: discoHeadset_robot_ROBOT_crownMat
+    2100002: discoHeadset_robot_ROBOT_pCylinder44Mat
+    2100004: discoHeadset_robot_ROBOT_pCylinder46Mat
+    2100006: discoHeadset_robot_ROBOT_pCylinder47Mat
+    2100008: discoHeadset_robot_ROBOT_pCylinder48Mat
+    2100010: discoHeadset_robot_ROBOT_pCylinder49Mat
+    2100012: discoHeadset_robot_ROBOT_pCylinder50Mat
+    2100014: discoHeadset_robot_ROBOT_pCylinder51Mat
+    2100016: discoHeadset_robot_ROBOT_pCylinder52Mat
+    2100018: discoHeadset_robot_ROBOT_pCylinder53Mat
+    2100020: discoHeadset_robot_ROBOT_pCylinder67Mat
+    2100022: discoHeadset_robot_ROBOT_pCylinder68Mat
+    2100024: discoHeadset_robot_ROBOT_pCylinder70Mat
+    2100026: discoHeadset_robot_ROBOT_pCylinder72Mat
+    2100028: discoHeadset_robot_ROBOT_pCylinder73Mat
+    2100030: discoHeadset_robot_ROBOT_pCylinder79Mat
+    2100032: discoHeadset_robot_ROBOT_pCylinder80Mat
+    2100034: discoHeadset_robot_ROBOT_pSphere3Mat
+    2100036: pCylinder71_discoHeadset_robot_ROBOTMat
+    2300000: discoHeadset_robot_ROBOT_crown
+    2300002: discoHeadset_robot_ROBOT_pCylinder44
+    2300004: discoHeadset_robot_ROBOT_pCylinder46
+    2300006: discoHeadset_robot_ROBOT_pCylinder47
+    2300008: discoHeadset_robot_ROBOT_pCylinder48
+    2300010: discoHeadset_robot_ROBOT_pCylinder49
+    2300012: discoHeadset_robot_ROBOT_pCylinder50
+    2300014: discoHeadset_robot_ROBOT_pCylinder51
+    2300016: discoHeadset_robot_ROBOT_pCylinder52
+    2300018: discoHeadset_robot_ROBOT_pCylinder53
+    2300020: discoHeadset_robot_ROBOT_pCylinder67
+    2300022: discoHeadset_robot_ROBOT_pCylinder68
+    2300024: discoHeadset_robot_ROBOT_pCylinder70
+    2300026: discoHeadset_robot_ROBOT_pCylinder72
+    2300028: discoHeadset_robot_ROBOT_pCylinder73
+    2300030: discoHeadset_robot_ROBOT_pCylinder79
+    2300032: discoHeadset_robot_ROBOT_pCylinder80
+    2300034: discoHeadset_robot_ROBOT_pSphere3
+    2300036: pCylinder71_discoHeadset_robot_ROBOT
+    3300000: discoHeadset_robot_ROBOT_crown
+    3300002: discoHeadset_robot_ROBOT_pCylinder44
+    3300004: discoHeadset_robot_ROBOT_pCylinder46
+    3300006: discoHeadset_robot_ROBOT_pCylinder47
+    3300008: discoHeadset_robot_ROBOT_pCylinder48
+    3300010: discoHeadset_robot_ROBOT_pCylinder49
+    3300012: discoHeadset_robot_ROBOT_pCylinder50
+    3300014: discoHeadset_robot_ROBOT_pCylinder51
+    3300016: discoHeadset_robot_ROBOT_pCylinder52
+    3300018: discoHeadset_robot_ROBOT_pCylinder53
+    3300020: discoHeadset_robot_ROBOT_pCylinder67
+    3300022: discoHeadset_robot_ROBOT_pCylinder68
+    3300024: discoHeadset_robot_ROBOT_pCylinder70
+    3300026: discoHeadset_robot_ROBOT_pCylinder72
+    3300028: discoHeadset_robot_ROBOT_pCylinder73
+    3300030: discoHeadset_robot_ROBOT_pCylinder79
+    3300032: discoHeadset_robot_ROBOT_pCylinder80
+    3300034: discoHeadset_robot_ROBOT_pSphere3
+    3300036: pCylinder71_discoHeadset_robot_ROBOT
+    4300000: discoHeadset_robot_ROBOT_crown
+    4300002: discoHeadset_robot_ROBOT_pCylinder44
+    4300004: discoHeadset_robot_ROBOT_pCylinder46
+    4300006: discoHeadset_robot_ROBOT_pCylinder47
+    4300008: discoHeadset_robot_ROBOT_pCylinder48
+    4300010: discoHeadset_robot_ROBOT_pCylinder49
+    4300012: discoHeadset_robot_ROBOT_pCylinder50
+    4300014: discoHeadset_robot_ROBOT_pCylinder51
+    4300016: discoHeadset_robot_ROBOT_pCylinder52
+    4300018: discoHeadset_robot_ROBOT_pCylinder53
+    4300020: discoHeadset_robot_ROBOT_pCylinder67
+    4300022: discoHeadset_robot_ROBOT_pCylinder68
+    4300024: discoHeadset_robot_ROBOT_pCylinder70
+    4300026: discoHeadset_robot_ROBOT_pCylinder72
+    4300028: discoHeadset_robot_ROBOT_pCylinder73
+    4300030: discoHeadset_robot_ROBOT_pCylinder79
+    4300032: discoHeadset_robot_ROBOT_pCylinder80
+    4300034: discoHeadset_robot_ROBOT_pSphere3
+    4300036: pCylinder71_discoHeadset_robot_ROBOT
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

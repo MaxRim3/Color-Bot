@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - platform
+  - slice
+  - Base_Platform
+  - spinStopper
+  - platform1
+  - platform2
+  - platform3
+  - platform4
+  - GameManager
+  - sliceRay
+  - storeRobot
+  - equipmentControl
+  - AudioManager
+  - Spawner
+  - Screen
+  - LoginPanel
+  - OnLoginPanel
+  - ErrorPanel
+  - FX
+  - AYSButton
+  - AYSPanel
+  - StoreManager
+  - VolumeManager
+  - MainMenuAudioSource
+  - MainMenuVolumeSlider
+  - MainMenuButtonAS
+  - SettingsMenu
+  - BeatText
+  - HighScoreText
+  - ScrollAreaOBJ
+  - MusicImage
+  - EquipmentButtonTwo
+  - EquipmentButtonZero
+  - EquipmentButtonOne
+  - coinCountText
+  - notEnoughCoinsPanel
+  - GoldEquipmentUnlockInfo
+  - AntiqueEquipmentUnlockInfo
+  - GoldAntiqueEquipmentUnlockInfo
+  - ChromeEquipmentInfo
+  - GoldEquipmentInfo
+  - AntiqueEquipmentInfo
+  - GoldAntiqueEquipmentInfo
+  - GoldEquipmentUnlocked
+  - AntiqueEquipmentUnlocked
+  - GoldAntiqueEquipmentUnlocked
+  - RewAPanel
+  - RewAText
+  - beatAPanel
+  - beatAText
+  - MainMenuManager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - platforms
+  - SliceRay
+  - spinStop
+  - Slice
+  - PF_Col
+  - Robot
+  - GUIParticles
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 8add546d319326e42bcb9cefe6b6026c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: armRods_robot_ROBOT_pCylinder129
+    100004: armRods_robot_ROBOT_pCylinder132
+    100006: armRods_robot_ROBOT_pCylinder136
+    100008: armRods_robot_ROBOT_pCylinder137
+    100010: armRods_robot_ROBOT_pCylinder31
+    100012: armRods_robot_ROBOT_pCylinder32
+    100014: armRods_robot_ROBOT_pCylinder33
+    100016: armRods_robot_ROBOT_pHelix1
+    100018: armRods_robot_ROBOT_pHelix2
+    100020: armRods_robot_ROBOT_pSphere1
+    100022: armRods_robot_ROBOT_pSphere2
+    100024: armRods_robot_ROBOT_pSphere4
+    100026: armRods_robot_ROBOT_pSphere5
+    100028: pCylinder30_armRods_robot_ROBOT
+    400000: //RootNode
+    400002: armRods_robot_ROBOT_pCylinder129
+    400004: armRods_robot_ROBOT_pCylinder132
+    400006: armRods_robot_ROBOT_pCylinder136
+    400008: armRods_robot_ROBOT_pCylinder137
+    400010: armRods_robot_ROBOT_pCylinder31
+    400012: armRods_robot_ROBOT_pCylinder32
+    400014: armRods_robot_ROBOT_pCylinder33
+    400016: armRods_robot_ROBOT_pHelix1
+    400018: armRods_robot_ROBOT_pHelix2
+    400020: armRods_robot_ROBOT_pSphere1
+    400022: armRods_robot_ROBOT_pSphere2
+    400024: armRods_robot_ROBOT_pSphere4
+    400026: armRods_robot_ROBOT_pSphere5
+    400028: pCylinder30_armRods_robot_ROBOT
+    2100000: armRods_robot_ROBOT_pCylinder129Mat
+    2100002: armRods_robot_ROBOT_pCylinder132Mat
+    2100004: armRods_robot_ROBOT_pCylinder136Mat
+    2100006: armRods_robot_ROBOT_pCylinder137Mat
+    2100008: armRods_robot_ROBOT_pCylinder31Mat
+    2100010: armRods_robot_ROBOT_pCylinder32Mat
+    2100012: armRods_robot_ROBOT_pCylinder33Mat
+    2100014: armRods_robot_ROBOT_pHelix1Mat
+    2100016: armRods_robot_ROBOT_pHelix2Mat
+    2100018: armRods_robot_ROBOT_pSphere1Mat
+    2100020: armRods_robot_ROBOT_pSphere2Mat
+    2100022: armRods_robot_ROBOT_pSphere4Mat
+    2100024: armRods_robot_ROBOT_pSphere5Mat
+    2100026: pCylinder30_armRods_robot_ROBOTMat
+    2300000: armRods_robot_ROBOT_pCylinder129
+    2300002: armRods_robot_ROBOT_pCylinder132
+    2300004: armRods_robot_ROBOT_pCylinder136
+    2300006: armRods_robot_ROBOT_pCylinder137
+    2300008: armRods_robot_ROBOT_pCylinder31
+    2300010: armRods_robot_ROBOT_pCylinder32
+    2300012: armRods_robot_ROBOT_pCylinder33
+    2300014: armRods_robot_ROBOT_pHelix1
+    2300016: armRods_robot_ROBOT_pHelix2
+    2300018: armRods_robot_ROBOT_pSphere1
+    2300020: armRods_robot_ROBOT_pSphere2
+    2300022: armRods_robot_ROBOT_pSphere4
+    2300024: armRods_robot_ROBOT_pSphere5
+    2300026: pCylinder30_armRods_robot_ROBOT
+    3300000: armRods_robot_ROBOT_pCylinder129
+    3300002: armRods_robot_ROBOT_pCylinder132
+    3300004: armRods_robot_ROBOT_pCylinder136
+    3300006: armRods_robot_ROBOT_pCylinder137
+    3300008: armRods_robot_ROBOT_pCylinder31
+    3300010: armRods_robot_ROBOT_pCylinder32
+    3300012: armRods_robot_ROBOT_pCylinder33
+    3300014: armRods_robot_ROBOT_pHelix1
+    3300016: armRods_robot_ROBOT_pHelix2
+    3300018: armRods_robot_ROBOT_pSphere1
+    3300020: armRods_robot_ROBOT_pSphere2
+    3300022: armRods_robot_ROBOT_pSphere4
+    3300024: armRods_robot_ROBOT_pSphere5
+    3300026: pCylinder30_armRods_robot_ROBOT
+    4300000: armRods_robot_ROBOT_pCylinder129
+    4300002: armRods_robot_ROBOT_pCylinder132
+    4300004: armRods_robot_ROBOT_pCylinder136
+    4300006: armRods_robot_ROBOT_pCylinder137
+    4300008: armRods_robot_ROBOT_pCylinder31
+    4300010: armRods_robot_ROBOT_pCylinder32
+    4300012: armRods_robot_ROBOT_pCylinder33
+    4300014: armRods_robot_ROBOT_pHelix1
+    4300016: armRods_robot_ROBOT_pHelix2
+    4300018: armRods_robot_ROBOT_pSphere1
+    4300020: armRods_robot_ROBOT_pSphere2
+    4300022: armRods_robot_ROBOT_pSphere4
+    4300024: armRods_robot_ROBOT_pSphere5
+    4300026: pCylinder30_armRods_robot_ROBOT
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
