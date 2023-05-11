@@ -53,7 +53,7 @@ public class Slice_Spawner : MonoBehaviour
     public int spawnTimer;
 
     public int specialSliceNum = 2; //how many special slices are there over the normal slices count
-
+    public GameObject[] platforms;
     List<int> list = new List<int>();
     // Start is called before the first frame update
     void Start()
@@ -134,6 +134,8 @@ public class Slice_Spawner : MonoBehaviour
 
             //SoundManager.GetComponent<AudioManager>().blockAppear();
 
+            spawnSequence = 1;
+
             if (sendBlack)
             {
                 Instantiate(blackSlice, this.transform.position, this.transform.rotation);
@@ -148,7 +150,7 @@ public class Slice_Spawner : MonoBehaviour
 
 
                 GameObject newSlice = Instantiate(sliceList[Random.Range(0, sliceList.Count)], this.transform.position, this.transform.rotation) as GameObject;
-
+                newSlice.GetComponent<Slice_Controller>().platforms = platforms;
                 slicesToDestroy.Add(newSlice);
 
                 for (int i = 0; i < specialSlices.Length; i++)

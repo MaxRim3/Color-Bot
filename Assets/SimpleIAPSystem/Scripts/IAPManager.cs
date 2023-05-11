@@ -171,7 +171,8 @@ namespace SIS
             #else
                 builder = ConfigurationBuilder.Instance(new SISPurchasingModule(), StandardPurchasingModule.Instance());
  
-                builder.Configure<IGooglePlayConfiguration>().SetPublicKey(storeKeys.googleKey);
+                //builder.Configure<IGooglePlayConfiguration>().SetPublicKey(storeKeys.googleKey);
+
                 //builder.Configure<IMoolahConfiguration>().appKey = storeKeys.moolahKey;
                 //builder.Configure<IMoolahConfiguration>().hashKey = storeKeys.moolahHash;
 
@@ -182,7 +183,9 @@ namespace SIS
                     // This has no effect when the Amazon billing service is not in use.
                     builder.Configure<IAmazonConfiguration>().WriteSandboxJSON(builder.products);
                     // Enable "developer mode" for purchases, not requiring real-world money
-                    builder.Configure<ISamsungAppsConfiguration>().SetMode(SamsungAppsMode.AlwaysSucceed);
+                    
+                    //builder.Configure<ISamsungAppsConfiguration>().SetMode(SamsungAppsMode.AlwaysSucceed);
+
                     //builder.Configure<IMoolahConfiguration>().SetMode(CloudMoolahMode.AlwaysSucceed);
                 }
             #endif

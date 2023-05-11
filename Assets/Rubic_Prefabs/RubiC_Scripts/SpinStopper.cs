@@ -63,7 +63,7 @@ public class SpinStopper : MonoBehaviour
         {
             
 
-            disallow = true;
+            //disallow = true;
             boostEffect.GetComponent<X_LB_LightningSource>().strike = true;
             boostEffectTwo.GetComponent<X_LB_LightningSource>().strike = true;
            // StartCoroutine(spinDisallow());

@@ -210,7 +210,7 @@ public class Slice_RayCaster : MonoBehaviour
 
 
 
-                if (checkSelected() == false && !isRotating) //if nothing is selected and nothing is rotating
+                //if (checkSelected() == false && !isRotating) //if nothing is selected and nothing is rotating
 
                 {
 
@@ -448,7 +448,37 @@ public class Slice_RayCaster : MonoBehaviour
 
     }
 
+    public bool checkUnderneathSlices()
+    {
+                var layerMask = ~((1 << 9) | (1 << 10) | (1 << 13) | (1 << 2));
+                RaycastHit downhit;
 
+
+        if (!Physics.Raycast(this.gameObject.transform.position, -transform.up, out downhit, 0.1f, layerMask))  //if the raycast hits nothing under slice, make it fall.
+        {
+            //if (!isRotating)
+            {
+                sliceRB.constraints &= ~RigidbodyConstraints.FreezePositionY;
+                this.gameObject.transform.parent.transform.parent = null;
+                myParent.GetComponent<Slice_Controller>().hasParented = false;
+                //sliceRB.useGravity = true;
+                if (spinStopHolder)
+                {
+                    //spinStopHolder.GetComponent<SpinStopper>().disallow = true;
+                }
+                //rayHasPassed = true;
+                //rayHasStopped = false;
+                myParent.GetComponent<Slice_Controller>().hasPassed = false;
+                myParent.GetComponent<Slice_Controller>().hasDropped = false;
+                myParent.GetComponent<Slice_Controller>().hasStopped = false;
+                myParent.GetComponent<Slice_Controller>().dropFast = true;
+                //print("FALL");
+                return false;
+            }
+
+        }
+        return true;
+    }
 
     public void checkNearSlices(bool color, string myColor)
     {
@@ -459,28 +489,28 @@ public class Slice_RayCaster : MonoBehaviour
                 RaycastHit downhit;
 
 
-        if (!Physics.Raycast(this.gameObject.transform.position, -transform.up, out downhit, 0.1f, layerMask))  //if the raycast hits nothing under slice, make it fall.
-        {
-            if (!isRotating)
-            {
-                sliceRB.constraints &= ~RigidbodyConstraints.FreezePositionY;
-                this.gameObject.transform.parent.transform.parent = null;
-                myParent.GetComponent<Slice_Controller>().hasParented = false;
-                sliceRB.useGravity = true;
-                if (spinStopHolder)
-                {
-                    spinStopHolder.GetComponent<SpinStopper>().disallow = true;
-                }
-                //rayHasPassed = true;
-                //rayHasStopped = false;
-                myParent.GetComponent<Slice_Controller>().hasPassed = false;
-                myParent.GetComponent<Slice_Controller>().hasDropped = false;
-                myParent.GetComponent<Slice_Controller>().hasStopped = false;
-                myParent.GetComponent<Slice_Controller>().dropFast = true;
-                //print("FALL");
-            }
+        // if (!Physics.Raycast(this.gameObject.transform.position, -transform.up, out downhit, 0.1f, layerMask))  //if the raycast hits nothing under slice, make it fall.
+        // {
+        //     if (!isRotating)
+        //     {
+        //         sliceRB.constraints &= ~RigidbodyConstraints.FreezePositionY;
+        //         //this.gameObject.transform.parent.transform.parent = null;
+        //         myParent.GetComponent<Slice_Controller>().hasParented = false;
+        //         //sliceRB.useGravity = true;
+        //         if (spinStopHolder)
+        //         {
+        //             //spinStopHolder.GetComponent<SpinStopper>().disallow = true;
+        //         }
+        //         //rayHasPassed = true;
+        //         //rayHasStopped = false;
+        //         myParent.GetComponent<Slice_Controller>().hasPassed = false;
+        //         myParent.GetComponent<Slice_Controller>().hasDropped = false;
+        //         myParent.GetComponent<Slice_Controller>().hasStopped = false;
+        //         myParent.GetComponent<Slice_Controller>().dropFast = true;
+        //         //print("FALL");
+        //     }
 
-        }
+        // }
 
 
 

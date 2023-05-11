@@ -38,7 +38,8 @@ namespace Lean.Touch
 
         void Start()
         {
-            Step = new Vector2(51.4285714286f * 2.5f, 0f);
+            //Step = new Vector2(51.4285714286f * 2.5f, 0f);
+			Step = new Vector2(0.001f,0);
         }
 
 		protected virtual void Update()
