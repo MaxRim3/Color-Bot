@@ -44,7 +44,7 @@ public class Slice_Controller : MonoBehaviour
         spinStopHolder = GameObject.FindWithTag("spinStopper");
 
         SoundManager = GameObject.FindWithTag("AudioManager");
-        StartCoroutine(stepDown());
+       // StartCoroutine(stepDown());
        
     }
 
@@ -63,10 +63,37 @@ public class Slice_Controller : MonoBehaviour
     //     }
     // }
 
-    // void LateUpdate()
-    // {
-    //             if(shouldDropAsap)
+    void LateUpdate()
+    {
+       if(steps > 0)
+        {
+            platforms[steps - 1].GetComponent<RowRotateController>().checkCorrectAngle();
+            platforms[steps].GetComponent<RowRotateController>().checkCorrectAngle();
+            if(platforms[steps - 1].GetComponent<RowRotateController>().isCorrectAngle && platforms[steps].GetComponent<RowRotateController>().isCorrectAngle)
+            {
+                if(!this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().checkUnderneathSlices())
+                {
+                    transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
+                    steps++;
+                }
+            }
+        }
+        else
+        {
+                            {
+                    transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
+                    steps++;
+                }
+        }
+    }
+    
+    // Update is called once per frame
+    void Update()
+    {
+    //    if(steps > 0)
     //     {
+    //         platforms[steps - 1].GetComponent<RowRotateController>().checkCorrectAngle();
+    //         platforms[steps].GetComponent<RowRotateController>().checkCorrectAngle();
     //         if(platforms[steps - 1].GetComponent<RowRotateController>().isCorrectAngle && platforms[steps].GetComponent<RowRotateController>().isCorrectAngle)
     //                 {
     //                     if(!this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().checkUnderneathSlices())
@@ -76,22 +103,6 @@ public class Slice_Controller : MonoBehaviour
     //                     }
     //                 }
     //     }
-    // }
-    
-    // Update is called once per frame
-    void Update()
-    {
-       if(steps > 0)
-        {
-            if(platforms[steps - 1].GetComponent<RowRotateController>().isCorrectAngle && platforms[steps].GetComponent<RowRotateController>().isCorrectAngle)
-                    {
-                        if(!this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().checkUnderneathSlices())
-                        {
-                            transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
-                            steps++;
-                        }
-                    }
-        }
 
         if (dropFast)
         {
@@ -152,21 +163,21 @@ public class Slice_Controller : MonoBehaviour
             {
                 if(steps > 0)
                 {
-                    print(steps);
-                    print("inside");
-                    //if this slices platform and the one below it are angled correctly, then drop
-                    if(platforms[steps - 1].GetComponent<RowRotateController>().isCorrectAngle && platforms[steps].GetComponent<RowRotateController>().isCorrectAngle)
-                    {
-                        if(!this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().checkUnderneathSlices())
-                        {
-                            transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
-                            steps++;
-                        }
-                    }
-                    else
-                    {
-                        shouldDropAsap = true;
-                    }
+                    // print(steps);
+                    // print("inside");
+                    // //if this slices platform and the one below it are angled correctly, then drop
+                    // if(platforms[steps - 1].GetComponent<RowRotateController>().isCorrectAngle && platforms[steps].GetComponent<RowRotateController>().isCorrectAngle)
+                    // {
+                    //     if(!this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().checkUnderneathSlices())
+                    //     {
+                    //         transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
+                    //         steps++;
+                    //     }
+                    // }
+                    // else
+                    // {
+                    //     shouldDropAsap = true;
+                    // }
                 }
                 else
                 {
@@ -193,18 +204,34 @@ public class Slice_Controller : MonoBehaviour
     //     }*/
     // }
 
+    public void stepDownIfNoneUnderneath()
+    {
+        platforms[steps - 1].GetComponent<RowRotateController>().checkCorrectAngle();
+        platforms[steps].GetComponent<RowRotateController>().checkCorrectAngle();
+        if(platforms[steps - 1].GetComponent<RowRotateController>().isCorrectAngle && platforms[steps].GetComponent<RowRotateController>().isCorrectAngle)
+        {
+            if(!this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().checkUnderneathSlices())
+            {
+                transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
+                steps++;
+            }
+        }
+                    
+    }
+
    void OnCollisionEnter(Collision col)
     {
        
 
     }
 
-    void OnTriggerEnter(Collider col)
+    void OnTriggerStay(Collider col)
     {
-        if (this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().isRotating == false) //while disallow is true isRotating is false
+        //if (this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().isRotating == false) //while disallow is true isRotating is false
         {
 
-            if (col.gameObject.tag == "Base_Platform" && !hasDropped && !dropFast)
+            //if (col.gameObject.tag == "Base_Platform" && !hasDropped && !dropFast)
+              if (col.gameObject.tag == "Base_Platform")
             {
                 sliceRB.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ |
                 RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
@@ -218,7 +245,7 @@ public class Slice_Controller : MonoBehaviour
 
             }
 
-            if (!dropFast && !hasDropped) //velocity is backwards because going down
+           // if (!dropFast && !hasDropped) //velocity is backwards because going down
             {
 
                 if (col.gameObject.tag == "platform1")

@@ -27,7 +27,8 @@ public class FX_Mover : MonoBehaviour
         {
             if (fallFX && boostFX)
             {
-                Destroy(fallFX);
+                //TODO
+                //Destroy(fallFX);
             }
         }
 

@@ -77,6 +77,8 @@ public class Slice_Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+
         gameTimer += Time.deltaTime;
         seconds = (int)(gameTimer % 60);
         minutes = (int)(gameTimer / 60) % 60;
@@ -104,6 +106,7 @@ public class Slice_Spawner : MonoBehaviour
         {
             spawnTimer = 10;
         }
+        spawnTimer = 2;
     }
 
     public IEnumerator addSpecials()

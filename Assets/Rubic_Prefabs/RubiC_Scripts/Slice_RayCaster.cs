@@ -18,7 +18,11 @@ public class Slice_RayCaster : MonoBehaviour
     public GameObject SoundManager;
     public GameObject Camera;
     public GameObject Spawner;
-   
+    
+
+    public Transform frontRayCastRef;
+    public Transform rightRayCastRef;
+    public Transform leftRayCastRef;
     
     public Rigidbody sliceRB;
     bool hit = false;
@@ -189,14 +193,14 @@ public class Slice_RayCaster : MonoBehaviour
         // print(sliceRB.velocity.y);
         if (platforms[0])
         {
-            if (spinStopHolder.GetComponent<SpinStopper>().platformRotationFinished == true)
-            {
-                isRotating = false;
-            }
-            else
-            {
-                isRotating = true;
-            }
+            // if (spinStopHolder.GetComponent<SpinStopper>().platformRotationFinished == true)
+            // {
+            //     isRotating = false;
+            // }
+            // else
+            // {
+            //     isRotating = true;
+            // }
 
 
          
@@ -210,8 +214,12 @@ public class Slice_RayCaster : MonoBehaviour
 
 
 
-                //if (checkSelected() == false && !isRotating) //if nothing is selected and nothing is rotating
-
+                if (checkSelected() == false && !isRotating) //if nothing is selected and nothing is rotating
+                if(transform.parent.transform.parent)
+                {
+                if(transform.parent && transform.parent.transform.parent && transform.parent.transform.parent.transform.parent && transform.parent.transform.parent.transform.parent.GetComponent<RowRotateController>() && transform.parent.transform.parent.transform.parent.GetComponent<RowRotateController>().isCorrectAngle)
+                
+                //check if my row is at the correct angle
                 {
 
              
@@ -251,6 +259,7 @@ public class Slice_RayCaster : MonoBehaviour
                        // print("not rotating");
                         isRotating = false;
             }
+                }
 
 
 
@@ -454,7 +463,10 @@ public class Slice_RayCaster : MonoBehaviour
                 RaycastHit downhit;
 
 
-        if (!Physics.Raycast(this.gameObject.transform.position, -transform.up, out downhit, 0.1f, layerMask))  //if the raycast hits nothing under slice, make it fall.
+        if (!Physics.Raycast(this.gameObject.transform.position, -transform.up, out downhit, 0.1f, layerMask)
+        && !Physics.Raycast(frontRayCastRef.position,-transform.up, out downhit,0.1f, layerMask)
+        && !Physics.Raycast(leftRayCastRef.position,-transform.up, out downhit,0.1f, layerMask)
+        && !Physics.Raycast(rightRayCastRef.position,-transform.up, out downhit,0.1f, layerMask))  //if the raycast hits nothing under slice, make it fall.
         {
             //if (!isRotating)
             {
@@ -516,13 +528,13 @@ public class Slice_RayCaster : MonoBehaviour
 
 
 
-        if (this.gameObject.transform.parent.gameObject.GetComponent<Slice_Controller>().hasStopped == true)
+        //if (this.gameObject.transform.parent.gameObject.GetComponent<Slice_Controller>().hasStopped == true)
         {
 
-            if (sliceRB.velocity.y == 0 && sliceRB.velocity.z == 0 && sliceRB.velocity.x == 0)
+            //if (sliceRB.velocity.y == 0 && sliceRB.velocity.z == 0 && sliceRB.velocity.x == 0)
             {
 
-                if (Physics.Raycast(transform.position, -transform.forward, out backhit, 0.13f, layerMask) && myParent.GetComponent<Slice_Controller>().hasParented == true && !isRotating)
+                if (Physics.Raycast(transform.position, -transform.forward, out backhit, 0.13f, layerMask)) //&& myParent.GetComponent<Slice_Controller>().hasParented == true && !isRotating)
                 {
                     if (backhit.collider != this.gameObject.GetComponent<Collider>())
                     {
@@ -538,7 +550,7 @@ public class Slice_RayCaster : MonoBehaviour
                                 if (backhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor) && fwdhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor))
                                 {
                                     print(backhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor());
-                                    if (backhit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped && fwdhit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped)
+                                    //if (backhit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped && fwdhit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped)
                                     {
                                         if (!hasBeenAdded)
                                         {
@@ -564,7 +576,7 @@ public class Slice_RayCaster : MonoBehaviour
                     }
 
                 }
-                if (Physics.Raycast(transform.position, transform.up, out uphit, 0.1f, layerMask) && myParent.GetComponent<Slice_Controller>().hasParented == true)
+                if (Physics.Raycast(transform.position, transform.up, out uphit, 0.1f, layerMask)) //&& myParent.GetComponent<Slice_Controller>().hasParented == true)
                 {
                     if (uphit.collider.transform != this.gameObject.GetComponent<Collider>())
                     {
@@ -585,7 +597,7 @@ public class Slice_RayCaster : MonoBehaviour
                                     if (uphit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor) && downhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor))
                                     {
                                         
-                                        if (uphit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped && downhit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped)
+                                        //if (uphit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped && downhit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped)
                                         {
                                            
                                             if (!hasBeenAddedVert)
