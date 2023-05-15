@@ -459,7 +459,7 @@ public class Slice_RayCaster : MonoBehaviour
 
     public bool checkUnderneathSlices()
     {
-                var layerMask = ~((1 << 9) | (1 << 10) | (1 << 13) | (1 << 2));
+                var layerMask = ~((1 << 9) | (1 << 10) | (1 << 13) | (1 << 2) | (1 << 11));
                 RaycastHit downhit;
 
 

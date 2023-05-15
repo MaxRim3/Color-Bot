@@ -65,26 +65,49 @@ public class Slice_Controller : MonoBehaviour
 
     void LateUpdate()
     {
-       if(steps > 0)
-        {
-            platforms[steps - 1].GetComponent<RowRotateController>().checkCorrectAngle();
-            platforms[steps].GetComponent<RowRotateController>().checkCorrectAngle();
-            if(platforms[steps - 1].GetComponent<RowRotateController>().isCorrectAngle && platforms[steps].GetComponent<RowRotateController>().isCorrectAngle)
+
+        if(steps > 0)
+        
             {
-                if(!this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().checkUnderneathSlices())
-                {
-                    transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
-                    steps++;
-                }
-            }
-        }
-        else
-        {
+                    if(!platforms[steps-1].GetComponent<RowRotateController>().isRotating && !platforms[steps].GetComponent<RowRotateController>().isRotating)
+                    {
+                            platforms[steps - 1].GetComponent<RowRotateController>().checkCorrectAngle();
+                            platforms[steps].GetComponent<RowRotateController>().checkCorrectAngle();
+                            if(platforms[steps - 1].GetComponent<RowRotateController>().isCorrectAngle && platforms[steps].GetComponent<RowRotateController>().isCorrectAngle)
                             {
-                    transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
-                    steps++;
-                }
-        }
+                                if(!this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().checkUnderneathSlices())
+                                {
+                                    transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
+                                    steps++;
+                                }
+                            }
+                    }
+            }
+            else if (steps == 0)
+            {
+                    if(!platforms[steps].GetComponent<RowRotateController>().isRotating)
+                    {
+                            platforms[steps].GetComponent<RowRotateController>().checkCorrectAngle();
+                            if(platforms[steps].GetComponent<RowRotateController>().isCorrectAngle)
+                            {
+                                if(!this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().checkUnderneathSlices())
+                                {
+                                    transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
+                                    steps++;
+                                }
+                                // else lose game
+                            }
+                    }
+            }
+            else
+            {
+                    {
+                        transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
+                        steps++;
+                    }
+            }
+        
+
     }
     
     // Update is called once per frame

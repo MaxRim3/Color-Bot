@@ -106,7 +106,7 @@ public class Slice_Spawner : MonoBehaviour
         {
             spawnTimer = 10;
         }
-        spawnTimer = 2;
+        spawnTimer = 1;
     }
 
     public IEnumerator addSpecials()

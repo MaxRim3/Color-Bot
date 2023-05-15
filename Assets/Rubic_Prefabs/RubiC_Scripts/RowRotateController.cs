@@ -4,8 +4,11 @@ public class RowRotateController : MonoBehaviour
 {
     public bool isCorrectAngle = false;
     private const float StepSize = 51.429f;
+    public bool isRotating = false;
     private readonly float[] _allowedAngles = new float[] { 0, 51.429f, 102.858f, 154.287f, 205.716f, 257.145f, 308.574f, 360f };
 
+    Quaternion lastRotation = Quaternion.identity;
+    Quaternion curRotation = Quaternion.identity;
     void Start()
     {
         Quaternion currentRotation = transform.rotation;
@@ -14,6 +17,18 @@ public class RowRotateController : MonoBehaviour
     }
     void Update()
     {
+        curRotation = transform.rotation;
+
+        if(lastRotation != curRotation)
+        {
+            isRotating = true;
+        }
+        else
+        {
+            isRotating = false;
+        }
+        lastRotation = curRotation;
+
         Quaternion currentRotation = transform.rotation;
         Quaternion nearestAllowedRotation = GetNearestAllowedRotation(currentRotation);
         if(Input.GetMouseButtonUp(0))
