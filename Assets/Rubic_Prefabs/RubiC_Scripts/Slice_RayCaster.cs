@@ -663,7 +663,7 @@ public class Slice_RayCaster : MonoBehaviour
         
 
         ParticleSystem.MainModule main = DestroyFX.transform.GetChild(0).GetComponent<ParticleSystem>().main;
-        //if (checkSelected() == false && this.gameObject.transform.parent.gameObject.GetComponent<Slice_Controller>().hasStopped == true)
+        if (this.gameObject.transform.parent.gameObject.GetComponent<Slice_Controller>().hasStopped == true)
         {
 
             if (sliceRB.velocity.y == 0 && sliceRB.velocity.z == 0 && sliceRB.velocity.x == 0)
