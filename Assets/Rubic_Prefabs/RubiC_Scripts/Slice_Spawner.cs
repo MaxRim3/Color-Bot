@@ -138,10 +138,10 @@ public class Slice_Spawner : MonoBehaviour
             //SoundManager.GetComponent<AudioManager>().blockAppear();
 
             spawnSequence = 1;
-
             if (sendBlack)
             {
-                Instantiate(blackSlice, this.transform.position, this.transform.rotation);
+                GameObject blackSliceObj = Instantiate(blackSlice, this.transform.position, this.transform.rotation);
+                blackSliceObj.GetComponent<Slice_Controller>().platforms = platforms;
                 sendBlack = false;
                 summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
                 summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();

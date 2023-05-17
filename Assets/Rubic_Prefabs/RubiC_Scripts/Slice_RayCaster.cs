@@ -191,7 +191,7 @@ public class Slice_RayCaster : MonoBehaviour
             var layerMask = ~((1 << 9) | (1 << 10) | (1 << 13) | (1 << 2));
 
         // print(sliceRB.velocity.y);
-        if (platforms[0])
+        //if (platforms[0])
         {
             // if (spinStopHolder.GetComponent<SpinStopper>().platformRotationFinished == true)
             // {
@@ -214,7 +214,7 @@ public class Slice_RayCaster : MonoBehaviour
 
 
 
-                if (checkSelected() == false && !isRotating) //if nothing is selected and nothing is rotating
+                //if (checkSelected() == false && !isRotating) //if nothing is selected and nothing is rotating
                 if(transform.parent.transform.parent)
                 {
                 if(transform.parent && transform.parent.transform.parent && transform.parent.transform.parent.transform.parent && transform.parent.transform.parent.transform.parent.GetComponent<RowRotateController>() && transform.parent.transform.parent.transform.parent.GetComponent<RowRotateController>().isCorrectAngle)
@@ -374,36 +374,36 @@ public class Slice_RayCaster : MonoBehaviour
     void OnTriggerStay(Collider coll)
     {
 
-        if (coll.gameObject.tag == "spinStopper")
-        {
-            var layerMask = ~((1 << 9) | (1 << 10) | (1 << 13) | (1 << 2));
-            if (!isRotating)
-            {
-                RaycastHit hit;
+        // if (coll.gameObject.tag == "spinStopper")
+        // {
+        //     var layerMask = ~((1 << 9) | (1 << 10) | (1 << 13) | (1 << 2));
+        //     if (!isRotating)
+        //     {
+        //         RaycastHit hit;
 
-                // Debug.DrawRay(this.gameObject.transform.position, -transform.up * 0.2f, Color.green);
-                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, 0.04f, layerMask))   //if nothing is under the slice and it is in the electricity, end the game
-                {
-                    // print(hit.collider.tag);
-                    if (hit.collider != this.gameObject.GetComponent<Collider>())
-                    {
+        //         // Debug.DrawRay(this.gameObject.transform.position, -transform.up * 0.2f, Color.green);
+        //         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, 0.04f, layerMask))   //if nothing is under the slice and it is in the electricity, end the game
+        //         {
+        //             // print(hit.collider.tag);
+        //             if (hit.collider != this.gameObject.GetComponent<Collider>())
+        //             {
 
-                        if (hit.collider.gameObject.GetComponent<Slice_Controller>())
-                        {
-                            if (hit.collider != this.gameObject.transform.parent.gameObject.GetComponent<Collider>())
-                            {
-                                print("GameOver");
-                                GameManagerLocal.GetComponent<Cube_Destroyer>().GameOver();
-                                this.gameObject.GetComponent<FX_Mover>().DestroyFX();
-                                Destroy(this.transform.parent.gameObject);
-                                //Spawner.SetActive(false);
-                            }
-                        }
+        //                 if (hit.collider.gameObject.GetComponent<Slice_Controller>())
+        //                 {
+        //                     if (hit.collider != this.gameObject.transform.parent.gameObject.GetComponent<Collider>())
+        //                     {
+        //                         print("GameOver");
+        //                         GameManagerLocal.GetComponent<Cube_Destroyer>().GameOver();
+        //                         this.gameObject.GetComponent<FX_Mover>().DestroyFX();
+        //                         Destroy(this.transform.parent.gameObject);
+        //                         //Spawner.SetActive(false);
+        //                     }
+        //                 }
                      
-                    }
-                }
-            }
-        }
+        //             }
+        //         }
+        //     }
+        // }
     }
 
 
@@ -468,9 +468,9 @@ public class Slice_RayCaster : MonoBehaviour
         && !Physics.Raycast(leftRayCastRef.position,-transform.up, out downhit,0.1f, layerMask)
         && !Physics.Raycast(rightRayCastRef.position,-transform.up, out downhit,0.1f, layerMask))  //if the raycast hits nothing under slice, make it fall.
         {
-            //if (!isRotating)
+            if (myParent)
             {
-                sliceRB.constraints &= ~RigidbodyConstraints.FreezePositionY;
+                //sliceRB.constraints &= ~RigidbodyConstraints.FreezePositionY;
                 this.gameObject.transform.parent.transform.parent = null;
                 myParent.GetComponent<Slice_Controller>().hasParented = false;
                 //sliceRB.useGravity = true;
@@ -663,7 +663,7 @@ public class Slice_RayCaster : MonoBehaviour
         
 
         ParticleSystem.MainModule main = DestroyFX.transform.GetChild(0).GetComponent<ParticleSystem>().main;
-        if (checkSelected() == false && this.gameObject.transform.parent.gameObject.GetComponent<Slice_Controller>().hasStopped == true)
+        //if (checkSelected() == false && this.gameObject.transform.parent.gameObject.GetComponent<Slice_Controller>().hasStopped == true)
         {
 
             if (sliceRB.velocity.y == 0 && sliceRB.velocity.z == 0 && sliceRB.velocity.x == 0)

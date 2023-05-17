@@ -66,6 +66,7 @@ public class Slice_Controller : MonoBehaviour
     void LateUpdate()
     {
 
+
         if(steps > 0)
         
             {
@@ -95,16 +96,32 @@ public class Slice_Controller : MonoBehaviour
                                     transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
                                     steps++;
                                 }
-                                // else lose game
+                                
                             }
                     }
             }
+            else if (steps == -5)
+            {
+                if(!this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().checkUnderneathSlices())
+                {
+                    transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
+                    steps++;
+                }
+                else
+                {
+                    if(this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().GameManagerLocal)
+                    {
+                        this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().GameManagerLocal.GetComponent<Cube_Destroyer>().GameOver();
+                    }
+                }
+            }
             else
             {
-                    {
-                        transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
-                        steps++;
-                    }
+                if(!this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().checkUnderneathSlices())
+                {
+                    transform.position = new Vector3(transform.position.x, transform.position.y - 0.1025f, transform.position.z);
+                    steps++;
+                }
             }
         
 
