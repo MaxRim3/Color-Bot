@@ -69,7 +69,7 @@ public class Slice_Controller : MonoBehaviour
 
         if(steps > 0)
         
-            {
+            { //ERROR -- probably to do with left cube
                     if(!platforms[steps-1].GetComponent<RowRotateController>().isRotating && !platforms[steps].GetComponent<RowRotateController>().isRotating)
                     {
                             platforms[steps - 1].GetComponent<RowRotateController>().checkCorrectAngle();

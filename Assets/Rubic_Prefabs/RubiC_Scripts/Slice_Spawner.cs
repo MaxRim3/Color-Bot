@@ -6,6 +6,10 @@ public class Slice_Spawner : MonoBehaviour
 
 {
 
+    public GameObject bassCube;
+    public GameObject chorusCube;
+    public GameObject melodyCube;
+
     public bool Tutorial;
 
     public GameObject[] slices;
@@ -54,12 +58,16 @@ public class Slice_Spawner : MonoBehaviour
 
     public int specialSliceNum = 2; //how many special slices are there over the normal slices count
     public GameObject[] platforms;
+
+    public bool bassCubeCanSpawn = true;
+
+    public bool bjango = false;
     List<int> list = new List<int>();
     // Start is called before the first frame update
     void Start()
     {
         SoundManager = GameObject.FindWithTag("AudioManager");
-        StartCoroutine(spawnSlice());
+        //StartCoroutine(spawnSlice());
         StartCoroutine(addSpecials());
        
         //antiqueChanger();
@@ -77,7 +85,26 @@ public class Slice_Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        print(bassCube.transform.localScale.y);
+        // if(bassCube.transform.localScale.y > 8)
+        // {
+        //     if(bassCubeCanSpawn)
+        //     {
+        //         //if(!bjango)
+        //         {
+        //             StartCoroutine(spawnSliceInstant());
+                    
+        //         }
+        //         //bjango = !bjango;
+        //         bassCubeCanSpawn = false;
+        //     }
+        // }
+        // else if(transform.localScale.y < 6)
+        // {
+        //     bassCubeCanSpawn = true;
+        // }
+
+
 
         gameTimer += Time.deltaTime;
         seconds = (int)(gameTimer % 60);
@@ -114,6 +141,383 @@ public class Slice_Spawner : MonoBehaviour
         yield return new WaitForSeconds(40);
         StartCoroutine(addAntique());
         StartCoroutine(addGold());
+    }
+
+     public void spawnSliceInstant(int spawnSequenceInput)
+    {
+        //bassCubeCanSpawn = false;
+            spawnSequence = spawnSequenceInput;
+            if (sendBlack)
+            {
+                GameObject blackSliceObj = Instantiate(blackSlice, this.transform.position, this.transform.rotation);
+                blackSliceObj.GetComponent<Slice_Controller>().platforms = platforms;
+                sendBlack = false;
+                summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                SoundManager.GetComponent<AudioManager>().superBlockAppear();
+            }
+
+            else if (spawnSequence == 1)
+            {
+
+
+                GameObject newSlice = Instantiate(sliceList[Random.Range(0, sliceList.Count)], this.transform.position, this.transform.rotation) as GameObject;
+                newSlice.GetComponent<Slice_Controller>().platforms = platforms;
+                slicesToDestroy.Add(newSlice);
+
+                for (int i = 0; i < specialSlices.Length; i++)
+                {
+                    if (newSlice.gameObject.name == specialSlices[i].name + "(Clone)" || newSlice.gameObject.name == "Rubic_Slice_BLACK_RC_N(Clone)")
+                    {
+                        SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                    }
+
+                    else
+
+                    {
+                        SoundManager.GetComponent<AudioManager>().blockAppear();
+                    }
+                }
+
+
+                spawnSequence++;
+                summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
+
+
+            }
+            else if (spawnSequence == 2)
+            {
+
+                for (int n = 0; n < sliceList.Count; n++)
+                {
+                    list.Add(n);
+                }
+
+                int index = Random.Range(0, list.Count);
+
+                int i = list[index]; // the number that was picked
+
+                //Instantiate(sliceList[i], this.transform.position, this.transform.rotation);
+
+                //GameObject newSlice = Instantiate(sliceList[i], this.transform.position, this.transform.rotation) as GameObject;
+
+                //slicesToDestroy.Add(newSlice);
+
+                /*for (int l = 0; l < specialSlices.Length; l++)
+                {
+                    if (newSlice.gameObject.name == specialSlices[l].name || newSlice.gameObject.name == "Rubic_Slice_Black_RC_N")
+                    {
+                        SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                    }
+
+                    else
+
+                    {
+                        SoundManager.GetComponent<AudioManager>().blockAppear();
+                    }
+                }*/
+
+                //Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
+
+                list.RemoveAt(index);
+                int indexTwo = Random.Range(0, list.Count);
+                int j = list[indexTwo];
+                //Instantiate(sliceList[j], secondSpawnPoint.transform.position, this.transform.rotation);
+
+                GameObject secondNewSlice = Instantiate(sliceList[j], thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation) as GameObject;
+                secondNewSlice.GetComponent<Slice_Controller>().platforms = platforms;
+                slicesToDestroy.Add(secondNewSlice);
+
+                for (int x = 0; x < specialSlices.Length; x++)
+                {
+                    if (secondNewSlice.gameObject.name == specialSlices[x].name + "(Clone)" || secondNewSlice.gameObject.name == "Rubic_Slice_BLACK_RC_N(Clone)")
+                    {
+                        SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                    }
+
+                    else
+
+                    {
+                        SoundManager.GetComponent<AudioManager>().blockAppear();
+                    }
+                }
+
+                Instantiate(particleEffectMiddle, secondSpawnPoint.transform.position, this.transform.rotation);
+
+                summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
+
+                list.Clear();
+
+                spawnSequence++;
+            }
+            else if (spawnSequence == 3)
+            {
+                int ranNum = Random.Range(0, 1);
+                
+
+                if (ranNum == 0)
+                {
+                    for (int n = 0; n < sliceList.Count; n++)
+                    {
+                        list.Add(n);
+                    }
+            
+                    int index = Random.Range(0, list.Count);
+                    int i = list[index]; // the number that was picked
+
+                    //Instantiate(sliceList[i], this.transform.position, this.transform.rotation);
+
+                    GameObject newSlice = Instantiate(sliceList[i], this.transform.position, this.transform.rotation) as GameObject;
+
+                    slicesToDestroy.Add(newSlice);
+
+                    /*for (int l = 0; l < specialSlices.Length; l++)
+                    {
+                        if (newSlice.gameObject.name == specialSlices[l].name || newSlice.gameObject.name == "Rubic_Slice_Black_RC_N")
+                        {
+                            SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                        }
+
+                        else
+
+                        {
+                            SoundManager.GetComponent<AudioManager>().blockAppear();
+                        }
+                    }*/
+
+                    Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
+
+                    list.RemoveAt(index);
+                    int indexTwo = Random.Range(0, list.Count);
+                    int j = list[indexTwo];
+                    //Instantiate(sliceList[j], thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation);
+
+                    GameObject secondNewSlice = Instantiate(sliceList[j], thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation) as GameObject;
+
+                    slicesToDestroy.Add(secondNewSlice);
+
+                    for (int x = 0; x < specialSlices.Length; x++)
+                    {
+                        if (secondNewSlice.gameObject.name == specialSlices[x].name + "(Clone)" || secondNewSlice.gameObject.name == "Rubic_Slice_BLACK_RC_N(Clone)"
+                            || newSlice.gameObject.name == specialSlices[x].name + "(Clone)" || newSlice.gameObject.name == "Rubic_Slice_BLACK_RC_N(Clone)")
+                        {
+                            SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                        }
+
+                        else 
+
+                        {
+                            SoundManager.GetComponent<AudioManager>().blockAppear();
+                        }
+                    }
+
+                    Instantiate(particleEffectMiddle, thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation);
+
+                    summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                    summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
+
+                    list.Clear();
+                    if (!antiqueGoldExtra)
+                    {
+                        spawnSequence = 1;
+                    }
+                    else
+                    {
+                        spawnSequence++;
+                    }
+                }
+                else if (ranNum == 1)
+                {
+                    for (int n = 0; n < sliceList.Count; n++)
+                    {
+                        list.Add(n);
+                    }
+
+ 
+                    int index = Random.Range(0, list.Count);
+
+
+                    int i = list[index]; // the number that was picked
+
+                    //Instantiate(sliceList[i], this.transform.position, this.transform.rotation);
+
+                    GameObject newSlice = Instantiate(sliceList[i], this.transform.position, this.transform.rotation) as GameObject;
+
+                    slicesToDestroy.Add(newSlice);
+
+                    /*for (int l = 0; l < specialSlices.Length; l++)
+                    {
+                        if (thirdNewSlice.gameObject.name == specialSlices[l].name || thirdNewSlice.gameObject.name == "Rubic_Slice_Black_RC_N")
+                        {
+                            SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                        }
+
+                        else
+
+                        {
+                            SoundManager.GetComponent<AudioManager>().blockAppear();
+                        }
+                    }*/
+
+                    Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
+
+                    list.RemoveAt(index);
+                    int indexTwo = Random.Range(0, list.Count);
+                    int j = list[indexTwo];
+
+
+                    //Instantiate(sliceList[j], forthSpawnPoint.transform.position, forthSpawnPoint.transform.rotation);
+
+                    GameObject newSecondSlice = Instantiate(sliceList[j], forthSpawnPoint.transform.position, forthSpawnPoint.transform.rotation) as GameObject;
+
+                    slicesToDestroy.Add(newSecondSlice);
+
+                    for (int c = 0; c < specialSlices.Length; c++)
+                    {
+                        if (newSlice.gameObject.name == specialSlices[c].name + "(Clone)" || newSlice.gameObject.name == "Rubic_Slice_BLACK_RC_N(Clone)"
+                            || newSecondSlice.gameObject.name == specialSlices[c].name + "(Clone)" || newSecondSlice.gameObject.name == "Rubic_Slice_BLACK_RC_N(Clone)")
+                        {
+                            SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                        }
+
+                        else
+
+                        {
+                            SoundManager.GetComponent<AudioManager>().blockAppear();
+                        }
+                    }
+
+
+                    Instantiate(particleEffectMiddle, forthSpawnPoint.transform.position, forthSpawnPoint.transform.rotation);
+
+                    summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                    summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
+
+                    list.Clear();
+
+                    if (!antiqueGoldExtra)
+                    {
+                        spawnSequence = 1;
+                    }
+                    else
+                    {
+                        spawnSequence++;
+                    }
+                }
+                
+            }
+
+            else if (spawnSequence == 4)
+            {
+                //int ranNum = Random.Range(0, 1);
+
+
+                //if (ranNum == 0)
+                {
+                    for (int n = 0; n < sliceList.Count; n++)
+                    {
+                        list.Add(n);
+                    }
+
+                    int index = Random.Range(0, list.Count);
+                    int i = list[index]; // the number that was picked
+
+                    //Instantiate(sliceList[i], this.transform.position, this.transform.rotation);
+
+                    GameObject newSlice = Instantiate(sliceList[i], this.transform.position, this.transform.rotation) as GameObject;
+
+                    slicesToDestroy.Add(newSlice);
+
+                    /*for (int l = 0; l < specialSlices.Length; l++)
+                    {
+                        if (newSlice.gameObject.name == specialSlices[l].name || newSlice.gameObject.name == "Rubic_Slice_Black_RC_N")
+                        {
+                            SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                        }
+
+                        else
+
+                        {
+                            SoundManager.GetComponent<AudioManager>().blockAppear();
+                        }
+                    }*/
+
+                    Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
+
+                    list.RemoveAt(index);
+                    int indexTwo = Random.Range(0, list.Count);
+                    int j = list[indexTwo];
+
+                    //Instantiate(sliceList[j], thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation);
+
+                    GameObject secondNewSlice = Instantiate(sliceList[j], thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation) as GameObject;
+
+                    slicesToDestroy.Add(secondNewSlice);
+
+                    /*for (int x = 0; x < specialSlices.Length; x++)
+                    {
+                        if (secondNewSlice.gameObject.name == specialSlices[x].name || secondNewSlice.gameObject.name == "Rubic_Slice_Black_RC_N")
+                        {
+                            SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                        }
+
+                        else
+
+                        {
+                            SoundManager.GetComponent<AudioManager>().blockAppear();
+                        }
+                    }*/
+
+                    Instantiate(particleEffectMiddle, thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation);
+
+                    summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                    summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
+
+
+                    list.RemoveAt(indexTwo);
+                    int indexThree = Random.Range(0, list.Count);
+                    int k = list[indexThree];
+
+                    //Instantiate(sliceList[k], forthSpawnPoint.transform.position, forthSpawnPoint.transform.rotation);
+
+                    GameObject thirdNewSlice = Instantiate(sliceList[k], forthSpawnPoint.transform.position, forthSpawnPoint.transform.rotation) as GameObject;
+
+                    slicesToDestroy.Add(thirdNewSlice);
+
+                    /*for (int l = 0; l < specialSlices.Length; l++)
+                    {
+                        if (thirdNewSlice.gameObject.name == specialSlices[l].name || thirdNewSlice.gameObject.name == "Rubic_Slice_Black_RC_N")
+                        {
+                            SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                        }
+
+                        else
+
+                        {
+                            SoundManager.GetComponent<AudioManager>().blockAppear();
+                        }
+                    }*/
+
+                    Instantiate(particleEffectMiddle, forthSpawnPoint.transform.position, forthSpawnPoint.transform.rotation);
+
+                    summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                    summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
+
+                    list.Clear();
+
+                    SoundManager.GetComponent<AudioManager>().superBlockAppear();
+
+                    spawnSequence = 1;
+
+                }
+            
+
+            removeGold();
+            removeAntiqueChanger();
+        }
     }
     
 
