@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mEventID: SpawnLeftSlice
   mEventList:
+  - mStartSample: 189934
+    mEndSample: 189934
   - mStartSample: 1336445
     mEndSample: 1336445
   - mStartSample: 1501610
@@ -24,10 +26,42 @@ MonoBehaviour:
     mEndSample: 1827100
   - mStartSample: 1986215
     mEndSample: 1986215
+  - mStartSample: 2055738
+    mEndSample: 2055738
+  - mStartSample: 2076092
+    mEndSample: 2076092
+  - mStartSample: 2096446
+    mEndSample: 2096446
+  - mStartSample: 2116800
+    mEndSample: 2116800
   - mStartSample: 2151985
     mEndSample: 2151985
+  - mStartSample: 2173776
+    mEndSample: 2173776
+  - mStartSample: 2196040
+    mEndSample: 2196040
+  - mStartSample: 2218569
+    mEndSample: 2218569
+  - mStartSample: 2238923
+    mEndSample: 2238923
+  - mStartSample: 2259276
+    mEndSample: 2259276
+  - mStartSample: 2279630
+    mEndSample: 2279630
+  - mStartSample: 2299984
+    mEndSample: 2299984
   - mStartSample: 2310720
     mEndSample: 2310720
+  - mStartSample: 2320338
+    mEndSample: 2320338
+  - mStartSample: 2340692
+    mEndSample: 2340692
+  - mStartSample: 2361046
+    mEndSample: 2361046
+  - mStartSample: 2381400
+    mEndSample: 2381400
+  - mStartSample: 2401753
+    mEndSample: 2401753
   - mStartSample: 2476870
     mEndSample: 2476870
   _SerializedPayloadTypes: []

@@ -3689,7 +3689,7 @@ PrefabInstance:
     - target: {fileID: 4790516697748175486, guid: 5d4322f2bd28f3549ab5b7f9a13d72dd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.65
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4790516697748175486, guid: 5d4322f2bd28f3549ab5b7f9a13d72dd,
         type: 3}
@@ -9071,7 +9071,7 @@ PrefabInstance:
     - target: {fileID: 4790516697748175486, guid: 5d4322f2bd28f3549ab5b7f9a13d72dd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.61
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4790516697748175486, guid: 5d4322f2bd28f3549ab5b7f9a13d72dd,
         type: 3}
@@ -11400,7 +11400,7 @@ PrefabInstance:
     - target: {fileID: 4790516697748175486, guid: 5d4322f2bd28f3549ab5b7f9a13d72dd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.61
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4790516697748175486, guid: 5d4322f2bd28f3549ab5b7f9a13d72dd,
         type: 3}
@@ -14563,7 +14563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoPlayOnAwake: 1
-  koreography: {fileID: 11400000, guid: 7e30882c4913b6f418a89602efc87d36, type: 2}
+  koreography: {fileID: 11400000, guid: d5f1d3d5e243aa84e99088890525d38b, type: 2}
   targetKoreographer: {fileID: 0}
 --- !u!82 &1323707304
 AudioSource:
@@ -14674,7 +14674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadedKoreography:
-  - {fileID: 11400000, guid: 7e30882c4913b6f418a89602efc87d36, type: 2}
+  - {fileID: 11400000, guid: d5f1d3d5e243aa84e99088890525d38b, type: 2}
   eventDelayInSeconds: 0
 --- !u!4 &1323707306
 Transform:
@@ -20486,8 +20486,10 @@ MonoBehaviour:
   summonEffectTwo: {fileID: 1629702360}
   particleEffectMiddle: {fileID: 1694439839, guid: 951436a1cfa188e4dbc380fe4356f3e0,
     type: 3}
-  particleEffectLeft: {fileID: 0}
-  particleEffectRight: {fileID: 0}
+  particleEffectLeft: {fileID: 1694439839, guid: 951436a1cfa188e4dbc380fe4356f3e0,
+    type: 3}
+  particleEffectRight: {fileID: 1694439839, guid: 951436a1cfa188e4dbc380fe4356f3e0,
+    type: 3}
   FXHolder: {fileID: 3565679848756334753, guid: 98da01460b27043479ca3febdf0a327b,
     type: 3}
   SoundManager: {fileID: 0}

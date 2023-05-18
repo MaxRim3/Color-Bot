@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1223223985, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: ClassicSong_SpawnMiddleSlice
+  m_EditorClassIdentifier: 
+  mEventID: ClassicSong_SpawnMiddleSlice
+  mEventList:
+  - mStartSample: 98461
+    mEndSample: 98461
+  - mStartSample: 190002
+    mEndSample: 190002
+  - mStartSample: 393846
+    mEndSample: 393846
+  - mStartSample: 492307
+    mEndSample: 492307
+  - mStartSample: 590769
+    mEndSample: 590769
+  - mStartSample: 787692
+    mEndSample: 787692
+  - mStartSample: 886153
+    mEndSample: 886153
+  - mStartSample: 984615
+    mEndSample: 984615
+  - mStartSample: 1181538
+    mEndSample: 1181538
+  - mStartSample: 1280000
+    mEndSample: 1280000
+  - mStartSample: 1378461
+    mEndSample: 1378461
+  - mStartSample: 1492400
+    mEndSample: 1492400
+  - mStartSample: 1575384
+    mEndSample: 1575384
+  - mStartSample: 1673846
+    mEndSample: 1673846
+  - mStartSample: 1772307
+    mEndSample: 1772307
+  - mStartSample: 1969230
+    mEndSample: 1969230
+  - mStartSample: 2067692
+    mEndSample: 2067692
+  - mStartSample: 2166153
+    mEndSample: 2166153
+  - mStartSample: 2363076
+    mEndSample: 2363076
+  - mStartSample: 2461538
+    mEndSample: 2461538
+  - mStartSample: 2560000
+    mEndSample: 2560000
+  - mStartSample: 2756923
+    mEndSample: 2756923
+  - mStartSample: 2855384
+    mEndSample: 2855384
+  - mStartSample: 2953846
+    mEndSample: 2953846
+  - mStartSample: 3031102
+    mEndSample: 3031102
+  - mStartSample: 3071672
+    mEndSample: 3071672
+  _SerializedPayloadTypes: []
+  _AssetPayloads: []
+  _AssetPayloadIdxs: 
+  _ColorPayloads: []
+  _ColorPayloadIdxs: 
+  _CurvePayloads: []
+  _CurvePayloadIdxs: 
+  _FloatPayloads: []
+  _FloatPayloadIdxs: 
+  _GradientPayloads: []
+  _GradientPayloadIdxs: 
+  _IntPayloads: []
+  _IntPayloadIdxs: 
+  _SpectrumPayloads: []
+  _SpectrumPayloadIdxs: 
+  _TextPayloads: []
+  _TextPayloadIdxs: 
