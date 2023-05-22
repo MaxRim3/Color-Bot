@@ -63,10 +63,11 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: db686c76a66a7d841b4488df7b7bb881, type: 2}
+  - {fileID: 2100000, guid: f55a912e4ffc12445b3bf6cb598c2f7d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -87,6 +88,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1579495020916262657
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -215,6 +217,7 @@ MonoBehaviour:
   pink: 0
   black: 0
   goldHammer: 0
+  solidMaterial: {fileID: 2100000, guid: db686c76a66a7d841b4488df7b7bb881, type: 2}
   SoundManager: {fileID: 0}
   Camera: {fileID: 0}
   Spawner: {fileID: 0}
@@ -280,6 +283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boostFX: {fileID: 1174621421933147279, guid: b416625466eb9f848b92ee7b1d3a7d46, type: 3}
   fallFX: {fileID: 1997939846, guid: 82368436ea8dd604a8e195eabde06f19, type: 3}
+  canDestroy: 0
 --- !u!1 &5564438671002142453
 GameObject:
   m_ObjectHideFlags: 0

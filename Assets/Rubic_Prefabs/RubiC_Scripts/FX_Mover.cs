@@ -8,6 +8,8 @@ public class FX_Mover : MonoBehaviour
 
     public GameObject boostFX;
     public GameObject fallFX;
+
+    public bool canDestroy = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,16 +24,6 @@ public class FX_Mover : MonoBehaviour
             boostFX.transform.position = this.transform.parent.transform.position;
             fallFX.transform.position = this.transform.position;
         }
-
-        if (this.gameObject.transform.parent.transform.parent != null)
-        {
-            if (fallFX && boostFX)
-            {
-                //TODO
-                //Destroy(fallFX);
-            }
-        }
-
     }
 
 
@@ -47,6 +39,7 @@ public class FX_Mover : MonoBehaviour
                 GameObject newFallFX = Instantiate(fallFX, this.transform.parent.transform.position + new Vector3(0, 0, 0.05f), this.transform.parent.transform.rotation * Quaternion.Euler(0f, -180f, 0f));
                 boostFX = newBoostFX;
                 fallFX = newFallFX;
+                canDestroy = true;
 
             }
         }
@@ -54,9 +47,10 @@ public class FX_Mover : MonoBehaviour
 
     public void DestroyFX()
     {
-        if (boostFX && fallFX)
+        if (boostFX && fallFX && canDestroy)
         {
             Destroy(fallFX);
+            Destroy(boostFX);
         }
     }
 }

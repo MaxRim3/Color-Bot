@@ -5,11 +5,14 @@ using UnityEngine;
 public class Slice_Changer : MonoBehaviour
 {
     public Material[] colors;
+
+    public Material[] solidColors;
     public Material m_Material;
 
     // Start is called before the first frame update
     void Start()
     {
+        changeColorV();
         StartCoroutine(changeColor());
         m_Material = this.gameObject.GetComponent<Renderer>().material;
 
@@ -22,57 +25,102 @@ public class Slice_Changer : MonoBehaviour
         
     }
 
+    public void changeColorV()
+    {
+                    int newColor = Random.Range(0, 5);
+
+            if (newColor == 0)
+            {
+                this.gameObject.GetComponent<Slice_Controller>().green = true;
+                this.gameObject.transform.GetChild(0).transform.gameObject.GetComponent<Slice_RayCaster>().green = true;
+                if(GetComponent<Slice_Controller>().steps == 1)
+                {
+                    m_Material = colors[0];
+                }
+                else
+                {
+                    m_Material = solidColors[0];
+                }
+            }
+            else if (newColor == 1)
+            {
+                this.gameObject.GetComponent<Slice_Controller>().red = true;
+                this.gameObject.transform.GetChild(0).transform.gameObject.GetComponent<Slice_RayCaster>().red = true;
+                if(GetComponent<Slice_Controller>().steps >= 1)
+                {
+                    m_Material = colors[1];
+                }
+                else
+                {
+                    m_Material = solidColors[1];
+                }
+            }
+            else if (newColor == 2)
+            {
+                this.gameObject.GetComponent<Slice_Controller>().blue = true;
+                this.gameObject.transform.GetChild(0).transform.gameObject.GetComponent<Slice_RayCaster>().blue = true;
+                if(GetComponent<Slice_Controller>().steps >= 1)
+                {
+                    m_Material = colors[2];
+                }
+                else
+                {
+                    m_Material = solidColors[2];
+                }
+            }
+            else if (newColor == 3)
+            {
+                this.gameObject.GetComponent<Slice_Controller>().yellow = true;
+                this.gameObject.transform.GetChild(0).transform.gameObject.GetComponent<Slice_RayCaster>().yellow = true;
+                if(GetComponent<Slice_Controller>().steps >= 1)
+                {
+                    m_Material = colors[3];
+                }
+                else
+                {
+                    m_Material = solidColors[3];
+                }
+            }
+            else if (newColor == 4)
+            {
+                this.gameObject.GetComponent<Slice_Controller>().orange = true;
+                this.gameObject.transform.GetChild(0).transform.gameObject.GetComponent<Slice_RayCaster>().orange = true;
+                if(GetComponent<Slice_Controller>().steps >= 1)
+                {
+                    m_Material = colors[4];
+                }
+                else
+                {
+                    m_Material = solidColors[4];
+                }
+            }
+            else if (newColor == 5)
+            {
+                this.gameObject.GetComponent<Slice_Controller>().pink = true;
+                this.gameObject.transform.GetChild(0).transform.gameObject.GetComponent<Slice_RayCaster>().pink = true;
+                if(GetComponent<Slice_Controller>().steps >= 1)
+                {
+                    m_Material = colors[5];
+                }
+                else
+                {
+                    m_Material = solidColors[5];
+                }
+            }
+
+            this.gameObject.GetComponent<Renderer>().material = m_Material;
+            transform.GetChild(0).GetComponent<Slice_RayCaster>().solidMaterial = m_Material;
+    }
+
 
     public IEnumerator changeColor()
     {
         while (true)
         {
 
-           
-
             resetColor();
 
-            int newColor = Random.Range(0, 5);
-
-            if (newColor == 0)
-            {
-                this.gameObject.GetComponent<Slice_Controller>().green = true;
-                this.gameObject.transform.GetChild(0).transform.gameObject.GetComponent<Slice_RayCaster>().green = true;
-                m_Material = colors[0];
-            }
-            else if (newColor == 1)
-            {
-                this.gameObject.GetComponent<Slice_Controller>().red = true;
-                this.gameObject.transform.GetChild(0).transform.gameObject.GetComponent<Slice_RayCaster>().red = true;
-                m_Material = colors[1];
-            }
-            else if (newColor == 2)
-            {
-                this.gameObject.GetComponent<Slice_Controller>().blue = true;
-                this.gameObject.transform.GetChild(0).transform.gameObject.GetComponent<Slice_RayCaster>().blue = true;
-                m_Material = colors[2];
-            }
-            else if (newColor == 3)
-            {
-                this.gameObject.GetComponent<Slice_Controller>().yellow = true;
-                this.gameObject.transform.GetChild(0).transform.gameObject.GetComponent<Slice_RayCaster>().yellow = true;
-                m_Material = colors[3];
-            }
-            else if (newColor == 4)
-            {
-                this.gameObject.GetComponent<Slice_Controller>().orange = true;
-                this.gameObject.transform.GetChild(0).transform.gameObject.GetComponent<Slice_RayCaster>().orange = true;
-                m_Material = colors[4];
-            }
-            else if (newColor == 5)
-            {
-                this.gameObject.GetComponent<Slice_Controller>().pink = true;
-                this.gameObject.transform.GetChild(0).transform.gameObject.GetComponent<Slice_RayCaster>().pink = true;
-                m_Material = colors[5];
-            }
-
-            this.gameObject.GetComponent<Renderer>().material = m_Material;
-
+            changeColorV();
             yield return new WaitForSeconds(5);
 
             yield return null;

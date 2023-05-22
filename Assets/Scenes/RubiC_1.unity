@@ -14549,7 +14549,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1323707303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14579,7 +14579,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -20458,7 +20458,7 @@ MonoBehaviour:
   melodyCube: {fileID: 0}
   Tutorial: 0
   slices:
-  - {fileID: 374796859846158357, guid: fb3d24d6dae8aba479496a61f2a510cc, type: 3}
+  - {fileID: 5314645480544143747, guid: 70b74931ed133a346a578f3eea72a41d, type: 3}
   - {fileID: 3364623260608616528, guid: 2d17208d2ea136b48b4c5c2d0604546e, type: 3}
   - {fileID: 3364623260608616528, guid: c1c5d6b639600b146b7c402bca58b1e4, type: 3}
   - {fileID: 5314645480544143747, guid: e35e9c1a688b56445addf79f38bc7260, type: 3}

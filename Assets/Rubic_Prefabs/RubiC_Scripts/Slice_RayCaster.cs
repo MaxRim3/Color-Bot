@@ -15,6 +15,8 @@ public class Slice_RayCaster : MonoBehaviour
     public bool black;
     public bool goldHammer;
 
+    public Material solidMaterial;
+
     public GameObject SoundManager;
     public GameObject Camera;
     public GameObject Spawner;
@@ -83,8 +85,8 @@ public class Slice_RayCaster : MonoBehaviour
 
 
         sliceRB = this.gameObject.transform.parent.gameObject.GetComponent<Rigidbody>();
-        StartCoroutine(GetSpinHolder());
 
+        spinStopHolder = this.gameObject.transform.parent.gameObject.GetComponent<Slice_Controller>().spinStopHolder;
         myParent = this.gameObject.transform.parent.gameObject;
 
         if (platforms[0])
@@ -177,6 +179,25 @@ public class Slice_RayCaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (transform.parent.GetComponent<Slice_Controller>().steps == 1 && !rayHasPassed)
+        {
+            rayHasPassed = true;                      //so the double slice doesn't stop before it is passed the speedup point.
+            print("hasPassed");
+            SoundManager.GetComponent<AudioManager>().boostElectricity();
+            this.gameObject.transform.parent.GetComponent<Slice_Controller>().dropFast = true;
+           // this.gameObject.transform.parent.GetComponent<Slice_Controller>().hasPassed = true;
+
+
+            platforms = new GameObject[spinStopHolder.gameObject.GetComponent<SpinStopper>().platforms.Length];
+
+            for (int i = 0; i < 6; i++)
+            {
+                platforms[i] = spinStopHolder.gameObject.GetComponent<SpinStopper>().platforms[i];
+            }
+
+            transform.parent.GetComponent<MeshRenderer>().material = solidMaterial;
+
+        }
 
         if (goldHammer && this.gameObject.transform.parent.GetComponent<Slice_Controller>().dropFast == false)
         {
@@ -410,23 +431,25 @@ public class Slice_RayCaster : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.tag == "spinStopper")
-        {
-            rayHasPassed = true;                      //so the double slice doesn't stop before it is passed the speedup point.
-            print("hasPassed");
-            SoundManager.GetComponent<AudioManager>().boostElectricity();
-            this.gameObject.transform.parent.GetComponent<Slice_Controller>().dropFast = true;
-           // this.gameObject.transform.parent.GetComponent<Slice_Controller>().hasPassed = true;
+        // if (col.gameObject.tag == "spinStopper")
+        // {
+        //     rayHasPassed = true;                      //so the double slice doesn't stop before it is passed the speedup point.
+        //     print("hasPassed");
+        //     SoundManager.GetComponent<AudioManager>().boostElectricity();
+        //     this.gameObject.transform.parent.GetComponent<Slice_Controller>().dropFast = true;
+        //    // this.gameObject.transform.parent.GetComponent<Slice_Controller>().hasPassed = true;
 
 
-            platforms = new GameObject[col.gameObject.GetComponent<SpinStopper>().platforms.Length];
+        //     platforms = new GameObject[col.gameObject.GetComponent<SpinStopper>().platforms.Length];
 
-            for (int i = 0; i < 6; i++)
-            {
-                platforms[i] = col.gameObject.GetComponent<SpinStopper>().platforms[i];
-            }
+        //     for (int i = 0; i < 6; i++)
+        //     {
+        //         platforms[i] = col.gameObject.GetComponent<SpinStopper>().platforms[i];
+        //     }
 
-        }
+        //     transform.parent.GetComponent<MeshRenderer>().material = solidMaterial;
+
+        // }
     }
 
 
@@ -489,6 +512,7 @@ public class Slice_RayCaster : MonoBehaviour
             }
 
         }
+         this.gameObject.GetComponent<FX_Mover>().DestroyFX();
         return true;
     }
 
@@ -696,13 +720,6 @@ public class Slice_RayCaster : MonoBehaviour
             }
         }
     }
-
-    IEnumerator GetSpinHolder()
-    {
-        yield return new WaitForSeconds(0.2f);
-        spinStopHolder = this.gameObject.transform.parent.gameObject.GetComponent<Slice_Controller>().spinStopHolder;
-    }
-
 
     public void goldHammerRay()
     {
