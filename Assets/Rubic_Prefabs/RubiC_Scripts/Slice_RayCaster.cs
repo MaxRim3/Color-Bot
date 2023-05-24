@@ -196,6 +196,10 @@ public class Slice_RayCaster : MonoBehaviour
             }
 
             transform.parent.GetComponent<MeshRenderer>().material = solidMaterial;
+            if(transform.parent.GetComponent<Slice_Changer>())
+            {
+                transform.parent.GetComponent<Slice_Changer>().changeColorV();
+            }
 
         }
 

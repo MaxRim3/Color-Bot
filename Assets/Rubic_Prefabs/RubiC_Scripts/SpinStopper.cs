@@ -66,6 +66,42 @@ public class SpinStopper : MonoBehaviour
             //disallow = true;
             boostEffect.GetComponent<X_LB_LightningSource>().strike = true;
             boostEffectTwo.GetComponent<X_LB_LightningSource>().strike = true;
+
+            if(col.gameObject.GetComponent<Slice_RayCaster>().green)
+            {
+                 boostEffect.GetComponent<X_LB_LightningSource>().color = Color.green;
+                 boostEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.green;
+            }
+                 if(col.gameObject.GetComponent<Slice_RayCaster>().red)
+            {
+                 boostEffect.GetComponent<X_LB_LightningSource>().color = Color.red;
+                 boostEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.red;
+            }
+                 if(col.gameObject.GetComponent<Slice_RayCaster>().blue)
+            {
+                 boostEffect.GetComponent<X_LB_LightningSource>().color = Color.blue;
+                 boostEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.blue;
+            }
+                 if(col.gameObject.GetComponent<Slice_RayCaster>().yellow)
+            {
+                 boostEffect.GetComponent<X_LB_LightningSource>().color = Color.yellow;
+                 boostEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.yellow;
+            }
+                 if(col.gameObject.GetComponent<Slice_RayCaster>().orange)
+            {
+                 boostEffect.GetComponent<X_LB_LightningSource>().color = Color.cyan;
+                 boostEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.cyan;
+            }
+                 if(col.gameObject.GetComponent<Slice_RayCaster>().pink)
+            {
+                 boostEffect.GetComponent<X_LB_LightningSource>().color = Color.magenta;
+                 boostEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.magenta;
+            }
+                 if(col.gameObject.GetComponent<Slice_RayCaster>().black)
+            {
+                 boostEffect.GetComponent<X_LB_LightningSource>().color = Color.grey;
+                 boostEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.grey;
+            }
            // StartCoroutine(spinDisallow());
         }
     }

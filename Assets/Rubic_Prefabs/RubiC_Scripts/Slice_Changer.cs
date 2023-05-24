@@ -6,7 +6,7 @@ public class Slice_Changer : MonoBehaviour
 {
     public Material[] colors;
 
-    public Material[] solidColors;
+    public Material[] transparentColors;
     public Material m_Material;
 
     // Start is called before the first frame update
@@ -27,19 +27,20 @@ public class Slice_Changer : MonoBehaviour
 
     public void changeColorV()
     {
+        resetColor();
                     int newColor = Random.Range(0, 5);
 
             if (newColor == 0)
             {
                 this.gameObject.GetComponent<Slice_Controller>().green = true;
                 this.gameObject.transform.GetChild(0).transform.gameObject.GetComponent<Slice_RayCaster>().green = true;
-                if(GetComponent<Slice_Controller>().steps == 1)
+                if(GetComponent<Slice_Controller>().steps >= 1)
                 {
                     m_Material = colors[0];
                 }
                 else
                 {
-                    m_Material = solidColors[0];
+                    m_Material = transparentColors[0];
                 }
             }
             else if (newColor == 1)
@@ -52,7 +53,7 @@ public class Slice_Changer : MonoBehaviour
                 }
                 else
                 {
-                    m_Material = solidColors[1];
+                    m_Material = transparentColors[1];
                 }
             }
             else if (newColor == 2)
@@ -65,7 +66,7 @@ public class Slice_Changer : MonoBehaviour
                 }
                 else
                 {
-                    m_Material = solidColors[2];
+                    m_Material = transparentColors[2];
                 }
             }
             else if (newColor == 3)
@@ -78,7 +79,7 @@ public class Slice_Changer : MonoBehaviour
                 }
                 else
                 {
-                    m_Material = solidColors[3];
+                    m_Material = transparentColors[3];
                 }
             }
             else if (newColor == 4)
@@ -91,7 +92,7 @@ public class Slice_Changer : MonoBehaviour
                 }
                 else
                 {
-                    m_Material = solidColors[4];
+                    m_Material = transparentColors[4];
                 }
             }
             else if (newColor == 5)
@@ -104,7 +105,7 @@ public class Slice_Changer : MonoBehaviour
                 }
                 else
                 {
-                    m_Material = solidColors[5];
+                    m_Material = transparentColors[5];
                 }
             }
 
@@ -119,7 +120,6 @@ public class Slice_Changer : MonoBehaviour
         {
 
             resetColor();
-
             changeColorV();
             yield return new WaitForSeconds(5);
 

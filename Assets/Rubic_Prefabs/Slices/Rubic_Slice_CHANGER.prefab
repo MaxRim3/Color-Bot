@@ -244,7 +244,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: db686c76a66a7d841b4488df7b7bb881, type: 2}
   - {fileID: 2100000, guid: ff101736abfcb2a468950820ed21e9bb, type: 2}
   - {fileID: 2100000, guid: b5f1423f283929149ac504e6b345ba21, type: 2}
-  solidColors:
+  transparentColors:
   - {fileID: 2100000, guid: b5f64ffe8b3c47c48badf6f0d466f0e4, type: 2}
   - {fileID: 2100000, guid: 3a45d4bacb7087f4a8b06a326964982c, type: 2}
   - {fileID: 2100000, guid: a8e430c787f90af42ade4634d341b60b, type: 2}

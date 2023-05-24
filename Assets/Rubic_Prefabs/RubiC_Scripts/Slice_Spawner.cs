@@ -143,6 +143,46 @@ public class Slice_Spawner : MonoBehaviour
         StartCoroutine(addGold());
     }
 
+    public void changeSpawnLightningColor(GameObject slice)
+    {
+        if(slice.GetComponent<Slice_RayCaster>().green)
+        {
+            summonEffect.GetComponent<X_LB_LightningSource>().color = Color.green;
+            summonEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.green;
+        }
+        if(slice.GetComponent<Slice_RayCaster>().red)
+        {
+            summonEffect.GetComponent<X_LB_LightningSource>().color = Color.red;
+             summonEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.red;
+        }
+        if(slice.GetComponent<Slice_RayCaster>().blue)
+        {
+            summonEffect.GetComponent<X_LB_LightningSource>().color = Color.blue;
+             summonEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.blue;
+        }
+        if(slice.GetComponent<Slice_RayCaster>().yellow)
+        {
+            summonEffect.GetComponent<X_LB_LightningSource>().color = Color.yellow;
+             summonEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.yellow;
+        }
+        if(slice.GetComponent<Slice_RayCaster>().orange)
+        {
+            summonEffect.GetComponent<X_LB_LightningSource>().color = Color.cyan;
+            summonEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.cyan;
+            
+        }
+        if(slice.GetComponent<Slice_RayCaster>().pink)
+        {
+            summonEffect.GetComponent<X_LB_LightningSource>().color = Color.magenta;
+            summonEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.magenta;
+        }
+        if(slice.GetComponent<Slice_RayCaster>().black)
+        {
+            summonEffect.GetComponent<X_LB_LightningSource>().color = Color.grey;
+              summonEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.grey;
+        }
+    }
+
      public void spawnSliceInstant(int spawnSequenceInput)
     {
         //bassCubeCanSpawn = false;
@@ -155,6 +195,7 @@ public class Slice_Spawner : MonoBehaviour
                 summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
                 summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
                 SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                changeSpawnLightningColor(blackSliceObj.transform.GetChild(0).gameObject);
             }
 
             else if (spawnSequence == 1)
@@ -184,7 +225,7 @@ public class Slice_Spawner : MonoBehaviour
                 summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
                 summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
                 Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
-
+                changeSpawnLightningColor(newSlice.transform.GetChild(0).gameObject);
 
             }
             else if (spawnSequence == 2)
@@ -212,6 +253,7 @@ public class Slice_Spawner : MonoBehaviour
                 summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
                 summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
                 Instantiate(particleEffectLeft, this.transform.position, this.transform.rotation);
+                changeSpawnLightningColor(newSlice.transform.GetChild(0).gameObject);
             }
             else if (spawnSequence == 3)
             {
@@ -238,6 +280,7 @@ public class Slice_Spawner : MonoBehaviour
                 summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
                 summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
                 Instantiate(particleEffectRight, this.transform.position, this.transform.rotation);
+                changeSpawnLightningColor(newSlice.transform.GetChild(0).gameObject);
                 
             }
 
@@ -342,6 +385,7 @@ public class Slice_Spawner : MonoBehaviour
                     SoundManager.GetComponent<AudioManager>().superBlockAppear();
 
                     spawnSequence = 1;
+                    changeSpawnLightningColor(newSlice.transform.GetChild(0).gameObject);
 
                 }
             
