@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1223223985, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: CyberWar_SpawnRightSlice
+  m_EditorClassIdentifier: 
+  mEventID: CyberWar_SpawnRightSlice
+  mEventList:
+  - mStartSample: 705600
+    mEndSample: 705600
+  - mStartSample: 831600
+    mEndSample: 831600
+  - mStartSample: 882000
+    mEndSample: 882000
+  - mStartSample: 932400
+    mEndSample: 932400
+  - mStartSample: 982800
+    mEndSample: 982800
+  - mStartSample: 1033200
+    mEndSample: 1033200
+  - mStartSample: 1083600
+    mEndSample: 1083600
+  - mStartSample: 1134000
+    mEndSample: 1134000
+  - mStartSample: 1184400
+    mEndSample: 1184400
+  - mStartSample: 1234800
+    mEndSample: 1234800
+  - mStartSample: 1285200
+    mEndSample: 1285200
+  - mStartSample: 1335600
+    mEndSample: 1335600
+  - mStartSample: 1386000
+    mEndSample: 1386000
+  - mStartSample: 1436400
+    mEndSample: 1436400
+  - mStartSample: 1486800
+    mEndSample: 1486800
+  - mStartSample: 1537200
+    mEndSample: 1537200
+  - mStartSample: 1587600
+    mEndSample: 1587600
+  - mStartSample: 1638000
+    mEndSample: 1638000
+  - mStartSample: 1688400
+    mEndSample: 1688400
+  - mStartSample: 1738800
+    mEndSample: 1738800
+  - mStartSample: 1789200
+    mEndSample: 1789200
+  - mStartSample: 1839600
+    mEndSample: 1839600
+  - mStartSample: 1890000
+    mEndSample: 1890000
+  - mStartSample: 1940400
+    mEndSample: 1940400
+  - mStartSample: 1990800
+    mEndSample: 1990800
+  - mStartSample: 2041200
+    mEndSample: 2041200
+  - mStartSample: 2142000
+    mEndSample: 2142000
+  - mStartSample: 2192400
+    mEndSample: 2192400
+  - mStartSample: 2242800
+    mEndSample: 2242800
+  - mStartSample: 2293200
+    mEndSample: 2293200
+  - mStartSample: 2343600
+    mEndSample: 2343600
+  - mStartSample: 2394000
+    mEndSample: 2394000
+  - mStartSample: 3355084
+    mEndSample: 3355084
+  - mStartSample: 3380662
+    mEndSample: 3380662
+  - mStartSample: 3406239
+    mEndSample: 3406239
+  - mStartSample: 3431817
+    mEndSample: 3431817
+  - mStartSample: 3555282
+    mEndSample: 3555282
+  - mStartSample: 3580860
+    mEndSample: 3580860
+  - mStartSample: 3606437
+    mEndSample: 3606437
+  - mStartSample: 3632015
+    mEndSample: 3632015
+  _SerializedPayloadTypes: []
+  _AssetPayloads: []
+  _AssetPayloadIdxs: 
+  _ColorPayloads: []
+  _ColorPayloadIdxs: 
+  _CurvePayloads: []
+  _CurvePayloadIdxs: 
+  _FloatPayloads: []
+  _FloatPayloadIdxs: 
+  _GradientPayloads: []
+  _GradientPayloadIdxs: 
+  _IntPayloads: []
+  _IntPayloadIdxs: 
+  _SpectrumPayloads: []
+  _SpectrumPayloadIdxs: 
+  _TextPayloads: []
+  _TextPayloadIdxs: 
