@@ -15,11 +15,11 @@ C:/Users/Maxim/OneDrive/Documents/ColorBot/RubiC
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59929
+62861
 Successfully changed project path to: C:/Users/Maxim/OneDrive/Documents/ColorBot/RubiC
 C:/Users/Maxim/OneDrive/Documents/ColorBot/RubiC
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 123.13 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 111.94 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.41f1 (7c19dc9acfda)
 [Subsystems] Discovering subsystems at path E:/UnityEditors/2020.3.41f1/Editor/Data/Resources/UnitySubsystems
@@ -36,90 +36,90 @@ Initialize mono
 Mono path[0] = 'E:/UnityEditors/2020.3.41f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityEditors/2020.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/UnityEditors/2020.3.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityEditors/2020.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001021 seconds.
+Registered in 0.000880 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 129.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 102.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.845 seconds
+- Completed reload, in  0.610 seconds
 Domain Reload Profiling:
-	ReloadAssembly (845ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (610ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (655ms)
-			LoadAssemblies (90ms)
+		EndReloadAssembly (492ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (196ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (290ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (224ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (130ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (102ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012965 seconds.
+Registered in 0.010239 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.427 seconds
+- Completed reload, in  1.138 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1428ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (1139ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1224ms)
-			LoadAssemblies (105ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (972ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
+			SetupTypeCache (235ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (643ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (507ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (131ms)
-				ProcessInitializeOnLoadAttributes (451ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3514 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 233.6 MB.
 System memory in use after: 233.8 MB.
 
 Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 3986.
-Total: 6.666000 ms (FindLiveObjects: 0.357700 ms CreateObjectMapping: 0.263500 ms MarkObjects: 5.809500 ms  DeleteObjects: 0.233400 ms)
+Total: 5.145500 ms (FindLiveObjects: 0.300400 ms CreateObjectMapping: 0.181700 ms MarkObjects: 4.574200 ms  DeleteObjects: 0.088200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,97 +133,1429 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Rubic_Prefabs/Audio/MIDITESTTRACK.asset
+  artifactKey: Guid(3d5eda7ce064feb43979ea09e24ab8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio/MIDITESTTRACK.asset using Guid(3d5eda7ce064feb43979ea09e24ab8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bead08dd6728dee5aebb5f9cbbc7d95e') in 0.054386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.159684 seconds.
+  path: Assets/Rubic_Prefabs/Audio
+  artifactKey: Guid(045c960de47330f44a89a187b7a78600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio using Guid(045c960de47330f44a89a187b7a78600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44077087740813fb0865a6d0c719cde9') in 0.005658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.712967 seconds.
+  path: Assets/Rubic_Prefabs/Audio/ClassicSongKoreography
+  artifactKey: Guid(7a95c6a3c43da47459595c99a5990c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio/ClassicSongKoreography using Guid(7a95c6a3c43da47459595c99a5990c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0640941f4a60c7828d36578071fad5') in 0.005818 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009196 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1027ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (881ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (378ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Release of invalid GC handle. The handle is from a previous domain. The release operation is skipped.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+Release of invalid GC handle native callstack: 
+0x00007ff7e544f11c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff7e5456719 (Unity) StackWalker::ShowCallstack
+0x00007ff7e61ecdac (Unity) GetStacktrace
+0x00007ff7e537bdf2 (Unity) ScriptingGCHandle::ReleaseAndClear
+0x00007ff7e5ac61fc (Unity) UploadHandlerRaw::`vector deleting destructor'
+0x00007ff7e5ac6cad (Unity) UploadHandler::Release
+0x00007ff7e5abf9ca (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::~UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>
+0x00007ff7e5abfc90 (Unity) UnityWebRequest::`vector deleting destructor'
+0x00007ff7e49e2877 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Release
+0x00007ff7e5ac1195 (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff7e5ac1361 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff7e505007a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff7e50eb93f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff7e62d82f6 (Unity) <lambda_cdc90be1cd3f929cae4009468e10a5ee>::operator()
+0x00007ff7e63677c2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7e6353662 (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7e6355574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff7e6365aff (Unity) IOService::Run
+0x00007ff7e63017cb (Unity) RunAssetImportWorkerClientV2
+0x00007ff7e6301820 (Unity) RunAssetImporterV2
+0x00007ff7e5d759c8 (Unity) Application::InitializeProject
+0x00007ff7e61f7132 (Unity) WinMain
+0x00007ff7e78c3dfe (Unity) __scrt_common_main_seh
+0x00007ffe9d3e7604 (KERNEL32) BaseThreadInitThunk
+0x00007ffe9e3626a1 (ntdll) RtlUserThreadStart
+System memory in use before: 195.2 MB.
+System memory in use after: 195.4 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3991.
+Total: 5.807800 ms (FindLiveObjects: 0.279400 ms CreateObjectMapping: 0.205500 ms MarkObjects: 5.281300 ms  DeleteObjects: 0.040600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1379.187465 seconds.
+  path: Assets/Rubic_Prefabs/Audio/CyberWar_AlexiAction_Koreography
+  artifactKey: Guid(2899a42af7336e54aa25283956376633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio/CyberWar_AlexiAction_Koreography using Guid(2899a42af7336e54aa25283956376633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb2022c2060408829e36fea96cb4a43') in 0.011784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 144.825686 seconds.
+  path: Assets/Rubic_Prefabs/Audio/CyberWar_AlexiAction_Koreography/CyberWar_AlexiAction_Koreography.asset
+  artifactKey: Guid(95ad0d57e00ad1a458a86be0dd3dd40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio/CyberWar_AlexiAction_Koreography/CyberWar_AlexiAction_Koreography.asset using Guid(95ad0d57e00ad1a458a86be0dd3dd40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457d097755ffb1da18ec464fd62bb96f') in 0.036742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.959523 seconds.
+  path: Assets/Rubic_Prefabs/Audio/CyberWar_AlexiAction_Koreography/cyber-war-126419.mp3
+  artifactKey: Guid(92103fb9818e1dc47b3023dcf42bd7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio/CyberWar_AlexiAction_Koreography/cyber-war-126419.mp3 using Guid(92103fb9818e1dc47b3023dcf42bd7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bdf253a611f3d800a87440dc7a765a') in 0.055690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.019178 seconds.
+  path: Assets/Rubic_Prefabs/Audio/CyberWar_AlexiAction_Koreography/CyberWar_AlexiAction.mp3
+  artifactKey: Guid(92103fb9818e1dc47b3023dcf42bd7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio/CyberWar_AlexiAction_Koreography/CyberWar_AlexiAction.mp3 using Guid(92103fb9818e1dc47b3023dcf42bd7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b4fd54f73301dd674c6289e64839c7') in 0.009974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.992880 seconds.
+  path: Assets/Rubic_Prefabs/Audio/CyberWar_AlexiAction_Koreography/CyberWar_AlexiAction_Koreography.asset
+  artifactKey: Guid(95ad0d57e00ad1a458a86be0dd3dd40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio/CyberWar_AlexiAction_Koreography/CyberWar_AlexiAction_Koreography.asset using Guid(95ad0d57e00ad1a458a86be0dd3dd40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4160a7869967c3a960e0592f4c29975') in 0.002725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Rubic_Prefabs/Audio/CyberWar_AlexiAction_Koreography/CyberWar_AlexiAction_Spawner.asset
+  artifactKey: Guid(0f1daa54e7bc93344b559a485ae2e8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio/CyberWar_AlexiAction_Koreography/CyberWar_AlexiAction_Spawner.asset using Guid(0f1daa54e7bc93344b559a485ae2e8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef887e5bdc3ae7cf041f6191ccee4f1d') in 0.010603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.754093 seconds.
+  path: Assets/Rubic_Prefabs/Audio/Death/Robot Dying.mp3
+  artifactKey: Guid(a87e5fd7775747740bfdb8f27e9eaca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio/Death/Robot Dying.mp3 using Guid(a87e5fd7775747740bfdb8f27e9eaca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8458ef55f723110c22ae20e53cff1cf6') in 0.035951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.131772 seconds.
+  path: Assets/Rubic_Prefabs/Audio/CyberWar_AlexiAction_Koreography/CyberWar_AlexiAction_KickSnare.mid
+  artifactKey: Guid(c768fbb73f1403e4e8bb8ec79e9bba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio/CyberWar_AlexiAction_Koreography/CyberWar_AlexiAction_KickSnare.mid using Guid(c768fbb73f1403e4e8bb8ec79e9bba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56d752ecc84601177e7b631e46619c0') in 0.009821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.112692 seconds.
+  path: Assets/Rubic_Prefabs/DestroyFX.prefab
+  artifactKey: Guid(fc817a99849448d4f82fffc2bc8d1f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/DestroyFX.prefab using Guid(fc817a99849448d4f82fffc2bc8d1f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851f1d11caab477ab493b4bec06cae4d') in 0.039935 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.262 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1263ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (1004ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (400ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.3 MB.
+System memory in use after: 198.5 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4004.
+Total: 5.376100 ms (FindLiveObjects: 0.267900 ms CreateObjectMapping: 0.211300 ms MarkObjects: 4.825200 ms  DeleteObjects: 0.070700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4829.895556 seconds.
+  path: Assets/Koreographer/Documentation
+  artifactKey: Guid(c2440fe69a9e34b48968a940047a465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koreographer/Documentation using Guid(c2440fe69a9e34b48968a940047a465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea9063202e1d1941b4b7b9ce621ffd0') in 0.029504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.911589 seconds.
+  path: Assets/Koreographer/Documentation/MIDI Converter Overview.pdf
+  artifactKey: Guid(8260c1eaa52174ee882fff4187fbdbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koreographer/Documentation/MIDI Converter Overview.pdf using Guid(8260c1eaa52174ee882fff4187fbdbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0679a8d43356973ae6cfa3a504e930') in 0.171131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.830972 seconds.
+  path: Assets/Koreographer/Documentation/Koreographer Users Guide.pdf
+  artifactKey: Guid(091a9cc49264746dea4da71ce98cf677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koreographer/Documentation/Koreographer Users Guide.pdf using Guid(091a9cc49264746dea4da71ce98cf677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc45deba6088ed478de7efc4bc63fa0e') in 0.026517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.798949 seconds.
+  path: Assets/Koreographer/Documentation/Koreographer Quick Start Guide.pdf
+  artifactKey: Guid(5e18918c82a644a33b2768558a299288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koreographer/Documentation/Koreographer Quick Start Guide.pdf using Guid(5e18918c82a644a33b2768558a299288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67679c56db4ced6ad3d07d0231f94de9') in 0.006646 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009007 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Domain Reload Profiling:
+	ReloadAssembly (964ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.3 MB.
+System memory in use after: 198.6 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4008.
+Total: 5.326600 ms (FindLiveObjects: 0.304600 ms CreateObjectMapping: 0.251300 ms MarkObjects: 4.735900 ms  DeleteObjects: 0.034000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 275.109812 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(6dbeac9ee6c7ff94d8aac90f71ed50f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(6dbeac9ee6c7ff94d8aac90f71ed50f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcde81b1bd115cade1fea086952f27a') in 0.010521 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Domain Reload Profiling:
+	ReloadAssembly (975ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (831ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.3 MB.
+System memory in use after: 198.6 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4012.
+Total: 5.616400 ms (FindLiveObjects: 0.311500 ms CreateObjectMapping: 0.210800 ms MarkObjects: 5.054400 ms  DeleteObjects: 0.038500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008367 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1001ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (850ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.4 MB.
+System memory in use after: 198.6 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4016.
+Total: 5.731500 ms (FindLiveObjects: 0.319400 ms CreateObjectMapping: 0.242500 ms MarkObjects: 5.067800 ms  DeleteObjects: 0.100500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1122ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (960ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.4 MB.
+System memory in use after: 198.6 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4020.
+Total: 5.788200 ms (FindLiveObjects: 0.355400 ms CreateObjectMapping: 0.265800 ms MarkObjects: 5.129100 ms  DeleteObjects: 0.036400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013700 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.155 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1156ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (976ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.4 MB.
+System memory in use after: 198.6 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4024.
+Total: 6.249900 ms (FindLiveObjects: 0.381500 ms CreateObjectMapping: 0.281500 ms MarkObjects: 5.546400 ms  DeleteObjects: 0.039600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (385ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.4 MB.
+System memory in use after: 198.6 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4028.
+Total: 5.525500 ms (FindLiveObjects: 0.327100 ms CreateObjectMapping: 0.263700 ms MarkObjects: 4.890300 ms  DeleteObjects: 0.043300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009896 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1066ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (930ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.4 MB.
+System memory in use after: 198.6 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4032.
+Total: 6.528000 ms (FindLiveObjects: 0.352600 ms CreateObjectMapping: 0.265200 ms MarkObjects: 5.865400 ms  DeleteObjects: 0.043500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012979 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.088 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1088ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (935ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.4 MB.
+System memory in use after: 198.6 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4036.
+Total: 6.509400 ms (FindLiveObjects: 0.306200 ms CreateObjectMapping: 0.226500 ms MarkObjects: 5.935400 ms  DeleteObjects: 0.040100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009106 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Domain Reload Profiling:
+	ReloadAssembly (994ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (842ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.4 MB.
+System memory in use after: 198.7 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4040.
+Total: 5.092200 ms (FindLiveObjects: 0.320500 ms CreateObjectMapping: 0.214300 ms MarkObjects: 4.518100 ms  DeleteObjects: 0.037900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2563.112059 seconds.
+  path: Assets/Scenes/RubiC_1.unity
+  artifactKey: Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RubiC_1.unity using Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22dd172e75a86433d52b3324b4522e6d') in 0.011382 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008754 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Domain Reload Profiling:
+	ReloadAssembly (972ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (831ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.4 MB.
+System memory in use after: 198.7 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4044.
+Total: 5.699300 ms (FindLiveObjects: 0.276800 ms CreateObjectMapping: 0.182600 ms MarkObjects: 5.201800 ms  DeleteObjects: 0.036800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.112 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1112ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (921ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (400ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.4 MB.
+System memory in use after: 198.7 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4048.
+Total: 6.062200 ms (FindLiveObjects: 0.379500 ms CreateObjectMapping: 0.253000 ms MarkObjects: 5.383900 ms  DeleteObjects: 0.044300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 675.849099 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_BLACK_RC_N.prefab
+  artifactKey: Guid(5b141b5d3c33bd648b3a42cb324e239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_BLACK_RC_N.prefab using Guid(5b141b5d3c33bd648b3a42cb324e239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb07ac435ccd990f46752f2a69a8b445') in 0.706506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab
+  artifactKey: Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab using Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa0ba85f25c5f180a80ca53cc26d70a') in 0.015705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab
+  artifactKey: Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab using Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b40e94918b88d1d9b894bf64d564d5') in 0.016395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab
+  artifactKey: Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab using Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf287c6c816f50b5d3a2282d1b27cc7') in 0.015781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab
+  artifactKey: Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab using Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a959d4ef67f638075c182c62bad6e6c') in 0.015808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
   path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab
   artifactKey: Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab using Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3437803f30262b4147034d550fa9cc') in 0.321830 seconds 
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab using Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f16ec0769de8a0719640155296c7fd') in 0.025224 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 110.433115 seconds.
-  path: Assets/Rubic_Prefabs/Audio/Classic_Colorbot_Song.asset
-  artifactKey: Guid(d5f1d3d5e243aa84e99088890525d38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/Classic_Colorbot_Song.asset using Guid(d5f1d3d5e243aa84e99088890525d38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f05fafde6f5ff13171e8414a5d09681') in 0.020164 seconds 
+  Time since last request: 0.000199 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab
+  artifactKey: Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab using Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad5781598091f68241430ed2181a317') in 0.018929 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Rubic_Prefabs/Audio/Cyber_War.asset
-  artifactKey: Guid(f6a2975683dee28439efe8bcab2bd546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/Cyber_War.asset using Guid(f6a2975683dee28439efe8bcab2bd546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a60b7ef060bd293a887eab19381d2b') in 0.008889 seconds 
+  Time since last request: 0.000194 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GOLDHAMMER.prefab
+  artifactKey: Guid(957af980506237541b45f77674da5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GOLDHAMMER.prefab using Guid(957af980506237541b45f77674da5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b68dc95a5bf330b69540b67f3a5e372') in 0.075673 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.212080 seconds.
-  path: Assets/Rubic_Prefabs/Audio/Cyber_War_By_AlexiAction.asset
-  artifactKey: Guid(f6a2975683dee28439efe8bcab2bd546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/Cyber_War_By_AlexiAction.asset using Guid(f6a2975683dee28439efe8bcab2bd546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c2dbe382a66ab5591b30283b298b3e') in 0.008153 seconds 
+  Time since last request: 0.000238 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab
+  artifactKey: Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab using Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b4af74e9a10e9ae71967aa132f1787') in 0.015765 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012656 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.196 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1197ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1003ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (446ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.6 MB.
+System memory in use after: 198.8 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 4053.
+Total: 6.296800 ms (FindLiveObjects: 0.310100 ms CreateObjectMapping: 0.224900 ms MarkObjects: 5.687500 ms  DeleteObjects: 0.071800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.875111 seconds.
-  path: Assets/Rubic_Prefabs/Audio/cyber-war-126419.mp3
-  artifactKey: Guid(5c3ae374dd6a94d46ac25c628e51e835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/cyber-war-126419.mp3 using Guid(5c3ae374dd6a94d46ac25c628e51e835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d8dc77803560d6e49edb3fb00218d4') in 0.026593 seconds 
+  Time since last request: 320.954520 seconds.
+  path: Assets/Scenes/RubiC_1.unity
+  artifactKey: Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RubiC_1.unity using Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2889409373c438345f9745297f46b1f2') in 0.007330 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.000 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1000ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (862ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.6 MB.
+System memory in use after: 198.8 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4057.
+Total: 5.351300 ms (FindLiveObjects: 0.314100 ms CreateObjectMapping: 0.211000 ms MarkObjects: 4.783100 ms  DeleteObjects: 0.042300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 164.899486 seconds.
-  path: Assets/Rubic_Prefabs/Audio/Cyber_War_By_AlexiAction.asset
-  artifactKey: Guid(f6a2975683dee28439efe8bcab2bd546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/Cyber_War_By_AlexiAction.asset using Guid(f6a2975683dee28439efe8bcab2bd546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee860587892ab6c6bf07d51592f0297a') in 0.003482 seconds 
+  Time since last request: 40.310148 seconds.
+  path: Assets/Rubic_Prefabs/PlayFabPrefabs/LeaderboardListing.prefab
+  artifactKey: Guid(5765d9a8ece4131439238e6b28f0c82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/PlayFabPrefabs/LeaderboardListing.prefab using Guid(5765d9a8ece4131439238e6b28f0c82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7628dad5fb40572f2a6c5c5d6b6b1b6') in 0.093718 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005198 seconds.
-  path: Assets/Rubic_Prefabs/Audio/CyberWar_SpawnMiddleSlice.asset
-  artifactKey: Guid(061340b12083cab428cab6850be2124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/CyberWar_SpawnMiddleSlice.asset using Guid(061340b12083cab428cab6850be2124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37e3e74b86c37b2410847a7267facd3') in 0.008380 seconds 
+  Time since last request: 0.483090 seconds.
+  path: Assets/Rubic_Prefabs/Rail Panel Prefab/Card Panel.prefab
+  artifactKey: Guid(4a8f2e826a68b42439dfa96c4013fbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Rail Panel Prefab/Card Panel.prefab using Guid(4a8f2e826a68b42439dfa96c4013fbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3418ddde37063aa12ea77d93f0cd1d6a') in 0.037276 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 146.261540 seconds.
-  path: Assets/Rubic_Prefabs/Audio/Cyber_War_By_AlexiAction.asset
-  artifactKey: Guid(f6a2975683dee28439efe8bcab2bd546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/Cyber_War_By_AlexiAction.asset using Guid(f6a2975683dee28439efe8bcab2bd546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c7c847cb366dddbf33354d4daeec6d') in 0.003639 seconds 
+  Time since last request: 0.000153 seconds.
+  path: Assets/Rubic_Prefabs/Rail Panel Prefab/Chrome Rail.png
+  artifactKey: Guid(261219205d8538043a3ad059b32d3b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Rail Panel Prefab/Chrome Rail.png using Guid(261219205d8538043a3ad059b32d3b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aaa8b467b6733ce89e4339e312f230c') in 0.065390 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008057 seconds.
-  path: Assets/Rubic_Prefabs/Audio/CyberWar_SpawnLeftSlice.asset
-  artifactKey: Guid(341afdd579266bd4ba1ebd580bf9c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/CyberWar_SpawnLeftSlice.asset using Guid(341afdd579266bd4ba1ebd580bf9c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcccf100702eeb01da4669341c05da82') in 0.007604 seconds 
+  Time since last request: 0.000141 seconds.
+  path: Assets/Rubic_Prefabs/Rail Panel Prefab/Gold Rail.png
+  artifactKey: Guid(edf2d32a411e15c41aab388cd46f233e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Rail Panel Prefab/Gold Rail.png using Guid(edf2d32a411e15c41aab388cd46f233e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b2c46b6ec25f47ac7e09a67d8ab7e6') in 0.021828 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1232ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1032ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.6 MB.
+System memory in use after: 198.8 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4067.
+Total: 6.246900 ms (FindLiveObjects: 0.359700 ms CreateObjectMapping: 0.265500 ms MarkObjects: 5.578600 ms  DeleteObjects: 0.041900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.056 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1057ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (910ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (395ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.6 MB.
+System memory in use after: 198.8 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4071.
+Total: 5.771600 ms (FindLiveObjects: 0.345400 ms CreateObjectMapping: 0.343600 ms MarkObjects: 5.039900 ms  DeleteObjects: 0.041700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Rubic_Prefabs/Audio/CyberWar_SpawnMiddleSlice.asset
-  artifactKey: Guid(061340b12083cab428cab6850be2124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/CyberWar_SpawnMiddleSlice.asset using Guid(061340b12083cab428cab6850be2124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60232b992655e7247c9cd0e12f6e3879') in 0.003850 seconds 
+  Time since last request: 226.248893 seconds.
+  path: Assets/Scenes/RubiC_1.unity
+  artifactKey: Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RubiC_1.unity using Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29dc80e31d999e9fb86e47dcfffdb9b9') in 0.005626 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.104964 seconds.
-  path: Assets/Rubic_Prefabs/Audio/Cyber_War_By_AlexiAction.asset
-  artifactKey: Guid(f6a2975683dee28439efe8bcab2bd546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/Cyber_War_By_AlexiAction.asset using Guid(f6a2975683dee28439efe8bcab2bd546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71aa6da4d2190cf1a7102513a1b879f4') in 0.003689 seconds 
+  Time since last request: 404.140011 seconds.
+  path: Assets/Scenes/RubiC_1.unity
+  artifactKey: Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RubiC_1.unity using Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0aa38bf8d0d83d6664da692ad8c8c5') in 0.002176 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.006309 seconds.
-  path: Assets/Rubic_Prefabs/Audio/CyberWar_SpawnRightSlice.asset
-  artifactKey: Guid(7bb184128ab349a47bb390888f3f2873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/CyberWar_SpawnRightSlice.asset using Guid(7bb184128ab349a47bb390888f3f2873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9e1467e7088ec3bfeee9308214a595') in 0.009251 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009274 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1070ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (902ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (408ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.6 MB.
+System memory in use after: 198.8 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4075.
+Total: 5.810100 ms (FindLiveObjects: 0.330800 ms CreateObjectMapping: 0.257600 ms MarkObjects: 5.180700 ms  DeleteObjects: 0.040000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 3320.265634 seconds.
-  path: Assets/Rubic_Prefabs/Audio/Cyber_War_By_AlexiAction.asset
-  artifactKey: Guid(f6a2975683dee28439efe8bcab2bd546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/Cyber_War_By_AlexiAction.asset using Guid(f6a2975683dee28439efe8bcab2bd546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0971299c6ebb41a6fccfcf258663eae') in 0.013559 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008377 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Domain Reload Profiling:
+	ReloadAssembly (936ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (798ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.6 MB.
+System memory in use after: 198.8 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4079.
+Total: 5.567200 ms (FindLiveObjects: 0.351700 ms CreateObjectMapping: 0.266800 ms MarkObjects: 4.908300 ms  DeleteObjects: 0.038700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Rubic_Prefabs/Audio/CyberWar_SpawnRightSlice.asset
-  artifactKey: Guid(7bb184128ab349a47bb390888f3f2873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/CyberWar_SpawnRightSlice.asset using Guid(7bb184128ab349a47bb390888f3f2873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ff1e4fe1ae91a4268fcf2947f147f9') in 0.008267 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008490 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1060ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (920ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.6 MB.
+System memory in use after: 198.9 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4083.
+Total: 5.421200 ms (FindLiveObjects: 0.309600 ms CreateObjectMapping: 0.221100 ms MarkObjects: 4.851200 ms  DeleteObjects: 0.038300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Rubic_Prefabs/Audio/CyberWar_SpawnLeftSlice.asset
-  artifactKey: Guid(341afdd579266bd4ba1ebd580bf9c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/CyberWar_SpawnLeftSlice.asset using Guid(341afdd579266bd4ba1ebd580bf9c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afeff5ad07cc0450c1ca224549e1daf') in 0.007663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Rubic_Prefabs/Audio/CyberWar_SpawnMiddleSlice.asset
-  artifactKey: Guid(061340b12083cab428cab6850be2124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/CyberWar_SpawnMiddleSlice.asset using Guid(061340b12083cab428cab6850be2124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b663efaed5c82af1330bf3d3cde6a5') in 0.003208 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009184 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1017ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (873ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.6 MB.
+System memory in use after: 198.9 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 4087.
+Total: 5.876200 ms (FindLiveObjects: 0.302900 ms CreateObjectMapping: 0.197800 ms MarkObjects: 5.331900 ms  DeleteObjects: 0.042300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -12,6 +12,8 @@ public class KoreographerSpawner : MonoBehaviour
         Koreographer.Instance.RegisterForEvents("ClassicSong_SpawnMiddleSlice", OnSpawnSlice);
         Koreographer.Instance.RegisterForEvents("ClassicSong_SpawnLeftSlice", OnSpawnLeftSlice);
         Koreographer.Instance.RegisterForEvents("ClassicSong_SpawnRightSlice", OnSpawnRightSlice);
+
+        Koreographer.Instance.RegisterForEvents("CyberWar_AlexiAction_Spawner", OnSpawnSliceIndex);
     }
 
    void OnSpawnSlice(KoreographyEvent evt)
@@ -25,5 +27,10 @@ void OnSpawnLeftSlice(KoreographyEvent evt)
 void OnSpawnRightSlice(KoreographyEvent evt)
 {
     sliceSpawner.spawnSliceInstant(3);
+}
+
+void OnSpawnSliceIndex(KoreographyEvent evt)
+{
+    sliceSpawner.spawnSliceInstant(evt.GetIntValue() + 1);
 }
 }

@@ -99,7 +99,7 @@ public class UIParticleDepthObject : MonoBehaviour
 #endif
         Profiler.BeginSample("RefreshRenderer, recreateRenderer = " + recreateRenderer);
         if(recreateRenderer && maskRendererObj != null)
-            DestroyImmediate(maskRendererObj);
+            Destroy(maskRendererObj);
 
         if(particleCanvas == null)
             particleCanvas = GetComponentInParent<UIParticleCanvas>();
