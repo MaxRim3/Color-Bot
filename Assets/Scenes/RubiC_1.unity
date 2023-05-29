@@ -10274,7 +10274,7 @@ GameObject:
   - component: {fileID: 861551556}
   - component: {fileID: 861551555}
   m_Layer: 0
-  m_Name: CyberWarAlexiActionKoreographerSpawner
+  m_Name: Tension_AlexiActionKoreographerSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10292,6 +10292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 960a5571986a20740bfb7fa746eee580, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timerDuration: 9999
   sliceSpawner: {fileID: 1947917206}
 --- !u!114 &861551556
 MonoBehaviour:
@@ -10306,7 +10307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoPlayOnAwake: 1
-  koreography: {fileID: 11400000, guid: 95ad0d57e00ad1a458a86be0dd3dd40a, type: 2}
+  koreography: {fileID: 11400000, guid: 4cb09990c4fdfb843a275c507945a281, type: 2}
   targetKoreographer: {fileID: 0}
 --- !u!82 &861551557
 AudioSource:
@@ -10318,7 +10319,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 92103fb9818e1dc47b3023dcf42bd7b6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2d8b62d27f781324482601e4700ef3c7, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -10417,7 +10418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadedKoreography:
-  - {fileID: 11400000, guid: 95ad0d57e00ad1a458a86be0dd3dd40a, type: 2}
+  - {fileID: 11400000, guid: 4cb09990c4fdfb843a275c507945a281, type: 2}
   eventDelayInSeconds: 0
 --- !u!4 &861551559
 Transform:
@@ -14875,6 +14876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 960a5571986a20740bfb7fa746eee580, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timerDuration: 9999
   sliceSpawner: {fileID: 1947917206}
 --- !u!1 &1338731152
 GameObject:
@@ -16953,6 +16955,180 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 638123854}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1631604342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1631604347}
+  - component: {fileID: 1631604346}
+  - component: {fileID: 1631604345}
+  - component: {fileID: 1631604344}
+  - component: {fileID: 1631604343}
+  m_Layer: 0
+  m_Name: CyberWar_AlexiActionKoreographerSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1631604343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631604342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960a5571986a20740bfb7fa746eee580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerDuration: 9999
+  sliceSpawner: {fileID: 1947917206}
+--- !u!114 &1631604344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631604342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1060073270, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoPlayOnAwake: 1
+  koreography: {fileID: 11400000, guid: 95ad0d57e00ad1a458a86be0dd3dd40a, type: 2}
+  targetKoreographer: {fileID: 0}
+--- !u!82 &1631604345
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631604342}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 92103fb9818e1dc47b3023dcf42bd7b6, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1631604346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631604342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 316907577, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadedKoreography:
+  - {fileID: 11400000, guid: 95ad0d57e00ad1a458a86be0dd3dd40a, type: 2}
+  eventDelayInSeconds: 0
+--- !u!4 &1631604347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631604342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6090065, y: -0.19514833, z: -0.0104753375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631605179
 GameObject:
   m_ObjectHideFlags: 0
