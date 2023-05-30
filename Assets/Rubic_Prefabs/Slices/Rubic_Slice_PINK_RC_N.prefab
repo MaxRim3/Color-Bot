@@ -192,11 +192,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sliceRB: {fileID: 0}
-  green: 0
-  red: 0
-  blue: 0
-  yellow: 0
-  orange: 0
+  green: 1
+  red: 1
+  blue: 1
+  yellow: 1
+  orange: 1
   pink: 1
   hasDropped: 0
   platform: {fileID: 0}
@@ -269,11 +269,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79a8ec909815b384bbd63117dccb8479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  green: 0
-  red: 0
-  blue: 0
-  yellow: 0
-  orange: 0
+  green: 1
+  red: 1
+  blue: 1
+  yellow: 1
+  orange: 1
   pink: 1
   black: 0
   goldHammer: 0

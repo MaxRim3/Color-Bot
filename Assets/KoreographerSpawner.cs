@@ -14,7 +14,7 @@ public class KoreographerSpawner : MonoBehaviour
     private bool isTimerRunning = true; // Flag to check if the timer is running
 
 
-    private int spawnSequence = 0;
+    private int spawnSequence = 1;
     private int numOnSequenceOne = 0;
 
     public Slice_Spawner sliceSpawner;
@@ -27,6 +27,7 @@ public class KoreographerSpawner : MonoBehaviour
 
         Koreographer.Instance.RegisterForEvents("CyberWar_AlexiAction_Spawner", OnSpawnSliceIndex);
         Koreographer.Instance.RegisterForEvents("Tension_AlexiAction_Spawner", OnTimedSpawnSliceIndex);
+        Koreographer.Instance.RegisterForEvents("MemoryOfTheFuture_Spawner", OnTimedSpawnTwo);
     }
 
         private void Update()
@@ -75,13 +76,16 @@ void OnSpawnSliceIndex(KoreographyEvent evt)
     sliceSpawner.spawnSliceInstant(evt.GetIntValue() + 1);
 }
 
-
+void OnTimedSpawnTwo(KoreographyEvent evt)
+{
+     sliceSpawner.spawnSliceInstant(1);
+}
 public void setSequence()
 {
        
            //is bass
-           print(currentTimeSinceLastDrop);
-        if(spawnSequence > 1)
+           //print(currentTimeSinceLastDrop);
+        if(spawnSequence >= 1)
         {
             if(currentTimeSinceLastDrop > 0.4f && currentTimeSinceLastDrop < 1)
             {
@@ -90,7 +94,7 @@ public void setSequence()
                 if(numOnSequenceOne == 3)
                 {
                     spawnSequence = 3;
-                    numOnSequenceOne = 0;
+                    numOnSequenceOne = 0; 
                 }
             }
             else
@@ -106,11 +110,11 @@ public void setSequence()
 
     void OnTimedSpawnSliceIndex(KoreographyEvent evt)
     {
-        if(currentTimeSinceLastDrop < 0.1f)
-        {
-            return;
-        }
-         if(currentTimeSinceLastDrop > 2.5f)
+        // if(currentTimeSinceLastDrop < 0.1f)
+        // {
+        //     return;
+        // }
+         if(currentTimeSinceLastDrop > 1.5f)
         {
             sliceSpawner.spawnSliceInstant(1);
             sliceSpawner.spawnSliceInstant(2);
@@ -118,7 +122,7 @@ public void setSequence()
             setSequence();
             return;
         }
-            if(currentTimeSinceLastDrop > 2f)
+            if(currentTimeSinceLastDrop > 1f)
              {
             //right and left
             sliceSpawner.spawnSliceInstant(2);
@@ -134,7 +138,7 @@ public void setSequence()
         if(spawnSequence == 1)
         {
             //middle
-            sliceSpawner.spawnSliceInstant(spawnSequence);
+            sliceSpawner.spawnSliceInstant(0);
         }
                 else if(spawnSequence == 2)
         {
@@ -153,12 +157,12 @@ public void setSequence()
          else if(spawnSequence == 3)
         {
             //right
-            sliceSpawner.spawnSliceInstant(spawnSequence);
+            sliceSpawner.spawnSliceInstant(2);
         }
           else if(spawnSequence == 4)
         {
             //left
-            sliceSpawner.spawnSliceInstant(spawnSequence);
+            sliceSpawner.spawnSliceInstant(1);
         }
 
         else if(spawnSequence == 5)
@@ -179,10 +183,13 @@ public void setSequence()
         }
         else if(spawnSequence == 6)
         {
+            print(currentMediumTimeSinceLastDrop);
+            print("MEDIUM TIME ABOVE");
             //gold
-            if(currentMediumTimeSinceLastDrop < 0.15f)
+             sliceSpawner.spawnSliceInstant(1);
+            if(currentMediumTimeSinceLastDrop < 0.01f)
             {
-                sliceSpawner.spawnSliceInstant(4);
+                //sliceSpawner.spawnSliceInstant(4);
             }
             else
             {
@@ -192,17 +199,18 @@ public void setSequence()
         }
         else if(spawnSequence == 7)
         {
+             sliceSpawner.spawnSliceInstant(1);
             //black
-            if(currentLongTimeSinceLastDrop < 1.5f)
+            if(currentLongTimeSinceLastDrop < 0.25f)
             {
-                sliceSpawner.spawnSliceInstant(5);
+                //sliceSpawner.spawnSliceInstant(5);
             }
             else
             {
                 currentLongTimeSinceLastDrop = 0;
                 //skip
             }
-            spawnSequence = 1;
+            spawnSequence = 0;
         }
         spawnSequence++;
     }

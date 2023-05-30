@@ -254,27 +254,27 @@ public class Slice_RayCaster : MonoBehaviour
                         {
                             checkNearSlices(green, "green");
                         }
-                        else if (red)
+                        if (red)
                         {
                             checkNearSlices(red, "red");
                         }
-                        else if (blue)
+                        if (blue)
                         {
                             checkNearSlices(blue, "blue");
                         }
-                        else if (pink)
+                        if (pink)
                         {
                             checkNearSlices(pink, "pink");
                         }
-                        else if (yellow)
+                        if (yellow)
                         {
                             checkNearSlices(yellow, "yellow");
                         }
-                        else if (orange)
+                        if (orange)
                         {
                             checkNearSlices(orange, "orange");
                         }
-                        else if (black)
+                        if (black)
                         {
                             if (this.gameObject.transform.parent.transform.parent)
                             {
