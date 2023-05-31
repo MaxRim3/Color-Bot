@@ -17,6 +17,8 @@ public class KoreographerSpawner : MonoBehaviour
     private int spawnSequence = 1;
     private int numOnSequenceOne = 0;
 
+
+    private int lastSpawnIndex = 0;
     public Slice_Spawner sliceSpawner;
     // Start is called before the first frame update
     void Start()
@@ -73,6 +75,10 @@ void OnSpawnRightSlice(KoreographyEvent evt)
 
 void OnSpawnSliceIndex(KoreographyEvent evt)
 {
+    if(lastSpawnIndex == evt.GetIntValue() && currentTimeSinceLastDrop < 0.1f)
+    {
+        return;
+    }
     sliceSpawner.spawnSliceInstant(evt.GetIntValue() + 1);
 }
 

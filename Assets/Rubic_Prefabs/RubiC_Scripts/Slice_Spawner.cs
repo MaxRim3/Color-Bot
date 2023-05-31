@@ -311,10 +311,122 @@ public class Slice_Spawner : MonoBehaviour
                 Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
                 changeSpawnLightningColor(newSlice.transform.GetChild(0).gameObject);
             }
+            //gold left
+            else if (spawnSequence == 41)
+            {
+               GameObject newSlice = Instantiate(specialSlices[0], secondSpawnPoint.transform.position, secondSpawnPoint.transform.rotation) as GameObject;
+                newSlice.GetComponent<Slice_Controller>().platforms = platforms;
+                slicesToDestroy.Add(newSlice);
+
+                for (int i = 0; i < specialSlices.Length; i++)
+                {
+                    if (newSlice.gameObject.name == specialSlices[i].name + "(Clone)" || newSlice.gameObject.name == "Rubic_Slice_BLACK_RC_N(Clone)")
+                    {
+                        SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                    }
+
+                    else
+
+                    {
+                        SoundManager.GetComponent<AudioManager>().blockAppear();
+                    }
+                }
+
+
+                spawnSequence++;
+                summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
+                changeSpawnLightningColor(newSlice.transform.GetChild(0).gameObject);
+            }
+            //gold right
+            else if (spawnSequence == 42)
+            {
+               GameObject newSlice = Instantiate(specialSlices[0], thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation) as GameObject;
+                newSlice.GetComponent<Slice_Controller>().platforms = platforms;
+                slicesToDestroy.Add(newSlice);
+
+                for (int i = 0; i < specialSlices.Length; i++)
+                {
+                    if (newSlice.gameObject.name == specialSlices[i].name + "(Clone)" || newSlice.gameObject.name == "Rubic_Slice_BLACK_RC_N(Clone)")
+                    {
+                        SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                    }
+
+                    else
+
+                    {
+                        SoundManager.GetComponent<AudioManager>().blockAppear();
+                    }
+                }
+
+
+                spawnSequence++;
+                summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
+                changeSpawnLightningColor(newSlice.transform.GetChild(0).gameObject);
+            }
             //black middle
             else if (spawnSequence == 5)
             {
                GameObject newSlice = Instantiate(blackSlice, this.transform.position, this.transform.rotation) as GameObject;
+                newSlice.GetComponent<Slice_Controller>().platforms = platforms;
+                slicesToDestroy.Add(newSlice);
+
+                for (int i = 0; i < specialSlices.Length; i++)
+                {
+                    if (newSlice.gameObject.name == specialSlices[i].name + "(Clone)" || newSlice.gameObject.name == "Rubic_Slice_BLACK_RC_N(Clone)")
+                    {
+                        SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                    }
+
+                    else
+
+                    {
+                        SoundManager.GetComponent<AudioManager>().blockAppear();
+                    }
+                }
+
+
+                spawnSequence++;
+                summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
+                changeSpawnLightningColor(newSlice.transform.GetChild(0).gameObject);
+            }
+            //black left
+             else if (spawnSequence == 51)
+            {
+               GameObject newSlice = Instantiate(blackSlice, secondSpawnPoint.transform.position, secondSpawnPoint.transform.rotation) as GameObject;
+                newSlice.GetComponent<Slice_Controller>().platforms = platforms;
+                slicesToDestroy.Add(newSlice);
+
+                for (int i = 0; i < specialSlices.Length; i++)
+                {
+                    if (newSlice.gameObject.name == specialSlices[i].name + "(Clone)" || newSlice.gameObject.name == "Rubic_Slice_BLACK_RC_N(Clone)")
+                    {
+                        SoundManager.GetComponent<AudioManager>().superBlockAppear();
+                    }
+
+                    else
+
+                    {
+                        SoundManager.GetComponent<AudioManager>().blockAppear();
+                    }
+                }
+
+
+                spawnSequence++;
+                summonEffect.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                summonEffectTwo.GetComponent<X_LB_LightningSource>().StrikeOnce();
+                Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
+                changeSpawnLightningColor(newSlice.transform.GetChild(0).gameObject);
+            }
+             //black right
+             else if (spawnSequence == 52)
+            {
+               GameObject newSlice = Instantiate(blackSlice, thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation) as GameObject;
                 newSlice.GetComponent<Slice_Controller>().platforms = platforms;
                 slicesToDestroy.Add(newSlice);
 
