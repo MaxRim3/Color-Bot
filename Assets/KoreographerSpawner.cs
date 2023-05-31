@@ -28,7 +28,7 @@ public class KoreographerSpawner : MonoBehaviour
         Koreographer.Instance.RegisterForEvents("ClassicSong_SpawnRightSlice", OnSpawnRightSlice);
 
         Koreographer.Instance.RegisterForEvents("CyberWar_AlexiAction_Spawner", OnSpawnSliceIndex);
-        Koreographer.Instance.RegisterForEvents("Tension_AlexiAction_Spawner", OnTimedSpawnSliceIndex);
+        Koreographer.Instance.RegisterForEvents("Tension_AlexiAction_Spawner", OnSpawnSliceIndex);
         Koreographer.Instance.RegisterForEvents("MemoryOfTheFuture_Spawner", OnTimedSpawnTwo);
     }
 
@@ -75,11 +75,38 @@ void OnSpawnRightSlice(KoreographyEvent evt)
 
 void OnSpawnSliceIndex(KoreographyEvent evt)
 {
-    if(lastSpawnIndex == evt.GetIntValue() && currentTimeSinceLastDrop < 0.1f)
+    int finalDrop = evt.GetIntValue();
+    if(evt.GetIntValue() == 4)
+    {
+        finalDrop = 0;
+    }
+    if(evt.GetIntValue() == 41)
+    {
+        finalDrop = 1;
+    }
+    if(evt.GetIntValue() == 42)
+    {
+        finalDrop = 2;
+    }
+    if(evt.GetIntValue() == 5)
+    {
+        finalDrop = 0;
+    }
+    if(evt.GetIntValue() == 51)
+    {
+        finalDrop = 1;
+    }
+    if(evt.GetIntValue() == 52)
+    {
+        finalDrop = 2;
+    }
+
+    if(lastSpawnIndex == evt.GetIntValue() && currentTimeSinceLastDrop < 0.2f)
     {
         return;
     }
-    sliceSpawner.spawnSliceInstant(evt.GetIntValue() + 1);
+    sliceSpawner.spawnSliceInstant(finalDrop + 1);
+    currentTimeSinceLastDrop = 0;
 }
 
 void OnTimedSpawnTwo(KoreographyEvent evt)
