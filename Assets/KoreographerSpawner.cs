@@ -76,17 +76,38 @@ void OnSpawnRightSlice(KoreographyEvent evt)
 void OnSpawnSliceIndex(KoreographyEvent evt)
 {
     int finalDrop = evt.GetIntValue();
-    if(evt.GetIntValue() == 4)
-    {
-        finalDrop = 0;
-    }
+    // if(evt.GetIntValue() == 4)
+    // {
+    //     finalDrop = 0;
+    // }
+    // if(evt.GetIntValue() == 41)
+    // {
+    //     finalDrop = 1;
+    // }
+    // if(evt.GetIntValue() == 42)
+    // {
+    //     finalDrop = 2;
+    // }
+    // if(evt.GetIntValue() == 5)
+    // {
+    //     finalDrop = 0;
+    // }
+    // if(evt.GetIntValue() == 51)
+    // {
+    //     finalDrop = 1;
+    // }
+    // if(evt.GetIntValue() == 52)
+    // {
+    //     finalDrop = 2;
+    // }
+
     if(evt.GetIntValue() == 41)
     {
-        finalDrop = 1;
+        finalDrop = 40;
     }
     if(evt.GetIntValue() == 42)
     {
-        finalDrop = 2;
+        finalDrop = 41;
     }
     if(evt.GetIntValue() == 5)
     {
@@ -94,11 +115,11 @@ void OnSpawnSliceIndex(KoreographyEvent evt)
     }
     if(evt.GetIntValue() == 51)
     {
-        finalDrop = 1;
+        finalDrop = 50;
     }
     if(evt.GetIntValue() == 52)
     {
-        finalDrop = 2;
+        finalDrop = 51;
     }
 
     if(lastSpawnIndex == evt.GetIntValue() && currentTimeSinceLastDrop < 0.2f)
