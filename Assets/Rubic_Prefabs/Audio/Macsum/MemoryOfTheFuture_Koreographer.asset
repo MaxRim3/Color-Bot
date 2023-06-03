@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -2076007791, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
   m_Name: MemoryOfTheFuture_Koreographer
   m_EditorClassIdentifier: 
-  mSourceClip: {fileID: 8300000, guid: 7d39602598b768240b15f93f7acfe1dd, type: 3}
+  mSourceClip: {fileID: 8300000, guid: c6c76d94bb2d3974e81336096158634e, type: 3}
   mAudioFilePath: 
   mSampleRate: 44100
   mIgnoreLatencyOffset: 0

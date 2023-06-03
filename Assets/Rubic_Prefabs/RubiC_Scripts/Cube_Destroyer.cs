@@ -139,7 +139,7 @@ public class Cube_Destroyer : MonoBehaviour
     {
         while (true)
         {
-            //yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.05f);
 
 
             if (!gameOver)
@@ -152,7 +152,8 @@ public class Cube_Destroyer : MonoBehaviour
                     vHappy = true;
                     //Destroy(cubesToDestroy[i]);
                     //Instantiate(DestroyFX, cubesToDestroy[i].transform.position, cubesToDestroy[i].transform.rotation);
-                    sliceSpawner.gameObject.GetComponent<Slice_Spawner>().blackSender();
+                    
+                    //sliceSpawner.gameObject.GetComponent<Slice_Spawner>().blackSender();
                     SoundManager.GetComponent<AudioManager>().blockDisappear();
                 }
 

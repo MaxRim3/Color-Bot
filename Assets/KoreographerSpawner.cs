@@ -29,7 +29,7 @@ public class KoreographerSpawner : MonoBehaviour
 
         Koreographer.Instance.RegisterForEvents("CyberWar_AlexiAction_Spawner", OnSpawnSliceIndex);
         Koreographer.Instance.RegisterForEvents("Tension_AlexiAction_Spawner", OnSpawnSliceIndex);
-        Koreographer.Instance.RegisterForEvents("MemoryOfTheFuture_Spawner", OnTimedSpawnTwo);
+        Koreographer.Instance.RegisterForEvents("MemoryOfTheFuture_Spawner", OnSpawnSliceIndex);
     }
 
         private void Update()
