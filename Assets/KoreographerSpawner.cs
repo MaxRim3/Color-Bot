@@ -18,7 +18,7 @@ public class KoreographerSpawner : MonoBehaviour
     private int numOnSequenceOne = 0;
 
 
-    private int lastSpawnIndex = 0;
+    private int lastSpawnIndex = 999;
     public Slice_Spawner sliceSpawner;
     // Start is called before the first frame update
     void Start()
@@ -30,6 +30,7 @@ public class KoreographerSpawner : MonoBehaviour
         Koreographer.Instance.RegisterForEvents("CyberWar_AlexiAction_Spawner", OnSpawnSliceIndex);
         Koreographer.Instance.RegisterForEvents("Tension_AlexiAction_Spawner", OnSpawnSliceIndex);
         Koreographer.Instance.RegisterForEvents("MemoryOfTheFuture_Spawner", OnSpawnSliceIndex);
+        Koreographer.Instance.RegisterForEvents("AimToHead_Resonance", OnSpawnSliceIndex);
     }
 
         private void Update()
@@ -121,11 +122,13 @@ void OnSpawnSliceIndex(KoreographyEvent evt)
     {
         finalDrop = 51;
     }
-
+    
     if(lastSpawnIndex == evt.GetIntValue() && currentTimeSinceLastDrop < 0.2f)
     {
         return;
     }
+    lastSpawnIndex = evt.GetIntValue();
+
     sliceSpawner.spawnSliceInstant(finalDrop + 1);
     currentTimeSinceLastDrop = 0;
 }

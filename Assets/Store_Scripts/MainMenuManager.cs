@@ -71,13 +71,13 @@ public class MainMenuManager : MonoBehaviour
 
     public void GoToGame()
     {
-        if (!PlayerPrefs.HasKey("HASPLAYEDTUTORIALBEFORE"))  //database needs to hold for each account??
-        {
-            Application.LoadLevel("Tutorial");
+        // if (!PlayerPrefs.HasKey("HASPLAYEDTUTORIALBEFORE"))  //database needs to hold for each account??
+        // {
+        //     Application.LoadLevel("Tutorial");
 
-        }
-        else
-        Application.LoadLevel("RubiC_1");
+        // }
+        // else
+        Application.LoadLevel("LevelSelect");
     }
 
     public void GoToTutorial()

@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayFabScene1.unity
     guid: aea21fd09cfec774a80534d4e28bf2a7
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 507ffeb8a46270945942507b0d444c6d
   m_configObjects: {}
