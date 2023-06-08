@@ -155,6 +155,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.dss.roblockDrop
+    Standalone: com.Dreamstate-Studios.Color-Bot
     iPhone: com.dss.roblockdrop
   buildNumber:
     Standalone: 0
@@ -529,9 +530,9 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 1
-  cameraUsageDescription: 
+  cameraUsageDescription: Doesn't use camera
   locationUsageDescription: 
-  microphoneUsageDescription: 
+  microphoneUsageDescription: Doesn't use microphone
   bluetoothUsageDescription: 
   switchNMETAOverride: 
   switchNetLibKey: 
