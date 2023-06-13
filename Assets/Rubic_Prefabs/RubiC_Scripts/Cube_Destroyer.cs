@@ -139,7 +139,7 @@ public class Cube_Destroyer : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.1f);
 
 
             if (!gameOver)
@@ -209,9 +209,9 @@ public class Cube_Destroyer : MonoBehaviour
                             }
 
 
-                            GameManager.CoinCount+=3;
+                            GameManager.CoinCount+=cubesToDestroy.Count;
 
-                            SIS.DBManager.IncreaseFunds("beats", 3);
+                            SIS.DBManager.IncreaseFunds("beats", cubesToDestroy.Count);
                             beat.GetComponent<Animator>().SetTrigger("Score");
 
 

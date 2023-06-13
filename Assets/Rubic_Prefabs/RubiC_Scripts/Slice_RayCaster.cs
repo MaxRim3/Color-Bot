@@ -81,32 +81,10 @@ public class Slice_RayCaster : MonoBehaviour
         Spawner = GameObject.FindWithTag("Spawner");
 
 
-
-
-
         sliceRB = this.gameObject.transform.parent.gameObject.GetComponent<Rigidbody>();
 
         spinStopHolder = this.gameObject.transform.parent.gameObject.GetComponent<Slice_Controller>().spinStopHolder;
         myParent = this.gameObject.transform.parent.gameObject;
-
-        if (platforms[0])
-        {
-
-            //oldEulerAngles[0] = platforms[0].transform.rotation.eulerAngles;
-            //oldEulerAngles[1] = platforms[1].transform.rotation.eulerAngles;
-            //oldEulerAngles[2] = platforms[2].transform.rotation.eulerAngles;
-            //oldEulerAngles[3] = platforms[3].transform.rotation.eulerAngles;
-            //oldEulerAngles[4] = platforms[4].transform.rotation.eulerAngles;
-            //oldEulerAngles[5] = platforms[5].transform.rotation.eulerAngles;
-
-            //oldTransformY[0] = Math.Round(platforms[0].transform.rotation.y, 2);
-            //oldTransformY[1] = platforms[1].transform.rotation.y;
-            //oldTransformY[2] = platforms[2].transform.rotation.y;
-            //oldTransformY[3] = platforms[3].transform.rotation.y;
-            //oldTransformY[4] = platforms[4].transform.rotation.y;
-            //oldTransformY[5] = platforms[5].transform.rotation.y;
-            
-        }
 
         sliceEulerAngles = this.gameObject.transform.rotation.eulerAngles;
     }
@@ -115,7 +93,6 @@ public class Slice_RayCaster : MonoBehaviour
     void FixedUpdate()
     {
         var layerMask = ~((1 << 9) | (1 << 10) | (1 << 13) | (1 << 2));
-        //var layerMask = ~((1 << 9) | (1 << 10));
         if (goldHammer)
         {
             
@@ -154,15 +131,6 @@ public class Slice_RayCaster : MonoBehaviour
                         {
                             this.gameObject.transform.parent.GetComponent<Slice_Controller>().dropFast = false;
                             this.gameObject.transform.parent.GetComponent<Slice_Controller>().hasPassed = true;
-
-                            if (goldHammer)
-                            {
-                                GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(this.gameObject.transform.parent.gameObject);
-                                GameManagerLocal.GetComponent<Cube_Destroyer>().goldHammer();
-                            }
-
-                            //print("slowDown");
-                            // rayHasStopped = true;
                         }
                     }
                 }
@@ -185,9 +153,7 @@ public class Slice_RayCaster : MonoBehaviour
             print("hasPassed");
             SoundManager.GetComponent<AudioManager>().boostElectricity();
             this.gameObject.transform.parent.GetComponent<Slice_Controller>().dropFast = true;
-           // this.gameObject.transform.parent.GetComponent<Slice_Controller>().hasPassed = true;
-
-
+        
             platforms = new GameObject[spinStopHolder.gameObject.GetComponent<SpinStopper>().platforms.Length];
 
             for (int i = 0; i < 6; i++)
@@ -203,43 +169,17 @@ public class Slice_RayCaster : MonoBehaviour
 
         }
 
-        if (goldHammer && this.gameObject.transform.parent.GetComponent<Slice_Controller>().dropFast == false)
-        {
-            goldHammerRay();
-        }
-
-        //print(checkSelected());
-   
-
-            //int layerMask = 1 << 9; // mask to collide with only this layer
-            //layerMask = ~layerMask; //reverses mask so only layer 9 does not collide
             var layerMask = ~((1 << 9) | (1 << 10) | (1 << 13) | (1 << 2));
 
-        // print(sliceRB.velocity.y);
-        //if (platforms[0])
+
         {
-            // if (spinStopHolder.GetComponent<SpinStopper>().platformRotationFinished == true)
-            // {
-            //     isRotating = false;
-            // }
-            // else
-            // {
-            //     isRotating = true;
-            // }
 
 
-         
-
-            //if (oldEulerAngles[0] == platforms[0].transform.rotation.eulerAngles && oldEulerAngles[1] == platforms[1].transform.rotation.eulerAngles && oldEulerAngles[2] == platforms[2].transform.rotation.eulerAngles
-            //    && oldEulerAngles[3] == platforms[3].transform.rotation.eulerAngles && oldEulerAngles[4] == platforms[4].transform.rotation.eulerAngles && oldEulerAngles[5] == platforms[5].transform.rotation.eulerAngles)
-            //if (oldTransformY[0] == Math.Round(platforms[0].transform.rotation.y,2) && oldTransformY[1] == Math.Round(platforms[1].transform.rotation.y) && oldTransformY[2] == Math.Round(platforms[2].transform.rotation.y, 2) && 
-            //    oldTransformY[3] == Math.Round(platforms[3].transform.rotation.y, 2) &&
-            //    oldTransformY[4] == Math.Round(platforms[4].transform.rotation.y, 2) && oldTransformY[5] == Math.Round(platforms[5].transform.rotation.y,2))
-            //{
+    
 
 
 
-                //if (checkSelected() == false && !isRotating) //if nothing is selected and nothing is rotating
+               
                 if(transform.parent.transform.parent)
                 {
                 if(transform.parent && transform.parent.transform.parent && transform.parent.transform.parent.transform.parent && transform.parent.transform.parent.transform.parent.GetComponent<RowRotateController>() && transform.parent.transform.parent.transform.parent.GetComponent<RowRotateController>().isCorrectAngle)
@@ -281,54 +221,16 @@ public class Slice_RayCaster : MonoBehaviour
                                 blackRowDestroyer();
                             }
                         }
-                       // print("not rotating");
                         isRotating = false;
             }
                 }
 
-
-
-                //    if (checkSelected() && isRotating)
-                //    {
-                //        if (!spinAudio)
-                //        {
-                //            SoundManager.GetComponent<AudioManager>().spinAudio();
-                //            spinAudio = true;
-                //        }
-                //    }
-
-                //else
-                //{
-                //    spinAudio = false;
-                //}
-
-               
-
-           // }
-
-            //oldTransformY[0] = Math.Round(platforms[0].transform.rotation.y, 2);
-            //oldTransformY[1] = Math.Round(platforms[1].transform.rotation.y, 2);
-            //oldTransformY[2] = Math.Round(platforms[2].transform.rotation.y, 2);
-            //oldTransformY[3] = Math.Round(platforms[3].transform.rotation.y, 2);
-            //oldTransformY[4] = Math.Round(platforms[4].transform.rotation.y, 2);
-            //oldTransformY[5] = Math.Round(platforms[5].transform.rotation.y, 2);
-
-            //oldEulerAngles[0] = platforms[0].transform.rotation.eulerAngles;
-            //oldEulerAngles[1] = platforms[1].transform.rotation.eulerAngles;
-            //oldEulerAngles[2] = platforms[2].transform.rotation.eulerAngles;
-            //oldEulerAngles[3] = platforms[3].transform.rotation.eulerAngles;
-            //oldEulerAngles[4] = platforms[4].transform.rotation.eulerAngles;
-            //oldEulerAngles[5] = platforms[5].transform.rotation.eulerAngles;
         }
 
 
-
-
-       // if (!isRotating)
         {
             RaycastHit hit;
 
-            // Debug.DrawRay(this.gameObject.transform.position, -transform.up * 0.2f, Color.green);
             if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, 0.06f, layerMask))   //if the raycast hits something under it ~ tell the controller to stop it.
             {
                 // print(hit.collider.tag);
@@ -344,8 +246,6 @@ public class Slice_RayCaster : MonoBehaviour
                                 this.gameObject.transform.parent.GetComponent<Slice_Controller>().dropFast = false;
                                 this.gameObject.transform.parent.GetComponent<Slice_Controller>().hasPassed = true;
 
-                                //print("slowDown");
-                                // rayHasStopped = true;
                             }
                         }
                     }
@@ -356,8 +256,6 @@ public class Slice_RayCaster : MonoBehaviour
                             this.gameObject.transform.parent.GetComponent<Slice_Controller>().dropFast = false;
                             this.gameObject.transform.parent.GetComponent<Slice_Controller>().hasPassed = true;
 
-                            //print("slowDown");
-                            // rayHasStopped = true;
                         }
                     }
                 }
@@ -374,23 +272,8 @@ public class Slice_RayCaster : MonoBehaviour
         Debug.DrawRay(this.gameObject.transform.position, transform.up * 0.1f, Color.red); // up
 
 
-
-
-        if (platforms[0] != null)
-        {
-            for (int i = 0; i < 5; i++)
-            {
-                //print (platforms[i].GetComponent<Lean.Touch.LeanSelectable>().IsSelectedRaw);
-                /*if (platforms[i].GetComponent<Lean.Touch.LeanSelectable>().IsSelectedRaw == false)
-                {
-                    canDestroy = true;
-                    print("notSelected");
-                }*/
-            }
-        }
-
-
-      
+        Debug.DrawRay(this.gameObject.transform.position, -transform.up * 0.18f, Color.green); // down
+        Debug.DrawRay(this.gameObject.transform.position, transform.up * 0.18f, Color.green); // up
 
     }
 
@@ -399,61 +282,12 @@ public class Slice_RayCaster : MonoBehaviour
     void OnTriggerStay(Collider coll)
     {
 
-        // if (coll.gameObject.tag == "spinStopper")
-        // {
-        //     var layerMask = ~((1 << 9) | (1 << 10) | (1 << 13) | (1 << 2));
-        //     if (!isRotating)
-        //     {
-        //         RaycastHit hit;
-
-        //         // Debug.DrawRay(this.gameObject.transform.position, -transform.up * 0.2f, Color.green);
-        //         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, 0.04f, layerMask))   //if nothing is under the slice and it is in the electricity, end the game
-        //         {
-        //             // print(hit.collider.tag);
-        //             if (hit.collider != this.gameObject.GetComponent<Collider>())
-        //             {
-
-        //                 if (hit.collider.gameObject.GetComponent<Slice_Controller>())
-        //                 {
-        //                     if (hit.collider != this.gameObject.transform.parent.gameObject.GetComponent<Collider>())
-        //                     {
-        //                         print("GameOver");
-        //                         GameManagerLocal.GetComponent<Cube_Destroyer>().GameOver();
-        //                         this.gameObject.GetComponent<FX_Mover>().DestroyFX();
-        //                         Destroy(this.transform.parent.gameObject);
-        //                         //Spawner.SetActive(false);
-        //                     }
-        //                 }
-                     
-        //             }
-        //         }
-        //     }
-        // }
     }
 
 
 
     void OnTriggerEnter(Collider col)
     {
-        // if (col.gameObject.tag == "spinStopper")
-        // {
-        //     rayHasPassed = true;                      //so the double slice doesn't stop before it is passed the speedup point.
-        //     print("hasPassed");
-        //     SoundManager.GetComponent<AudioManager>().boostElectricity();
-        //     this.gameObject.transform.parent.GetComponent<Slice_Controller>().dropFast = true;
-        //    // this.gameObject.transform.parent.GetComponent<Slice_Controller>().hasPassed = true;
-
-
-        //     platforms = new GameObject[col.gameObject.GetComponent<SpinStopper>().platforms.Length];
-
-        //     for (int i = 0; i < 6; i++)
-        //     {
-        //         platforms[i] = col.gameObject.GetComponent<SpinStopper>().platforms[i];
-        //     }
-
-        //     transform.parent.GetComponent<MeshRenderer>().material = solidMaterial;
-
-        // }
     }
 
 
@@ -497,16 +331,10 @@ public class Slice_RayCaster : MonoBehaviour
         {
             if (myParent)
             {
-                //sliceRB.constraints &= ~RigidbodyConstraints.FreezePositionY;
                 this.gameObject.transform.parent.transform.parent = null;
                 myParent.GetComponent<Slice_Controller>().hasParented = false;
-                //sliceRB.useGravity = true;
-                if (spinStopHolder)
-                {
-                    //spinStopHolder.GetComponent<SpinStopper>().disallow = true;
-                }
-                //rayHasPassed = true;
-                //rayHasStopped = false;
+
+
                 myParent.GetComponent<Slice_Controller>().hasPassed = false;
                 myParent.GetComponent<Slice_Controller>().hasDropped = false;
                 myParent.GetComponent<Slice_Controller>().hasStopped = false;
@@ -527,39 +355,18 @@ public class Slice_RayCaster : MonoBehaviour
                 RaycastHit fwdhit;
                 RaycastHit uphit;
                 RaycastHit downhit;
-
-
-        // if (!Physics.Raycast(this.gameObject.transform.position, -transform.up, out downhit, 0.1f, layerMask))  //if the raycast hits nothing under slice, make it fall.
-        // {
-        //     if (!isRotating)
-        //     {
-        //         sliceRB.constraints &= ~RigidbodyConstraints.FreezePositionY;
-        //         //this.gameObject.transform.parent.transform.parent = null;
-        //         myParent.GetComponent<Slice_Controller>().hasParented = false;
-        //         //sliceRB.useGravity = true;
-        //         if (spinStopHolder)
-        //         {
-        //             //spinStopHolder.GetComponent<SpinStopper>().disallow = true;
-        //         }
-        //         //rayHasPassed = true;
-        //         //rayHasStopped = false;
-        //         myParent.GetComponent<Slice_Controller>().hasPassed = false;
-        //         myParent.GetComponent<Slice_Controller>().hasDropped = false;
-        //         myParent.GetComponent<Slice_Controller>().hasStopped = false;
-        //         myParent.GetComponent<Slice_Controller>().dropFast = true;
-        //         //print("FALL");
-        //     }
-
-        // }
+                RaycastHit forthDownHit;
+                RaycastHit forthUpHit;
 
 
 
 
 
-        //if (this.gameObject.transform.parent.gameObject.GetComponent<Slice_Controller>().hasStopped == true)
+
+
         {
 
-            //if (sliceRB.velocity.y == 0 && sliceRB.velocity.z == 0 && sliceRB.velocity.x == 0)
+        
             {
 
                 if (Physics.Raycast(transform.position, -transform.forward, out backhit, 0.13f, layerMask)) //&& myParent.GetComponent<Slice_Controller>().hasParented == true && !isRotating)
@@ -571,18 +378,17 @@ public class Slice_RayCaster : MonoBehaviour
                         {
                             if (fwdhit.collider != this.gameObject.GetComponent<Collider>())
                             {
-                                //print(backhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor());
-                                // print(otherColor);
+                             
 
 
                                 if (backhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor) && fwdhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor))
                                 {
                                     print(backhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor());
-                                    //if (backhit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped && fwdhit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped)
+                               
                                     {
                                         if (!hasBeenAdded)
                                         {
-                                            //if (backhit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped == true && fwdhit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped == true)
+                                         
                                             {
                                                 GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(this.gameObject.transform.parent.gameObject);
                                                 GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(fwdhit.collider.gameObject);
@@ -615,7 +421,7 @@ public class Slice_RayCaster : MonoBehaviour
 
                             if (downhit.collider.transform != this.gameObject.GetComponent<Collider>())
                             {
-                                //print(downhit.collider.transform.gameObject.tag);
+                              
 
 
                                 if (uphit.collider.transform.gameObject.GetComponent<Slice_Controller>() && downhit.collider.transform.gameObject.GetComponent<Slice_Controller>())
@@ -625,16 +431,48 @@ public class Slice_RayCaster : MonoBehaviour
                                     if (uphit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor) && downhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor))
                                     {
                                         
-                                        //if (uphit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped && downhit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped)
+                                       
                                         {
                                            
                                             if (!hasBeenAddedVert)
                                             {
-                                                //if (downhit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped == true && uphit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped == true)
+                                               
                                                 {
+                                                    
+                                                    //check two below for forthDown
+                                                    if (Physics.Raycast(this.gameObject.transform.position, -transform.up, out forthDownHit, 0.18f, layerMask))
+                                                    {
+                                                        if(forthDownHit.collider.transform.gameObject.GetComponent<Slice_Controller>())
+                                                        {
+                                                          if (forthDownHit.collider.transform != this.gameObject.GetComponent<Collider>() && forthDownHit.collider.transform != downhit.collider.gameObject.GetComponent<Collider>())
+                                                            {
+                                                                
+                                                                if (forthDownHit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor))
+                                                                {
+                                                                    GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(forthDownHit.collider.gameObject);
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    //check two above for forthUp
+                                                    if (Physics.Raycast(this.gameObject.transform.position, -transform.up, out forthUpHit, 0.18f, layerMask))
+                                                    {
+                                                        if(forthUpHit.collider.transform.gameObject.GetComponent<Slice_Controller>() && forthUpHit.collider.transform != uphit.collider.gameObject.GetComponent<Collider>())
+                                                        {
+                                                          if (forthUpHit.collider.transform != this.gameObject.GetComponent<Collider>())
+                                                            {
+                                                                if (forthUpHit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor))
+                                                                {
+                                                                    GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(forthUpHit.collider.gameObject);
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                     GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(this.gameObject.transform.parent.gameObject);
                                                     GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(uphit.collider.gameObject);
                                                     GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(downhit.collider.gameObject);
+
+
                                                     hasBeenAddedVert = true;
                                                 }
                                             }
@@ -656,35 +494,7 @@ public class Slice_RayCaster : MonoBehaviour
     }
 
 
-     /*public bool checkPFVelocity()
-     {
-         if (!startCheck)
-         {
-             //platforms = new GameObject[5];
-             startCheck = true;
-         }
-
-         if (platforms[0] != null)
-         {
-             for (int i = 0; i < platforms.Length; i++)
-             {
-                if (platforms[0].GetComponent<Rigidbody>().angularVelocity.magnitude == 0 && platforms[1].GetComponent<Rigidbody>().angularVelocity.magnitude == 0 && platforms[2].GetComponent<Rigidbody>().angularVelocity.magnitude == 0
-                    && platforms[3].GetComponent<Rigidbody>().angularVelocity.magnitude == 0 && platforms[4].GetComponent<Rigidbody>().angularVelocity.magnitude == 0 && platforms[5].GetComponent<Rigidbody>().angularVelocity.magnitude == 0)
-                {
-                    //print("working");
-                    return false;
-
-                }
-                else
-                {
-                    return true;
-                }
-             }
-         }
-         return true;
-
-     }*/
-
+    
 
     public void blackRowDestroyer()  //send score update to cube_destroyer.cs
     {
@@ -757,13 +567,13 @@ public class Slice_RayCaster : MonoBehaviour
                                         {
                                             if (downhits[i].collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped)
                                             {
-                                                //if (!hasBeenAddedVert)
+
                                                 {
-                                                    //if (downhit.collider.transform.gameObject.GetComponent<Slice_Controller>().hasStopped == true)
+                                                    
                                                     {
-                                                        //for (int j = 0; j < GameManager.GetComponent<Cube_Destroyer>().cubesToDestroy.Count; j++)
+                                                        
                                                         {
-                                                            //if (downhits[i].collider.transform != GameManager.GetComponent<Cube_Destroyer>().cubesToDestroy[j].GetComponent<Collider>().transform)
+
                                                             {
                                                                 if (this.gameObject.transform.parent.GetComponent<Slice_Controller>().dropFast == false && downhits[i].collider.transform.GetComponent<Slice_Controller>().dropFast == false)
                                                                 {
@@ -773,16 +583,10 @@ public class Slice_RayCaster : MonoBehaviour
 
                                                                 
 
-                                                               /* for (int j = 0; j < GameManager.GetComponent<Cube_Destroyer>().cubesToDestroy.Count; j++)
-                                                                {
-                                                                    if (downhits[i].collider.transform == GameManager.GetComponent<Cube_Destroyer>().cubesToDestroy[j].GetComponent<Collider>().transform)
-                                                                    {
-                                                                        //GameManager.GetComponent<Cube_Destroyer>().cubesToDestroy.Remove(downhits[i].collider.transform.gameObject);
-                                                                    }
-                                                                }*/
+                                                            
                                                             }
 
-                                                            //hasBeenAddedVert = true;
+                                                       
                                                         }
                                                     }
                                                 }
@@ -794,7 +598,7 @@ public class Slice_RayCaster : MonoBehaviour
                                     }
 
                                 }
-                                //hasBeenAddedVert = true;
+                     
                                 if (this.gameObject.transform.parent.GetComponent<Slice_Controller>().dropFast == false)
                                 {
                                     GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(this.gameObject.transform.parent.gameObject);

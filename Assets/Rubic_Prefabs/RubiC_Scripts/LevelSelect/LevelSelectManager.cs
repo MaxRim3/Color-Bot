@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LevelSelectManager : MonoBehaviour
 {
+    public AudioSourceGRP_Controller audioSourceGRPController;
+    public GameObject playModal;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,33 +18,63 @@ public class LevelSelectManager : MonoBehaviour
         
     }
 
-    public void selectClassicSong()
+    public void PlayButton()
     {
-        PlayerPrefs.SetString("Level","Classic");
         Application.LoadLevel("RubiC_1");
     }
 
-    public void selectAlexiActionCyberWar()
+    public void closeModal()
     {
-        PlayerPrefs.SetString("Level","AlexiActionCyberWar");
-        Application.LoadLevel("RubiC_1");
+        playModal.SetActive(false);
+        audioSourceGRPController.DisableChildren();
     }
-    public void selectAlexiActionTension()
+
+    public void selectSong(string songName, int audioSourceNum)
     {
-        PlayerPrefs.SetString("Level","AlexiActionTension");
-        Application.LoadLevel("RubiC_1");
+        playModal.SetActive(true);
+        audioSourceGRPController.DisableChildren();
+        audioSourceGRPController.audioSources[audioSourceNum].SetActive(true);
+        PlayerPrefs.SetString("Level",songName);
     }
 
     public void selectAimToHeadResonance()
     {
+        playModal.SetActive(true);
+        audioSourceGRPController.DisableChildren();
+        audioSourceGRPController.audioSources[0].SetActive(true);
         PlayerPrefs.SetString("Level","AimToHeadResonance");
-        Application.LoadLevel("RubiC_1");
+    }
+
+    public void selectAlexiActionCyberWar()
+    {
+         playModal.SetActive(true);
+        audioSourceGRPController.DisableChildren();
+        audioSourceGRPController.audioSources[1].SetActive(true);
+        PlayerPrefs.SetString("Level","AlexiActionCyberWar");
+
+    }
+    public void selectAlexiActionTension()
+    {
+         playModal.SetActive(true);
+        audioSourceGRPController.DisableChildren();
+        audioSourceGRPController.audioSources[2].SetActive(true);
+        PlayerPrefs.SetString("Level","AlexiActionTension");
+    }
+
+    public void selectClassicSong()
+    {
+         playModal.SetActive(true);
+        audioSourceGRPController.DisableChildren();
+        audioSourceGRPController.audioSources[3].SetActive(true);
+        PlayerPrefs.SetString("Level","Classic");
     }
 
     public void selectMacsumMemoryOfTheFuture()
     {
+         playModal.SetActive(true);
+        audioSourceGRPController.DisableChildren();
+        audioSourceGRPController.audioSources[4].SetActive(true);
         PlayerPrefs.SetString("Level","MacsumMemoryOfTheFuture");
-        Application.LoadLevel("RubiC_1");
     }
 
     
