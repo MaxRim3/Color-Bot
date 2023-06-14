@@ -169,6 +169,11 @@ public class Slice_RayCaster : MonoBehaviour
 
         }
 
+            if (goldHammer && this.gameObject.transform.parent.GetComponent<Slice_Controller>().dropFast == false)
+        {
+            goldHammerRay();
+        }
+
             var layerMask = ~((1 << 9) | (1 << 10) | (1 << 13) | (1 << 2));
 
 
@@ -352,24 +357,18 @@ public class Slice_RayCaster : MonoBehaviour
     {
         var layerMask = ~((1 << 9) | (1 << 10) | (1 << 13) | (1 << 2));
           RaycastHit backhit;
-                RaycastHit fwdhit;
-                RaycastHit uphit;
-                RaycastHit downhit;
-                RaycastHit forthDownHit;
-                RaycastHit forthUpHit;
-
-
-
-
-
-
+        RaycastHit fwdhit;
+        RaycastHit uphit;
+        RaycastHit downhit;
+        RaycastHit forthDownHit;
+        RaycastHit forthUpHit;
 
         {
 
         
             {
 
-                if (Physics.Raycast(transform.position, -transform.forward, out backhit, 0.13f, layerMask)) //&& myParent.GetComponent<Slice_Controller>().hasParented == true && !isRotating)
+                if (Physics.Raycast(transform.position, -transform.forward, out backhit, 0.13f, layerMask))
                 {
                     if (backhit.collider != this.gameObject.GetComponent<Collider>())
                     {
@@ -439,35 +438,38 @@ public class Slice_RayCaster : MonoBehaviour
                                                
                                                 {
                                                     
-                                                    //check two below for forthDown
-                                                    if (Physics.Raycast(this.gameObject.transform.position, -transform.up, out forthDownHit, 0.18f, layerMask))
+
+                                                    RaycastHit[] hits = Physics.RaycastAll(this.gameObject.transform.position, -transform.up, 0.18f, layerMask);
+                                                    foreach (RaycastHit hit in hits)
                                                     {
-                                                        if(forthDownHit.collider.transform.gameObject.GetComponent<Slice_Controller>())
+                                                        if (hit.collider.transform.gameObject.GetComponent<Slice_Controller>())
                                                         {
-                                                          if (forthDownHit.collider.transform != this.gameObject.GetComponent<Collider>() && forthDownHit.collider.transform != downhit.collider.gameObject.GetComponent<Collider>())
+                                                            if (hit.collider.transform != this.gameObject.GetComponent<Collider>() && hit.collider.transform != downhit.collider.gameObject.GetComponent<Collider>())
                                                             {
-                                                                
-                                                                if (forthDownHit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor))
+                                                                if (hit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor))
                                                                 {
-                                                                    GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(forthDownHit.collider.gameObject);
+                                                                    GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(hit.collider.gameObject);
                                                                 }
                                                             }
                                                         }
                                                     }
-                                                    //check two above for forthUp
-                                                    if (Physics.Raycast(this.gameObject.transform.position, -transform.up, out forthUpHit, 0.18f, layerMask))
+
+
+                                                   hits = Physics.RaycastAll(this.gameObject.transform.position, transform.up, 0.18f, layerMask);
+                                                    foreach (RaycastHit hit in hits)
                                                     {
-                                                        if(forthUpHit.collider.transform.gameObject.GetComponent<Slice_Controller>() && forthUpHit.collider.transform != uphit.collider.gameObject.GetComponent<Collider>())
+                                                        if (hit.collider.transform.gameObject.GetComponent<Slice_Controller>())
                                                         {
-                                                          if (forthUpHit.collider.transform != this.gameObject.GetComponent<Collider>())
+                                                            if (hit.collider.transform != this.gameObject.GetComponent<Collider>() && hit.collider.transform != uphit.collider.gameObject.GetComponent<Collider>())
                                                             {
-                                                                if (forthUpHit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor))
+                                                                if (hit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor))
                                                                 {
-                                                                    GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(forthUpHit.collider.gameObject);
+                                                                    GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(hit.collider.gameObject);
                                                                 }
                                                             }
                                                         }
                                                     }
+
                                                     GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(this.gameObject.transform.parent.gameObject);
                                                     GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(uphit.collider.gameObject);
                                                     GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(downhit.collider.gameObject);

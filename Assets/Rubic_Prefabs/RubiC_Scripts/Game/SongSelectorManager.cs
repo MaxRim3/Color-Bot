@@ -15,19 +15,19 @@ public class SongSelectorManager : MonoBehaviour
         switch(PlayerPrefs.GetString("Level"))
         {
             case "Classic":
-                classicKoreographerSpawner.SetActive(true);
+                StartCoroutine(waitAndPlayClassic());
             break;
             case "AlexiActionCyberWar":
                 cyberWarKoreographerSpawner.SetActive(true);
                 break;
             case "AlexiActionTension":
-                tensionKoreographerSpawner.SetActive(true);
+                StartCoroutine(waitAndPlayTension());
             break;
             case "AimToHeadResonance":
                 resonanceKoreographerSpawner.SetActive(true);
             break;
             case "MacsumMemoryOfTheFuture":
-                memoryOfTheFutureKoreographerSpawner.SetActive(true);
+                StartCoroutine(waitAndPlayMemoryOfTheFuture());
             break;
             default:
             classicKoreographerSpawner.SetActive(true);
@@ -35,9 +35,22 @@ public class SongSelectorManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator waitAndPlayMemoryOfTheFuture()
     {
-        
+        yield return new WaitForSeconds(3.5f);
+        memoryOfTheFutureKoreographerSpawner.SetActive(true);
+    }
+
+    IEnumerator waitAndPlayClassic()
+    {
+        yield return new WaitForSeconds(2);
+         classicKoreographerSpawner.SetActive(true);
+    }
+
+     IEnumerator waitAndPlayTension()
+    {
+        yield return new WaitForSeconds(2);
+        tensionKoreographerSpawner.SetActive(true);
     }
 }
+

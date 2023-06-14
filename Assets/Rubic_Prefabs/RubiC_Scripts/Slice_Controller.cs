@@ -227,22 +227,6 @@ public class Slice_Controller : MonoBehaviour
             }
         }
     }
-    // void FixedUpdate()
-    // {
-    //     if (dropFast)
-    //     {
-
-    //        //sliceRB.velocity = new Vector3(0, -3f, 0);
-           
-
-    //     }
-        
-
-    //    /* else if (dropMedium)
-    //     {
-    //         sliceRB.velocity = new Vector3(0, -1f, 0);
-    //     }*/
-    // }
 
     public void stepDownIfNoneUnderneath()
     {
@@ -267,10 +251,8 @@ public class Slice_Controller : MonoBehaviour
 
     void OnTriggerStay(Collider col)
     {
-        //if (this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().isRotating == false) //while disallow is true isRotating is false
         {
 
-            //if (col.gameObject.tag == "Base_Platform" && !hasDropped && !dropFast)
               if (col.gameObject.tag == "Base_Platform")
             {
                 sliceRB.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ |
@@ -281,11 +263,9 @@ public class Slice_Controller : MonoBehaviour
                 dropFast = false;
                 hasParented = true;
                 hasDropped = true;
-                //print("parenting baseplatform0");
 
             }
 
-           // if (!dropFast && !hasDropped) //velocity is backwards because going down
             {
 
                 if (col.gameObject.tag == "platform1")
@@ -298,7 +278,6 @@ public class Slice_Controller : MonoBehaviour
                     dropFast = false;
                     hasParented = true;
                     hasDropped = true;
-                    //print("parenting platform1");
                 }
                 else if (col.gameObject.tag == "platform2")
                 {
@@ -310,7 +289,6 @@ public class Slice_Controller : MonoBehaviour
                     dropFast = false;
                     hasParented = true;
                     hasDropped = true;
-                    //print("parenting platform2");
                 }
                 else if (col.gameObject.tag == "platform3")
                 {
@@ -322,7 +300,6 @@ public class Slice_Controller : MonoBehaviour
                     dropFast = false;
                     hasParented = true;
                     hasDropped = true;
-                    //print("parenting platform3");
                 }
                 else if (col.gameObject.tag == "platform4")
                 {
@@ -334,37 +311,12 @@ public class Slice_Controller : MonoBehaviour
                     dropFast = false;
                     hasParented = true;
                     hasDropped = true;
-                    //print("parenting platform4");
                 }
             }
         }
 
         
     }
-
-    /*void OnTriggerEnter(Collider col)
-    {
-        if (this.gameObject.transform.GetChild(0).GetComponent<Slice_RayCaster>().isRotating == false)
-        {
-            if (col.gameObject.tag == "Base_Platform")
-            {
-                this.gameObject.transform.parent = col.gameObject.transform;
-                sliceRB.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ |
-                RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
-                sliceRB.velocity = new Vector3(0, 0, 0);
-            }
-        }
-    }*/
-
-
-    /*void OnTriggerExit(Collider col)
-    {
-        if (col.gameObject.tag == "platform1" || col.gameObject.tag == "platform2" || col.gameObject.tag == "platform3" || col.gameObject.tag == "platform4")
-        {
-            //hasDropped = false;
-            ////print("exitting");
-        }
-    }*/
 
     public string giveColor()
     {
