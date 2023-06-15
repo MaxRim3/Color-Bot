@@ -31,6 +31,7 @@ public class KoreographerSpawner : MonoBehaviour
         Koreographer.Instance.RegisterForEvents("Tension_AlexiAction_Spawner", OnSpawnSliceIndex);
         Koreographer.Instance.RegisterForEvents("MemoryOfTheFuture_Spawner", OnSpawnSliceIndex);
         Koreographer.Instance.RegisterForEvents("AimToHead_Resonance", OnSpawnSliceIndex);
+        Koreographer.Instance.RegisterForEvents("Disfigure_Blank_Spawner", OnSpawnSliceIndex);
     }
 
         private void Update()
