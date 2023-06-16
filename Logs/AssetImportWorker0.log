@@ -15,11 +15,11 @@ C:/Users/Maxim/OneDrive/Documents/ColorBot/RubiC
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52951
+63823
 Successfully changed project path to: C:/Users/Maxim/OneDrive/Documents/ColorBot/RubiC
 C:/Users/Maxim/OneDrive/Documents/ColorBot/RubiC
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 85.98 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 104.97 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.41f1 (7c19dc9acfda)
 [Subsystems] Discovering subsystems at path E:/UnityEditors/2020.3.41f1/Editor/Data/Resources/UnitySubsystems
@@ -36,74 +36,74 @@ Initialize mono
 Mono path[0] = 'E:/UnityEditors/2020.3.41f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityEditors/2020.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/UnityEditors/2020.3.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityEditors/2020.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000820 seconds.
+Registered in 0.000860 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 84.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 84.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.531 seconds
+- Completed reload, in  0.570 seconds
 Domain Reload Profiling:
-	ReloadAssembly (531ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (570ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (431ms)
-			LoadAssemblies (45ms)
+		EndReloadAssembly (461ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
+			SetupTypeCache (150ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (198ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (195ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (85ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006661 seconds.
+Registered in 0.007233 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
+- Completed reload, in  1.171 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1124ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (1172ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (964ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1001ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
+			SetupTypeCache (239ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (525ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (526ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (386ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (382ms)
 				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
@@ -115,11 +115,11 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 second
 Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3511 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 233.5 MB.
-System memory in use after: 233.7 MB.
+System memory in use before: 233.6 MB.
+System memory in use after: 233.8 MB.
 
 Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3974.
-Total: 5.621200 ms (FindLiveObjects: 0.391900 ms CreateObjectMapping: 0.226500 ms MarkObjects: 4.890500 ms  DeleteObjects: 0.111000 ms)
+Total: 5.347700 ms (FindLiveObjects: 0.282100 ms CreateObjectMapping: 0.163500 ms MarkObjects: 4.798600 ms  DeleteObjects: 0.102200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,253 +133,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Rubic_Prefabs/Rubic_Slice.prefab
-  artifactKey: Guid(5d4322f2bd28f3549ab5b7f9a13d72dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Rubic_Slice.prefab using Guid(5d4322f2bd28f3549ab5b7f9a13d72dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4074a859fcbbc132b56370f1adbff945') in 0.121963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.599637 seconds.
-  path: Assets/Rubic_Prefabs/Audio/NCS
-  artifactKey: Guid(25e7f743d29f62b4b8a5516c16a5c20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/NCS using Guid(25e7f743d29f62b4b8a5516c16a5c20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8826bcb73380a4b0354c7ce011f13273') in 0.007977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.135154 seconds.
-  path: Assets/Rubic_Prefabs/Audio/NCS/Disfigure
-  artifactKey: Guid(95f80fb79b6fdf64fa250bd7e8b109b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/NCS/Disfigure using Guid(95f80fb79b6fdf64fa250bd7e8b109b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a333e9e6df420fc2ae99052818b158') in 0.007539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.897811 seconds.
-  path: Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure - Blank [NCS Release].mp3
-  artifactKey: Guid(c64ec1de772e1724e8a81c4fdd29284f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure - Blank [NCS Release].mp3 using Guid(c64ec1de772e1724e8a81c4fdd29284f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5c66df7195b2d7dfd8efb8858d95c4') in 0.020746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.374924 seconds.
-  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_BLACK_RC_N.prefab
-  artifactKey: Guid(5b141b5d3c33bd648b3a42cb324e239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_BLACK_RC_N.prefab using Guid(5b141b5d3c33bd648b3a42cb324e239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0be384440ed97803f4cac31f6320b7') in 0.112315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab
-  artifactKey: Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab using Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e4adda64ae5cd159a7980343171945') in 0.029222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab
-  artifactKey: Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab using Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedad00e15af69e1563a7a802c9af450') in 0.028846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab
-  artifactKey: Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab using Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c280ef9a1dc876132a0def79472700a') in 0.027952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab
-  artifactKey: Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab using Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e49dca021892e5139cdf9ce68cba42f') in 0.027948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab
-  artifactKey: Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab using Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a927f2e4225d4d35324345770a364b01') in 0.069249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab
-  artifactKey: Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab using Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac27c27de64ebe9a96a0fe060f1cbca4') in 0.017357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GOLDHAMMER.prefab
-  artifactKey: Guid(957af980506237541b45f77674da5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GOLDHAMMER.prefab using Guid(957af980506237541b45f77674da5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55adbdc51f57f1d0cd938e161136b829') in 0.357660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab
-  artifactKey: Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab using Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12136cacda15ae69f86ebee7beffe2d') in 0.019247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.887725 seconds.
-  path: Assets/Scenes/RubiC_1.unity
-  artifactKey: Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/RubiC_1.unity using Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515095d0dd2b946c653eb9ff26b98763') in 0.027259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 162.184521 seconds.
-  path: Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure - Blank [NCS Release].mid
-  artifactKey: Guid(a508d07a03319114b88a4e467eda596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure - Blank [NCS Release].mid using Guid(a508d07a03319114b88a4e467eda596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdb11d9a713b337b56fbbdca91e30bf') in 0.005032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 120.572565 seconds.
-  path: Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank.asset
-  artifactKey: Guid(cdaf98e29164f404d865d4071cce2199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank.asset using Guid(cdaf98e29164f404d865d4071cce2199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae1e083af27caafb7dc7393e8361964') in 0.012511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.217234 seconds.
-  path: Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank.asset
-  artifactKey: Guid(cdaf98e29164f404d865d4071cce2199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank.asset using Guid(cdaf98e29164f404d865d4071cce2199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab39b00c2bf412315484f9a8a4b875fc') in 0.002607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
   path: Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank_Spawner.asset
   artifactKey: Guid(7a0c11d91773ca445b32754d75536ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank_Spawner.asset using Guid(7a0c11d91773ca445b32754d75536ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311ebf98aaa088620c6a9f20708eb49a') in 0.014183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2059.920006 seconds.
-  path: Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank_Spawner.asset
-  artifactKey: Guid(7a0c11d91773ca445b32754d75536ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank_Spawner.asset using Guid(7a0c11d91773ca445b32754d75536ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342ded0ef3e8bcb7e01c5383fcb240f7') in 0.006004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.450070 seconds.
-  path: Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank.asset
-  artifactKey: Guid(cdaf98e29164f404d865d4071cce2199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank.asset using Guid(cdaf98e29164f404d865d4071cce2199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f8b843978f5e6f2ffbb9c89148cd32') in 0.009894 seconds 
+Start importing Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank_Spawner.asset using Guid(7a0c11d91773ca445b32754d75536ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d132daa8851c8a3ffed2b85d3ecbddf') in 0.057590 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007280 seconds.
+Registered in 0.006608 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.056 seconds
+- Completed reload, in  0.995 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1057ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (995ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (902ms)
-			LoadAssemblies (88ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (854ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
+			SetupTypeCache (225ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (390ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (391ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (230ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Release of invalid GC handle. The handle is from a previous domain. The release operation is skipped.
-Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
-Release of invalid GC handle native callstack: 
-0x00007ff6adb3f11c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff6adb46719 (Unity) StackWalker::ShowCallstack
-0x00007ff6ae8dcdac (Unity) GetStacktrace
-0x00007ff6ada6bdf2 (Unity) ScriptingGCHandle::ReleaseAndClear
-0x00007ff6ae1b61fc (Unity) UploadHandlerRaw::`vector deleting destructor'
-0x00007ff6ae1b6cad (Unity) UploadHandler::Release
-0x00007ff6ae1af9ca (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::~UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>
-0x00007ff6ae1afc90 (Unity) UnityWebRequest::`vector deleting destructor'
-0x00007ff6ad0d2877 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Release
-0x00007ff6ae1b1195 (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
-0x00007ff6ae1b1361 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
-0x00007ff6ad74007a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
-0x00007ff6ad7db93f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
-0x00007ff6ae9c82f6 (Unity) <lambda_cdc90be1cd3f929cae4009468e10a5ee>::operator()
-0x00007ff6aea577c2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007ff6aea43662 (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007ff6aea45574 (Unity) asio::detail::win_iocp_io_context::run
-0x00007ff6aea55aff (Unity) IOService::Run
-0x00007ff6ae9f17cb (Unity) RunAssetImportWorkerClientV2
-0x00007ff6ae9f1820 (Unity) RunAssetImporterV2
-0x00007ff6ae4659c8 (Unity) Application::InitializeProject
-0x00007ff6ae8e7132 (Unity) WinMain
-0x00007ff6affb3dfe (Unity) __scrt_common_main_seh
-0x00007ff80fba7614 (KERNEL32) BaseThreadInitThunk
-0x00007ff8105e26a1 (ntdll) RtlUserThreadStart
-System memory in use before: 198.2 MB.
-System memory in use after: 198.4 MB.
-
-Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 3988.
-Total: 6.147800 ms (FindLiveObjects: 0.267900 ms CreateObjectMapping: 0.174900 ms MarkObjects: 5.623700 ms  DeleteObjects: 0.080300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006223 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
-Domain Reload Profiling:
-	ReloadAssembly (944ms)
-		BeginReloadAssembly (89ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (810ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (226ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (362ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Release of invalid GC handle. The handle is from a previous domain. The release operation is skipped.
 Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 198.3 MB.
-System memory in use after: 198.5 MB.
+Release of invalid GC handle native callstack: 
+0x00007ff682b7f11c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff682b86719 (Unity) StackWalker::ShowCallstack
+0x00007ff68391cdac (Unity) GetStacktrace
+0x00007ff682aabdf2 (Unity) ScriptingGCHandle::ReleaseAndClear
+0x00007ff6831f61fc (Unity) UploadHandlerRaw::`vector deleting destructor'
+0x00007ff6831f6cad (Unity) UploadHandler::Release
+0x00007ff6831ef9ca (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::~UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>
+0x00007ff6831efc90 (Unity) UnityWebRequest::`vector deleting destructor'
+0x00007ff682112877 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Release
+0x00007ff6831f1195 (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff6831f1361 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff68278007a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff68281b93f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff683a082f6 (Unity) <lambda_cdc90be1cd3f929cae4009468e10a5ee>::operator()
+0x00007ff683a977c2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff683a83662 (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff683a85574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff683a95aff (Unity) IOService::Run
+0x00007ff683a317cb (Unity) RunAssetImportWorkerClientV2
+0x00007ff683a31820 (Unity) RunAssetImporterV2
+0x00007ff6834a59c8 (Unity) Application::InitializeProject
+0x00007ff683927132 (Unity) WinMain
+0x00007ff684ff3dfe (Unity) __scrt_common_main_seh
+0x00007ff80fba7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff8105e26a1 (ntdll) RtlUserThreadStart
+System memory in use before: 195.1 MB.
+System memory in use after: 195.4 MB.
 
-Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3992.
-Total: 4.963100 ms (FindLiveObjects: 0.295000 ms CreateObjectMapping: 0.199800 ms MarkObjects: 4.434300 ms  DeleteObjects: 0.033200 ms)
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3979.
+Total: 5.284800 ms (FindLiveObjects: 0.287800 ms CreateObjectMapping: 0.187400 ms MarkObjects: 4.776100 ms  DeleteObjects: 0.032800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -391,4 +220,85 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 371.230109 seconds.
+  path: Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank_Spawner.asset
+  artifactKey: Guid(7a0c11d91773ca445b32754d75536ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank_Spawner.asset using Guid(7a0c11d91773ca445b32754d75536ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fa8e309a1d9f042731e445a984d9b9') in 0.043696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7918.541772 seconds.
+  path: Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank_Spawner.asset
+  artifactKey: Guid(7a0c11d91773ca445b32754d75536ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank_Spawner.asset using Guid(7a0c11d91773ca445b32754d75536ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9689c7ed60b2b60ddde84a6cd3c28a') in 0.010685 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007137 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1210ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1018ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (483ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.2 MB.
+System memory in use after: 195.4 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3983.
+Total: 7.737400 ms (FindLiveObjects: 0.411900 ms CreateObjectMapping: 0.263600 ms MarkObjects: 7.016100 ms  DeleteObjects: 0.044400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 472.191631 seconds.
+  path: Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank_Spawner.asset
+  artifactKey: Guid(7a0c11d91773ca445b32754d75536ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank_Spawner.asset using Guid(7a0c11d91773ca445b32754d75536ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e807c10a6c77c9ac20920fedf4fcad') in 0.045131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.877556 seconds.
+  path: Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank_Spawner.asset
+  artifactKey: Guid(7a0c11d91773ca445b32754d75536ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Audio/NCS/Disfigure/Disfigure_Blank_Spawner.asset using Guid(7a0c11d91773ca445b32754d75536ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e218a4310da1d94a3c20fcc178656be4') in 0.003317 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
