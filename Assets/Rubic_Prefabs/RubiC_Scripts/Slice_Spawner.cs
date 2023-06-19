@@ -198,7 +198,7 @@ public class Slice_Spawner : MonoBehaviour
                 changeSpawnLightningColor(blackSliceObj.transform.GetChild(0).gameObject);
             }
 
-            else if (spawnSequence == 1)
+            else if (spawnSequence == 0)
             {
 
 
@@ -228,7 +228,7 @@ public class Slice_Spawner : MonoBehaviour
                 changeSpawnLightningColor(newSlice.transform.GetChild(0).gameObject);
 
             }
-            else if (spawnSequence == 2)
+            else if (spawnSequence == 1)
             {
                 GameObject newSlice = Instantiate(sliceList[Random.Range(0, sliceList.Count)], thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation) as GameObject;
                 newSlice.GetComponent<Slice_Controller>().platforms = platforms;
@@ -255,7 +255,7 @@ public class Slice_Spawner : MonoBehaviour
                 Instantiate(particleEffectLeft, this.transform.position, this.transform.rotation);
                 changeSpawnLightningColor(newSlice.transform.GetChild(0).gameObject);
             }
-            else if (spawnSequence == 3)
+            else if (spawnSequence == 2)
             {
                 GameObject newSlice = Instantiate(sliceList[Random.Range(0, sliceList.Count)], forthSpawnPoint.transform.position, forthSpawnPoint.transform.rotation) as GameObject;
                 newSlice.GetComponent<Slice_Controller>().platforms = platforms;

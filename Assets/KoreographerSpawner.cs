@@ -32,6 +32,7 @@ public class KoreographerSpawner : MonoBehaviour
         Koreographer.Instance.RegisterForEvents("MemoryOfTheFuture_Spawner", OnSpawnSliceIndex);
         Koreographer.Instance.RegisterForEvents("AimToHead_Resonance", OnSpawnSliceIndex);
         Koreographer.Instance.RegisterForEvents("Disfigure_Blank_Spawner", OnSpawnSliceIndex);
+        Koreographer.Instance.RegisterForEvents("Elektronomia_Spawner", OnSpawnSliceIndex);
     }
 
         private void Update()
@@ -113,7 +114,7 @@ void OnSpawnSliceIndex(KoreographyEvent evt)
     }
     if(evt.GetIntValue() == 5)
     {
-        finalDrop = 0;
+        finalDrop = 4;
     }
     if(evt.GetIntValue() == 51)
     {
@@ -130,7 +131,7 @@ void OnSpawnSliceIndex(KoreographyEvent evt)
     }
     lastSpawnIndex = evt.GetIntValue();
 
-    sliceSpawner.spawnSliceInstant(finalDrop + 1);
+    sliceSpawner.spawnSliceInstant(finalDrop);
     currentTimeSinceLastDrop = 0;
 }
 
