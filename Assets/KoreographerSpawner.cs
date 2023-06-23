@@ -33,6 +33,7 @@ public class KoreographerSpawner : MonoBehaviour
         Koreographer.Instance.RegisterForEvents("AimToHead_Resonance", OnSpawnSliceIndex);
         Koreographer.Instance.RegisterForEvents("Disfigure_Blank_Spawner", OnSpawnSliceIndex);
         Koreographer.Instance.RegisterForEvents("Elektronomia_Spawner", OnSpawnSliceIndex);
+        Koreographer.Instance.RegisterForEvents("DiomaSpawnerEvent", OnSpawnSliceIndex);
     }
 
         private void Update()
