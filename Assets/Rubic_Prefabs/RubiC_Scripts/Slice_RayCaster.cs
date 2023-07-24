@@ -209,7 +209,7 @@ public class Slice_RayCaster : MonoBehaviour
                         }
                         if (pink)
                         {
-                            checkNearSlices(pink, "pink");
+                            checkNearDeathSlices(true);
                         }
                         if (yellow)
                         {
@@ -353,6 +353,9 @@ public class Slice_RayCaster : MonoBehaviour
         return true;
     }
 
+
+
+
     public void checkNearSlices(bool color, string myColor)
     {
         var layerMask = ~((1 << 9) | (1 << 10) | (1 << 13) | (1 << 2));
@@ -380,7 +383,7 @@ public class Slice_RayCaster : MonoBehaviour
                              
 
 
-                                if (backhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor) && fwdhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor))
+                                if ((backhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor) || backhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals("pink")) && (fwdhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor) || fwdhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals("pink")))
                                 {
                                     print(backhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor());
                                
@@ -427,7 +430,11 @@ public class Slice_RayCaster : MonoBehaviour
                                 {
 
 
-                                    if (uphit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor) && downhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor))
+                                   if (
+    (uphit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor) || uphit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals("pink"))
+    &&
+    (downhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor) || downhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals("pink"))
+)
                                     {
                                         
                                        
@@ -446,7 +453,7 @@ public class Slice_RayCaster : MonoBehaviour
                                                         {
                                                             if (hit.collider.transform != this.gameObject.GetComponent<Collider>() && hit.collider.transform != downhit.collider.gameObject.GetComponent<Collider>())
                                                             {
-                                                                if (hit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor))
+                                                                if (hit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor) || hit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals("pink"))
                                                                 {
                                                                     GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(hit.collider.gameObject);
                                                                 }
@@ -462,7 +469,7 @@ public class Slice_RayCaster : MonoBehaviour
                                                         {
                                                             if (hit.collider.transform != this.gameObject.GetComponent<Collider>() && hit.collider.transform != uphit.collider.gameObject.GetComponent<Collider>())
                                                             {
-                                                                if (hit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor))
+                                                                if (hit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals(myColor) || hit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor().Equals("pink"))
                                                                 {
                                                                     GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(hit.collider.gameObject);
                                                                 }
@@ -494,6 +501,110 @@ public class Slice_RayCaster : MonoBehaviour
             }
         }
     }
+
+
+
+public void checkNearDeathSlices(bool color)
+{
+    var layerMask = ~((1 << 9) | (1 << 10) | (1 << 13) | (1 << 2));
+    RaycastHit backhit;
+    RaycastHit fwdhit;
+    RaycastHit uphit;
+    RaycastHit downhit;
+    RaycastHit forthDownHit;
+    RaycastHit forthUpHit;
+
+    // Helper method for color check
+    bool IsCorrectColor(GameObject obj)
+    {
+        var color = obj.GetComponent<Slice_Controller>().giveColor();
+        return color.Equals("pink");
+    }
+
+    if (Physics.Raycast(transform.position, -transform.forward, out backhit, 0.13f, layerMask))
+    {
+        if (backhit.collider != this.gameObject.GetComponent<Collider>())
+        {
+            if (Physics.Raycast(this.gameObject.transform.position, transform.forward, out fwdhit, 0.13f, layerMask))
+            {
+                if (fwdhit.collider != this.gameObject.GetComponent<Collider>())
+                {
+                    if (IsCorrectColor(backhit.collider.transform.gameObject) && IsCorrectColor(fwdhit.collider.transform.gameObject))
+                    {
+                        print(backhit.collider.transform.gameObject.GetComponent<Slice_Controller>().giveColor());
+                        if (!hasBeenAdded)
+                        {
+                            GameManagerLocal.GetComponent<Cube_Destroyer>().GameOver();
+                            //ENDGAME
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    if (Physics.Raycast(transform.position, transform.up, out uphit, 0.1f, layerMask)) 
+    {
+        if (uphit.collider.transform != this.gameObject.GetComponent<Collider>())
+        {
+            if (Physics.Raycast(this.gameObject.transform.position, -transform.up, out downhit, 0.1f, layerMask))
+            {
+                if (downhit.collider.transform != this.gameObject.GetComponent<Collider>())
+                {
+                    if (uphit.collider.transform.gameObject.GetComponent<Slice_Controller>() && downhit.collider.transform.gameObject.GetComponent<Slice_Controller>())
+                    {
+                        if (IsCorrectColor(uphit.collider.transform.gameObject) && IsCorrectColor(downhit.collider.transform.gameObject))
+                        {
+                            if (!hasBeenAddedVert)
+                            {
+                                RaycastHit[] hits = Physics.RaycastAll(this.gameObject.transform.position, -transform.up, 0.18f, layerMask);
+                                foreach (RaycastHit hit in hits)
+                                {
+                                    if (hit.collider.transform.gameObject.GetComponent<Slice_Controller>())
+                                    {
+                                        if (hit.collider.transform != this.gameObject.GetComponent<Collider>() && hit.collider.transform != downhit.collider.gameObject.GetComponent<Collider>())
+                                        {
+                                            if (IsCorrectColor(hit.collider.transform.gameObject))
+                                            {
+                                                     GameManagerLocal.GetComponent<Cube_Destroyer>().GameOver();
+                                                //GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(hit.collider.gameObject);
+                                            }
+                                        }
+                                    }
+                                }
+
+                                hits = Physics.RaycastAll(this.gameObject.transform.position, transform.up, 0.18f, layerMask);
+                                foreach (RaycastHit hit in hits)
+                                {
+                                    if (hit.collider.transform.gameObject.GetComponent<Slice_Controller>())
+                                    {
+                                        if (hit.collider.transform != this.gameObject.GetComponent<Collider>() && hit.collider.transform != uphit.collider.gameObject.GetComponent<Collider>())
+                                        {
+                                            if (IsCorrectColor(hit.collider.transform.gameObject))
+                                            {
+                                                 GameManagerLocal.GetComponent<Cube_Destroyer>().GameOver();
+                                                //GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(hit.collider.gameObject);
+                                            }
+                                        }
+                                    }
+                                }
+                                     GameManagerLocal.GetComponent<Cube_Destroyer>().GameOver();
+                                //END GAME
+
+                                // GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(this.gameObject.transform.parent.gameObject);
+                                // GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(uphit.collider.gameObject);
+                                // GameManagerLocal.GetComponent<Cube_Destroyer>().cubesToDestroy.Add(downhit.collider.gameObject);
+
+                               // hasBeenAddedVert = true;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
     
