@@ -16,6 +16,9 @@ public class Slice_RayCaster : MonoBehaviour
     public bool goldHammer;
 
     public Material solidMaterial;
+    public Material bombMaterial;
+
+    public bool isBomb;
 
     public GameObject SoundManager;
     public GameObject Camera;
@@ -67,6 +70,13 @@ public class Slice_RayCaster : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        int diceRoll = 0;
+        diceRoll = UnityEngine.Random.Range(0, 4);
+        if(diceRoll == 3)
+        {
+            isBomb = true;
+        }
+
         SoundManager = GameObject.FindWithTag("AudioManager");
 
       
@@ -160,8 +170,14 @@ public class Slice_RayCaster : MonoBehaviour
             {
                 platforms[i] = spinStopHolder.gameObject.GetComponent<SpinStopper>().platforms[i];
             }
-
-            transform.parent.GetComponent<MeshRenderer>().material = solidMaterial;
+            if(isBomb)
+            {
+              transform.parent.GetComponent<MeshRenderer>().material = bombMaterial;  
+            }
+            else
+            {
+                transform.parent.GetComponent<MeshRenderer>().material = solidMaterial;
+            }
             if(transform.parent.GetComponent<Slice_Changer>())
             {
                 transform.parent.GetComponent<Slice_Changer>().changeColorV();

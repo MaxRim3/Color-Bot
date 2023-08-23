@@ -182,10 +182,18 @@ public class Slice_Spawner : MonoBehaviour
               summonEffectTwo.GetComponent<X_LB_LightningSource>().color = Color.grey;
         }
     }
-
+    public int lastSliceIndex = -1;
      public void spawnSliceInstant(int spawnSequenceInput)
     {
-        //bassCubeCanSpawn = false;
+        int newIndex;
+
+        do
+        {
+            newIndex = Random.Range(0, sliceList.Count);
+        } while (newIndex == lastSliceIndex);
+
+        lastSliceIndex = newIndex;
+
             spawnSequence = spawnSequenceInput;
             if (sendBlack)
             {
@@ -202,7 +210,7 @@ public class Slice_Spawner : MonoBehaviour
             {
 
 
-                GameObject newSlice = Instantiate(sliceList[Random.Range(0, sliceList.Count)], this.transform.position, this.transform.rotation) as GameObject;
+                GameObject newSlice = Instantiate(sliceList[newIndex], this.transform.position, this.transform.rotation) as GameObject;
                 newSlice.GetComponent<Slice_Controller>().platforms = platforms;
                 slicesToDestroy.Add(newSlice);
 
@@ -230,7 +238,7 @@ public class Slice_Spawner : MonoBehaviour
             }
             else if (spawnSequence == 1)
             {
-                GameObject newSlice = Instantiate(sliceList[Random.Range(0, sliceList.Count)], thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation) as GameObject;
+                GameObject newSlice = Instantiate(sliceList[newIndex], thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation) as GameObject;
                 newSlice.GetComponent<Slice_Controller>().platforms = platforms;
                 slicesToDestroy.Add(newSlice);
 
@@ -257,7 +265,7 @@ public class Slice_Spawner : MonoBehaviour
             }
             else if (spawnSequence == 2)
             {
-                GameObject newSlice = Instantiate(sliceList[Random.Range(0, sliceList.Count)], forthSpawnPoint.transform.position, forthSpawnPoint.transform.rotation) as GameObject;
+                GameObject newSlice = Instantiate(sliceList[newIndex], forthSpawnPoint.transform.position, forthSpawnPoint.transform.rotation) as GameObject;
                 newSlice.GetComponent<Slice_Controller>().platforms = platforms;
                 slicesToDestroy.Add(newSlice);
 
@@ -465,15 +473,6 @@ public class Slice_Spawner : MonoBehaviour
         {
             yield return new WaitForSeconds(spawnTimer);
 
-            //if (specialsStarted)
-            //{
-            //    goldHammer();
-            //    antiqueChanger(); 
-            //}
-
-
-            //SoundManager.GetComponent<AudioManager>().blockAppear();
-
             spawnSequence = 1;
             if (sendBlack)
             {
@@ -527,32 +526,15 @@ public class Slice_Spawner : MonoBehaviour
 
                 int i = list[index]; // the number that was picked
 
-                //Instantiate(sliceList[i], this.transform.position, this.transform.rotation);
-
                 GameObject newSlice = Instantiate(sliceList[i], this.transform.position, this.transform.rotation) as GameObject;
 
                 slicesToDestroy.Add(newSlice);
-
-                /*for (int l = 0; l < specialSlices.Length; l++)
-                {
-                    if (newSlice.gameObject.name == specialSlices[l].name || newSlice.gameObject.name == "Rubic_Slice_Black_RC_N")
-                    {
-                        SoundManager.GetComponent<AudioManager>().superBlockAppear();
-                    }
-
-                    else
-
-                    {
-                        SoundManager.GetComponent<AudioManager>().blockAppear();
-                    }
-                }*/
 
                 Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
 
                 list.RemoveAt(index);
                 int indexTwo = Random.Range(0, list.Count);
                 int j = list[indexTwo];
-                //Instantiate(sliceList[j], secondSpawnPoint.transform.position, this.transform.rotation);
 
                 GameObject secondNewSlice = Instantiate(sliceList[j], secondSpawnPoint.transform.position, secondSpawnPoint.transform.rotation) as GameObject;
 
@@ -597,32 +579,15 @@ public class Slice_Spawner : MonoBehaviour
                     int index = Random.Range(0, list.Count);
                     int i = list[index]; // the number that was picked
 
-                    //Instantiate(sliceList[i], this.transform.position, this.transform.rotation);
-
                     GameObject newSlice = Instantiate(sliceList[i], this.transform.position, this.transform.rotation) as GameObject;
 
                     slicesToDestroy.Add(newSlice);
-
-                    /*for (int l = 0; l < specialSlices.Length; l++)
-                    {
-                        if (newSlice.gameObject.name == specialSlices[l].name || newSlice.gameObject.name == "Rubic_Slice_Black_RC_N")
-                        {
-                            SoundManager.GetComponent<AudioManager>().superBlockAppear();
-                        }
-
-                        else
-
-                        {
-                            SoundManager.GetComponent<AudioManager>().blockAppear();
-                        }
-                    }*/
 
                     Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
 
                     list.RemoveAt(index);
                     int indexTwo = Random.Range(0, list.Count);
                     int j = list[indexTwo];
-                    //Instantiate(sliceList[j], thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation);
 
                     GameObject secondNewSlice = Instantiate(sliceList[j], thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation) as GameObject;
 
@@ -671,25 +636,11 @@ public class Slice_Spawner : MonoBehaviour
 
                     int i = list[index]; // the number that was picked
 
-                    //Instantiate(sliceList[i], this.transform.position, this.transform.rotation);
 
                     GameObject newSlice = Instantiate(sliceList[i], this.transform.position, this.transform.rotation) as GameObject;
 
                     slicesToDestroy.Add(newSlice);
 
-                    /*for (int l = 0; l < specialSlices.Length; l++)
-                    {
-                        if (thirdNewSlice.gameObject.name == specialSlices[l].name || thirdNewSlice.gameObject.name == "Rubic_Slice_Black_RC_N")
-                        {
-                            SoundManager.GetComponent<AudioManager>().superBlockAppear();
-                        }
-
-                        else
-
-                        {
-                            SoundManager.GetComponent<AudioManager>().blockAppear();
-                        }
-                    }*/
 
                     Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
 
@@ -697,8 +648,6 @@ public class Slice_Spawner : MonoBehaviour
                     int indexTwo = Random.Range(0, list.Count);
                     int j = list[indexTwo];
 
-
-                    //Instantiate(sliceList[j], forthSpawnPoint.transform.position, forthSpawnPoint.transform.rotation);
 
                     GameObject newSecondSlice = Instantiate(sliceList[j], forthSpawnPoint.transform.position, forthSpawnPoint.transform.rotation) as GameObject;
 
@@ -741,10 +690,6 @@ public class Slice_Spawner : MonoBehaviour
 
             else if (spawnSequence == 4)
             {
-                //int ranNum = Random.Range(0, 1);
-
-
-                //if (ranNum == 0)
                 {
                     for (int n = 0; n < sliceList.Count; n++)
                     {
@@ -754,25 +699,9 @@ public class Slice_Spawner : MonoBehaviour
                     int index = Random.Range(0, list.Count);
                     int i = list[index]; // the number that was picked
 
-                    //Instantiate(sliceList[i], this.transform.position, this.transform.rotation);
-
                     GameObject newSlice = Instantiate(sliceList[i], this.transform.position, this.transform.rotation) as GameObject;
 
                     slicesToDestroy.Add(newSlice);
-
-                    /*for (int l = 0; l < specialSlices.Length; l++)
-                    {
-                        if (newSlice.gameObject.name == specialSlices[l].name || newSlice.gameObject.name == "Rubic_Slice_Black_RC_N")
-                        {
-                            SoundManager.GetComponent<AudioManager>().superBlockAppear();
-                        }
-
-                        else
-
-                        {
-                            SoundManager.GetComponent<AudioManager>().blockAppear();
-                        }
-                    }*/
 
                     Instantiate(particleEffectMiddle, this.transform.position, this.transform.rotation);
 
@@ -785,20 +714,6 @@ public class Slice_Spawner : MonoBehaviour
                     GameObject secondNewSlice = Instantiate(sliceList[j], thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation) as GameObject;
 
                     slicesToDestroy.Add(secondNewSlice);
-
-                    /*for (int x = 0; x < specialSlices.Length; x++)
-                    {
-                        if (secondNewSlice.gameObject.name == specialSlices[x].name || secondNewSlice.gameObject.name == "Rubic_Slice_Black_RC_N")
-                        {
-                            SoundManager.GetComponent<AudioManager>().superBlockAppear();
-                        }
-
-                        else
-
-                        {
-                            SoundManager.GetComponent<AudioManager>().blockAppear();
-                        }
-                    }*/
 
                     Instantiate(particleEffectMiddle, thirdSpawnPoint.transform.position, thirdSpawnPoint.transform.rotation);
 
@@ -815,20 +730,6 @@ public class Slice_Spawner : MonoBehaviour
                     GameObject thirdNewSlice = Instantiate(sliceList[k], forthSpawnPoint.transform.position, forthSpawnPoint.transform.rotation) as GameObject;
 
                     slicesToDestroy.Add(thirdNewSlice);
-
-                    /*for (int l = 0; l < specialSlices.Length; l++)
-                    {
-                        if (thirdNewSlice.gameObject.name == specialSlices[l].name || thirdNewSlice.gameObject.name == "Rubic_Slice_Black_RC_N")
-                        {
-                            SoundManager.GetComponent<AudioManager>().superBlockAppear();
-                        }
-
-                        else
-
-                        {
-                            SoundManager.GetComponent<AudioManager>().blockAppear();
-                        }
-                    }*/
 
                     Instantiate(particleEffectMiddle, forthSpawnPoint.transform.position, forthSpawnPoint.transform.rotation);
 

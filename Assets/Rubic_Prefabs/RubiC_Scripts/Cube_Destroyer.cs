@@ -162,6 +162,7 @@ public class Cube_Destroyer : MonoBehaviour
 
                 if (cubesToDestroy.Count >= 3)
                 {
+                    int bombCount = 0;
                     if (!vHappy)
                     {
                         screenAnimator.SetTrigger("HappyScore");
@@ -169,7 +170,13 @@ public class Cube_Destroyer : MonoBehaviour
 
                     for (int i = 0; i < cubesToDestroy.Count; i++)
                     {
-
+                        if (cubesToDestroy[i])
+                        {
+                            if (cubesToDestroy[i].transform.GetChild(0).GetComponent<Slice_RayCaster>().isBomb)
+                            {
+                                bombCount++;
+                            }
+                        }
                         if (cubesToDestroy[i])
                         {
                             Destroy(cubesToDestroy[i]);
@@ -231,6 +238,10 @@ public class Cube_Destroyer : MonoBehaviour
 
                     SoundManager.GetComponent<AudioManager>().blockDisappear();
                     vHappy = false;
+                    if(bombCount >= 3)
+                    {
+                        GameOver();
+                    }
                 }
             }
             yield return null;

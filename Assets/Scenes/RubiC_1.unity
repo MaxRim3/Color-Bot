@@ -21912,7 +21912,7 @@ MonoBehaviour:
   - {fileID: 5314645480544143747, guid: 70b74931ed133a346a578f3eea72a41d, type: 3}
   - {fileID: 3364623260608616528, guid: 2d17208d2ea136b48b4c5c2d0604546e, type: 3}
   - {fileID: 5314645480544143747, guid: e35e9c1a688b56445addf79f38bc7260, type: 3}
-  - {fileID: 3364623260608616528, guid: 68b505efa44f4a14485bdf911bd13af3, type: 3}
+  - {fileID: 3364623260608616528, guid: 6f7cda9732421a44b8c95ca2533c4221, type: 3}
   blackSlice: {fileID: 3364623260608616528, guid: 5b141b5d3c33bd648b3a42cb324e239d,
     type: 3}
   slicesToDestroy: []
@@ -21953,6 +21953,7 @@ MonoBehaviour:
   - {fileID: 1253292865}
   bassCubeCanSpawn: 1
   bjango: 0
+  lastSliceIndex: -1
 --- !u!4 &1947917208 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4790516697748175486, guid: 5d4322f2bd28f3549ab5b7f9a13d72dd,
