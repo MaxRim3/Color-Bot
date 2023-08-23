@@ -59,3 +59,4 @@ FaceDefender/Unity-iPhone/.DS_Store
 *.assets
 *.resS
 Face Defender/Libraries/libiPhone-lib.a
+*.log

@@ -985,3 +985,45 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1241.305091 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(6dbeac9ee6c7ff94d8aac90f71ed50f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(6dbeac9ee6c7ff94d8aac90f71ed50f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f54557c26d43ba0a7c77af95aab132') in 0.043937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.927286 seconds.
+  path: Assets/Scenes/LevelSelect.unity
+  artifactKey: Guid(507ffeb8a46270945942507b0d444c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelSelect.unity using Guid(507ffeb8a46270945942507b0d444c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9553ae1d21406866735369392aa45240') in 0.025493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.204077 seconds.
+  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BackToMenuIcon.png
+  artifactKey: Guid(70d935dacbf4dd4458b2bf20f1252f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BackToMenuIcon.png using Guid(70d935dacbf4dd4458b2bf20f1252f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab0ee62236261b4fe641f48835b3094') in 0.823136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Rubic_Prefabs/UI/MainMenu/layoutMENU_robot_SCREENSHOT.png
+  artifactKey: Guid(dce8945a6d124bc49b7ec1f5f87062f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/MainMenu/layoutMENU_robot_SCREENSHOT.png using Guid(dce8945a6d124bc49b7ec1f5f87062f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9709b858155aa4763e4b3998dbbe95af') in 0.025624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/VLights/Resources/VLights/MenuSkin.guiskin
+  artifactKey: Guid(37f22541fdf8e7544b73693fad89040a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VLights/Resources/VLights/MenuSkin.guiskin using Guid(37f22541fdf8e7544b73693fad89040a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe69e8f73b1581c505f7082ab7ba63e') in 0.038008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/SimpleIAPSystem/Textures/UI/ListVerticalMenu.png
+  artifactKey: Guid(6dac4599bc17b2f438d0502f6a9307c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleIAPSystem/Textures/UI/ListVerticalMenu.png using Guid(6dac4599bc17b2f438d0502f6a9307c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e604a59945405b3a5f2f813357991054') in 0.028033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/SimpleIAPSystem/Textures/UI/ListHorizontalMenu.png
+  artifactKey: Guid(a4a9df3dbefffda46acd3d1acf944b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleIAPSystem/Textures/UI/ListHorizontalMenu.png using Guid(a4a9df3dbefffda46acd3d1acf944b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbeac1059a0d14ec2d06a387a5aca3e') in 0.025686 seconds 
