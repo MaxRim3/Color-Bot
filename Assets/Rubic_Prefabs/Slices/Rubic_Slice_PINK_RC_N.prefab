@@ -278,6 +278,8 @@ MonoBehaviour:
   black: 0
   goldHammer: 0
   solidMaterial: {fileID: 2100000, guid: b5f1423f283929149ac504e6b345ba21, type: 2}
+  bombMaterial: {fileID: 2100000, guid: 84c3ea09587bccd49939313f5493bc77, type: 2}
+  isBomb: 0
   SoundManager: {fileID: 0}
   Camera: {fileID: 0}
   Spawner: {fileID: 0}
