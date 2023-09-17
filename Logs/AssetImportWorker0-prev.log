@@ -15,11 +15,11 @@ D:/Github/Color-Bot
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56373
-Successfully changed project path to: D:/Github/Color-Bot
-D:/Github/Color-Bot
+63976
+Successfully changed project path to: C:/Users/Maxim/OneDrive/Documents/ColorBot/RubiC
+C:/Users/Maxim/OneDrive/Documents/ColorBot/RubiC
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 85.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 170.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.41f1 (7c19dc9acfda)
 [Subsystems] Discovering subsystems at path D:/2020.3.41f1/Editor/Data/Resources/UnitySubsystems
@@ -30,215 +30,96 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
     Vendor:   
     VRAM:     10067 MB
-    Driver:   31.0.15.3598
+    Driver:   31.0.15.3667
 Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
 Initialize mono
-Mono path[0] = 'D:/2020.3.41f1/Editor/Data/Managed'
-Mono path[1] = 'D:/2020.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/2020.3.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Mono path[0] = 'E:/UnityEditors/2020.3.41f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityEditors/2020.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/UnityEditors/2020.3.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/2020.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000731 seconds.
+Register platform support module: E:/UnityEditors/2020.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000990 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 101.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.484 seconds
+- Completed reload, in  0.735 seconds
 Domain Reload Profiling:
-	ReloadAssembly (484ms)
-		BeginReloadAssembly (43ms)
+	ReloadAssembly (735ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (390ms)
-			LoadAssemblies (42ms)
+		EndReloadAssembly (586ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (117ms)
+			SetupTypeCache (194ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (173ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (261ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (63ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003634 seconds.
+Registered in 0.018320 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
+- Completed reload, in  1.607 seconds
 Domain Reload Profiling:
-	ReloadAssembly (976ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (1608ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (826ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1411ms)
+			LoadAssemblies (163ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (211ms)
+			SetupTypeCache (266ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (415ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (804ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (314ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (614ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (1ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3511 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 230.1 MB.
-System memory in use after: 230.3 MB.
+System memory in use before: 233.5 MB.
+System memory in use after: 233.8 MB.
 
-Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3958.
-Total: 5.305900 ms (FindLiveObjects: 0.299700 ms CreateObjectMapping: 0.192800 ms MarkObjects: 4.715100 ms  DeleteObjects: 0.097100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Rubic_Prefabs/UI/HowToPlayPanel
-  artifactKey: Guid(1b73b86a5ef38d44b90fd65e3f94d08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/HowToPlayPanel using Guid(1b73b86a5ef38d44b90fd65e3f94d08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450a7f88e059698c6c702d7caa3c7cab') in 0.011276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.142413 seconds.
-  path: Assets/Rubic_Prefabs/UI/HowToPlayPanel/HowtoPlay_backgroundpanel.png
-  artifactKey: Guid(f0c69f0f8c1591a4ba90b53484455a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/HowToPlayPanel/HowtoPlay_backgroundpanel.png using Guid(f0c69f0f8c1591a4ba90b53484455a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d69fee482c5322f04ab64c76b6f410') in 0.080876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.766851 seconds.
-  path: Assets/Rubic_Prefabs/UI/Settings
-  artifactKey: Guid(6321f0fb05c7e1d4994e38c779963a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/Settings using Guid(6321f0fb05c7e1d4994e38c779963a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e9cc4af730fa29ece15c7d4fe9cfa6') in 0.006352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.587854 seconds.
-  path: Assets/Rubic_Prefabs/UI/HowToPlayPanel/fade_backBackground.png
-  artifactKey: Guid(30d805bcb67b787479a7541cdb6055cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/HowToPlayPanel/fade_backBackground.png using Guid(30d805bcb67b787479a7541cdb6055cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb324c57bd66d58c0496c4924c94507') in 0.018729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.359468 seconds.
-  path: Assets/Rubic_Prefabs/UI/HowToPlayPanel/HowtoPlay_backgroundpanel.png
-  artifactKey: Guid(f0c69f0f8c1591a4ba90b53484455a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/HowToPlayPanel/HowtoPlay_backgroundpanel.png using Guid(f0c69f0f8c1591a4ba90b53484455a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a5aa69a43c03711e4fc6d559e05de6') in 0.028566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.248001 seconds.
-  path: Assets/Rubic_Prefabs/UI/HowToPlayPanel/fade_backBackground.png
-  artifactKey: Guid(30d805bcb67b787479a7541cdb6055cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/HowToPlayPanel/fade_backBackground.png using Guid(30d805bcb67b787479a7541cdb6055cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051055be048c3214581a8c4baca527e7') in 0.025157 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003791 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.832 seconds
-Domain Reload Profiling:
-	ReloadAssembly (832ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (694ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (293ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (202ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Release of invalid GC handle. The handle is from a previous domain. The release operation is skipped.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-Release of invalid GC handle native callstack: 
-0x00007ff633ccf11c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff633cd6719 (Unity) StackWalker::ShowCallstack
-0x00007ff634a6cdac (Unity) GetStacktrace
-0x00007ff633bfbdf2 (Unity) ScriptingGCHandle::ReleaseAndClear
-0x00007ff6343461fc (Unity) UploadHandlerRaw::`vector deleting destructor'
-0x00007ff634346cad (Unity) UploadHandler::Release
-0x00007ff63433f9ca (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::~UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>
-0x00007ff63433fc90 (Unity) UnityWebRequest::`vector deleting destructor'
-0x00007ff633262877 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Release
-0x00007ff634341195 (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
-0x00007ff634341361 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
-0x00007ff6338d007a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
-0x00007ff63396b93f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
-0x00007ff634b582f6 (Unity) <lambda_cdc90be1cd3f929cae4009468e10a5ee>::operator()
-0x00007ff634be77c2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007ff634bd3662 (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007ff634bd5574 (Unity) asio::detail::win_iocp_io_context::run
-0x00007ff634be5aff (Unity) IOService::Run
-0x00007ff634b817cb (Unity) RunAssetImportWorkerClientV2
-0x00007ff634b81820 (Unity) RunAssetImporterV2
-0x00007ff6345f59c8 (Unity) Application::InitializeProject
-0x00007ff634a77132 (Unity) WinMain
-0x00007ff636143dfe (Unity) __scrt_common_main_seh
-0x00007ffca7467614 (KERNEL32) BaseThreadInitThunk
-0x00007ffca88c26f1 (ntdll) RtlUserThreadStart
-System memory in use before: 191.6 MB.
-System memory in use after: 191.8 MB.
-
-Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3968.
-Total: 5.444600 ms (FindLiveObjects: 0.386100 ms CreateObjectMapping: 0.183200 ms MarkObjects: 4.839000 ms  DeleteObjects: 0.035600 ms)
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3974.
+Total: 6.180800 ms (FindLiveObjects: 0.353500 ms CreateObjectMapping: 0.238200 ms MarkObjects: 5.452300 ms  DeleteObjects: 0.135700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -252,818 +133,199 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 767.702837 seconds.
-  path: Assets/Rubic_Prefabs/UI/HowToPlayPanel/HowtoPlay_backgroundpanel.png
-  artifactKey: Guid(f0c69f0f8c1591a4ba90b53484455a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/HowToPlayPanel/HowtoPlay_backgroundpanel.png using Guid(f0c69f0f8c1591a4ba90b53484455a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b74cc739ccfb44b8acc378396f5190') in 0.098356 seconds 
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab
+  artifactKey: Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab using Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bde32fe4b579bf7656abf31b3a0a425') in 0.238811 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 477.991114 seconds.
-  path: Assets/Rubic_Prefabs/UI/HowToPlayPanel/fade_backBackground.png
-  artifactKey: Guid(30d805bcb67b787479a7541cdb6055cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/HowToPlayPanel/fade_backBackground.png using Guid(30d805bcb67b787479a7541cdb6055cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4d291552344d46ff9a739c9ebb3289') in 0.026899 seconds 
+  Time since last request: 0.000440 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab
+  artifactKey: Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab using Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dc46a1c5de2d38a57b6e950a4fd965') in 0.035537 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 72.208908 seconds.
-  path: Assets/Lean/Touch/Examples/Fonts/BalooBhaina-Regular.ttf
-  artifactKey: Guid(cee533bdaf5c01a4091b972ae1bbb654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lean/Touch/Examples/Fonts/BalooBhaina-Regular.ttf using Guid(cee533bdaf5c01a4091b972ae1bbb654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7329e9da23f96509beb9bbad71860f80') in 0.100467 seconds 
+  Time since last request: 0.000232 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab
+  artifactKey: Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab using Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9853b2a2fd1694510c6af5f5b2b67b2') in 0.034310 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Plugins/BitmapFontImporter/Examples/Font1/font1.fontsettings
-  artifactKey: Guid(e5ae7b9800b95a2419475e02fa72f67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/BitmapFontImporter/Examples/Font1/font1.fontsettings using Guid(e5ae7b9800b95a2419475e02fa72f67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1bb5f243c22183c787a92a4cb85759') in 0.109220 seconds 
+  Time since last request: 0.000225 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab
+  artifactKey: Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab using Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a22a10e5ad5f15223e20a50ca45112') in 0.035231 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Editor Default Resources/Koreographer/Fonts/PressStart2P.ttf
-  artifactKey: Guid(cc531c137e7f84fa687a69ea85e6c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Koreographer/Fonts/PressStart2P.ttf using Guid(cc531c137e7f84fa687a69ea85e6c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb02878d9c6a9f3dc6385023ec8b47cb') in 0.039077 seconds 
+  Time since last request: 0.000207 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab
+  artifactKey: Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab using Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fb6bffe297c468b834acd6c80cfaa5') in 0.107853 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Rubic_Prefabs/UI/Font/ScoreFont/robotScorefont4-export.fontsettings
-  artifactKey: Guid(b4a137f989880dd4a865f067fdefd294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/Font/ScoreFont/robotScorefont4-export.fontsettings using Guid(b4a137f989880dd4a865f067fdefd294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dd211f2ca0db9f1a53e43f87fbe59c') in 0.036192 seconds 
+  Time since last request: 0.000195 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Midtones Control.asset
+  artifactKey: Guid(1862d12003a80d24ab048da83dc4e4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/ShaderFunctions/Midtones Control.asset using Guid(1862d12003a80d24ab048da83dc4e4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f459bc1f52c6adc2a14bc4d6b65ba900') in 0.023270 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Rubic_Prefabs/UI/Font/ButtonFont/robotButtonFont-export.fontsettings
-  artifactKey: Guid(5832c4ac48a643c4c89f5a2e99443405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/Font/ButtonFont/robotButtonFont-export.fontsettings using Guid(5832c4ac48a643c4c89f5a2e99443405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3aea538352a87b2502a61aacda608dd') in 0.013954 seconds 
+  Time since last request: 0.000229 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_BLACK_RC_N.prefab
+  artifactKey: Guid(5b141b5d3c33bd648b3a42cb324e239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_BLACK_RC_N.prefab using Guid(5b141b5d3c33bd648b3a42cb324e239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35aa44f7a6cc66cda57782012e50b39') in 0.071144 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Rubic_Prefabs/UI/Font/TextFont/robotInfoFont-export.fontsettings
-  artifactKey: Guid(b26af5b8c1cef1b49bf5631050194923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/Font/TextFont/robotInfoFont-export.fontsettings using Guid(b26af5b8c1cef1b49bf5631050194923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba68e536bbc74a2921f1e19f9e5dc06') in 0.011269 seconds 
+  Time since last request: 0.000226 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab
+  artifactKey: Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab using Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3b81ae676601fe2d7aed101015bd34') in 0.024199 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Plugins/BitmapFontImporter/Examples/Font2/font2.fontsettings
-  artifactKey: Guid(a84c815566f58454a9221b11efe70086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/BitmapFontImporter/Examples/Font2/font2.fontsettings using Guid(a84c815566f58454a9221b11efe70086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c9f98b4d0f92695ebbdb05b57fa495') in 0.061135 seconds 
+  Time since last request: 0.000208 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GOLDHAMMER.prefab
+  artifactKey: Guid(957af980506237541b45f77674da5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GOLDHAMMER.prefab using Guid(957af980506237541b45f77674da5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c79c7a5fe644dd56ae04c02aeb2360') in 0.420103 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Plugins/BitmapFontImporter/Examples/font3/font3.fontsettings
-  artifactKey: Guid(4937a933082d6b0488f1f26d13266128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/BitmapFontImporter/Examples/font3/font3.fontsettings using Guid(4937a933082d6b0488f1f26d13266128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96c3dbbb1d300db13d92c14a4bf234d') in 0.155731 seconds 
+  Time since last request: 0.000206 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab
+  artifactKey: Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab using Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b4c3b5be187e3a757577d7d52adc31') in 0.022150 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 763.375929 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectButton_Background.png
-  artifactKey: Guid(c7202a8b5aab05241bb7d6022d68ac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectButton_Background.png using Guid(c7202a8b5aab05241bb7d6022d68ac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12508f635ddcc6efe375b079ccb7c2a3') in 0.067009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/selectbutton_hard.png
-  artifactKey: Guid(bb3bd8f033469974498a6928d4dced9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/selectbutton_hard.png using Guid(bb3bd8f033469974498a6928d4dced9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a91cdf03adf1b3cc978dcc6debf508e') in 0.035899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/selectbutton_medium.png
-  artifactKey: Guid(045950e90a6c2264fad585be945a8f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/selectbutton_medium.png using Guid(045950e90a6c2264fad585be945a8f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0af2cf4cc81151ee75cb0fa47d2f52') in 0.031754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectButton_Background_example.png
-  artifactKey: Guid(b3820440541f44643af106914c858ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectButton_Background_example.png using Guid(b3820440541f44643af106914c858ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bf0852785f5eee3c610592a0ba0bf1') in 0.028560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/selectbutton_easy.png
-  artifactKey: Guid(62eb5a656cc5abd4cae794014e131256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/selectbutton_easy.png using Guid(62eb5a656cc5abd4cae794014e131256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4639b91416b43276b182ac95c57098') in 0.048500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1534.254638 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect
-  artifactKey: Guid(1be979e4cc112194196fe0f0e66f9fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect using Guid(1be979e4cc112194196fe0f0e66f9fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99044a79fd8e7c840329a5ef5f3a948') in 0.006843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.897445 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection
-  artifactKey: Guid(1c7d3a26af1d95542a32d137edc40ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection using Guid(1c7d3a26af1d95542a32d137edc40ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e296ea31ed2a0c18a360bc174aef78ea') in 0.006426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.137916 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels
-  artifactKey: Guid(795e131d99f5a744a9317a22ba630f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels using Guid(795e131d99f5a744a9317a22ba630f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422f60967e0712e5f217ec1cdff7b384') in 0.006822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.368124 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BackToMenuIcon.png
-  artifactKey: Guid(70d935dacbf4dd4458b2bf20f1252f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BackToMenuIcon.png using Guid(70d935dacbf4dd4458b2bf20f1252f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db49a12fcc35b8e3b5a8c4872394a3a') in 0.014544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/RedDefeat.png
-  artifactKey: Guid(9c895067addfc3143af0c40afbca23d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/RedDefeat.png using Guid(9c895067addfc3143af0c40afbca23d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016566632e8fc7ce93de10ee322859ef') in 0.009577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/GreenVictory.png
-  artifactKey: Guid(1caecc495c4ca1b40b478fbffad8bc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/GreenVictory.png using Guid(1caecc495c4ca1b40b478fbffad8bc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ef7185a86ad2b057cbf6964a75d009') in 0.012756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/DEFEAT.png
-  artifactKey: Guid(8cc4c44bce985944c9bda49bc4bb7780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/DEFEAT.png using Guid(8cc4c44bce985944c9bda49bc4bb7780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9a09c0a4ec29e7c8ca85625e520ec7') in 0.008434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/VICTORY.png
-  artifactKey: Guid(866dd71c1bae23545a67ba201da977aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/VICTORY.png using Guid(866dd71c1bae23545a67ba201da977aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec250638d22d8eb743236d6d3ac5520') in 0.009820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BeatsIcon.png
-  artifactKey: Guid(43b6703eede49ff46abad26bf7866d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BeatsIcon.png using Guid(43b6703eede49ff46abad26bf7866d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d1d31b3928a04642cbfae4b7ba3007') in 0.010072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ReplayIcon.png
-  artifactKey: Guid(83fb0a0c1df05c241bb85dde0fb12865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ReplayIcon.png using Guid(83fb0a0c1df05c241bb85dde0fb12865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddf81348758df893debd1bc30c33fda') in 0.008482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ConditionBackgroundPanel.png
-  artifactKey: Guid(33d7bd16a8b48fa4e9cff27fa40a8036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ConditionBackgroundPanel.png using Guid(33d7bd16a8b48fa4e9cff27fa40a8036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562b57d166040ff5de9d6e6a85b4aa58') in 0.010637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.817820 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BackToMenuIcon.png
-  artifactKey: Guid(70d935dacbf4dd4458b2bf20f1252f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BackToMenuIcon.png using Guid(70d935dacbf4dd4458b2bf20f1252f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e3e4e973a47da2571e7c37b1f18ec9') in 0.010459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.757496 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BeatsIcon.png
-  artifactKey: Guid(43b6703eede49ff46abad26bf7866d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BeatsIcon.png using Guid(43b6703eede49ff46abad26bf7866d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e15fc3666bd4b96d71cf9a47b6c7a1') in 0.010560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.734181 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ConditionBackgroundPanel.png
-  artifactKey: Guid(33d7bd16a8b48fa4e9cff27fa40a8036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ConditionBackgroundPanel.png using Guid(33d7bd16a8b48fa4e9cff27fa40a8036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9df468ff882d93e67c227c04be7aa3c') in 0.015000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.923954 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/DEFEAT.png
-  artifactKey: Guid(8cc4c44bce985944c9bda49bc4bb7780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/DEFEAT.png using Guid(8cc4c44bce985944c9bda49bc4bb7780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4bd8c9a560fb4bb0d6d948f8f949fd') in 0.012556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.905255 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/GreenVictory.png
-  artifactKey: Guid(1caecc495c4ca1b40b478fbffad8bc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/GreenVictory.png using Guid(1caecc495c4ca1b40b478fbffad8bc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48931383d1e3a8abf110e6449a686dde') in 0.010903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.815813 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/RedDefeat.png
-  artifactKey: Guid(9c895067addfc3143af0c40afbca23d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/RedDefeat.png using Guid(9c895067addfc3143af0c40afbca23d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cd8509f20517b8df815c1f479d4be4') in 0.009248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.826878 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ReplayIcon.png
-  artifactKey: Guid(83fb0a0c1df05c241bb85dde0fb12865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ReplayIcon.png using Guid(83fb0a0c1df05c241bb85dde0fb12865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca86c584f4dc57381ebdfbe1027e508') in 0.011019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.881822 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/VICTORY.png
-  artifactKey: Guid(866dd71c1bae23545a67ba201da977aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/VICTORY.png using Guid(866dd71c1bae23545a67ba201da977aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6bbc71005259ff735076ef615e8234') in 0.010087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.204419 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/fade_backBackground.png
-  artifactKey: Guid(79c3155bc04c4a04982ec061450c8d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/fade_backBackground.png using Guid(79c3155bc04c4a04982ec061450c8d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aed0cbadfcbe189902c50c211484932') in 0.018187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.150323 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/fade_backBackground.png
-  artifactKey: Guid(79c3155bc04c4a04982ec061450c8d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/fade_backBackground.png using Guid(79c3155bc04c4a04982ec061450c8d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77719758acd62380c8c8d29a1d613419') in 0.017264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1785.923055 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ConditionBackgroundPanel.png
-  artifactKey: Guid(33d7bd16a8b48fa4e9cff27fa40a8036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ConditionBackgroundPanel.png using Guid(33d7bd16a8b48fa4e9cff27fa40a8036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d1ca80b27d84a45ef0e3c1f1b3d03b') in 0.027437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.221991 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/VICTORY.png
-  artifactKey: Guid(866dd71c1bae23545a67ba201da977aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/VICTORY.png using Guid(866dd71c1bae23545a67ba201da977aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ee08c5d1b94ec5fb1d2f249e5c82c2') in 0.015263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.192575 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/GreenVictory.png
-  artifactKey: Guid(1caecc495c4ca1b40b478fbffad8bc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/GreenVictory.png using Guid(1caecc495c4ca1b40b478fbffad8bc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993ad7eb91ba87e7e68e2400886c9fb4') in 0.012988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.006790 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/fade_backBackground.png
-  artifactKey: Guid(79c3155bc04c4a04982ec061450c8d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/fade_backBackground.png using Guid(79c3155bc04c4a04982ec061450c8d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6204b8d0ec762e07e6d24c427369d702') in 0.029583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 79.366433 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ReplayIcon.png
-  artifactKey: Guid(83fb0a0c1df05c241bb85dde0fb12865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ReplayIcon.png using Guid(83fb0a0c1df05c241bb85dde0fb12865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f958b487ff75e37d87748b0076fe11') in 0.016612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 70.630416 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BackToMenuIcon.png
-  artifactKey: Guid(70d935dacbf4dd4458b2bf20f1252f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BackToMenuIcon.png using Guid(70d935dacbf4dd4458b2bf20f1252f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44a67b952782c61c5d0e0f6a42dca64') in 0.012439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 62.189837 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BeatsIcon.png
-  artifactKey: Guid(43b6703eede49ff46abad26bf7866d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BeatsIcon.png using Guid(43b6703eede49ff46abad26bf7866d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5876fc76c7c3083b2d620020d956b90') in 0.013812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 521.338589 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen
-  artifactKey: Guid(22d4c985712132943a35e65cd7b2c614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen using Guid(22d4c985712132943a35e65cd7b2c614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9cd22a6052f0d445e2d9395a9cbdd3') in 0.006653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.009948 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/RedDefeat.png
-  artifactKey: Guid(9c895067addfc3143af0c40afbca23d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/RedDefeat.png using Guid(9c895067addfc3143af0c40afbca23d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfefeb8eeffc6bf5d2ac58ac17557af5') in 0.013748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.205965 seconds.
-  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/DEFEAT.png
-  artifactKey: Guid(8cc4c44bce985944c9bda49bc4bb7780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/DEFEAT.png using Guid(8cc4c44bce985944c9bda49bc4bb7780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58ab9de611c78955eee06ee5221fd7a') in 0.023510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 276.541502 seconds.
-  path: Assets/Rubic_Prefabs/UI/MainMenu/SettingsIcon.png
-  artifactKey: Guid(633dfc5b678688d4895298aee31c0686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/MainMenu/SettingsIcon.png using Guid(633dfc5b678688d4895298aee31c0686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6467fba165cfc76fefea6c182907adc') in 0.011472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.250240 seconds.
-  path: Assets/Rubic_Prefabs/UI/MainMenu/SettingsIcon.png
-  artifactKey: Guid(633dfc5b678688d4895298aee31c0686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/MainMenu/SettingsIcon.png using Guid(633dfc5b678688d4895298aee31c0686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f51ef7860f361c18e436b08fb4a42e') in 0.011505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.826905 seconds.
-  path: Assets/Rubic_Prefabs/UI/MainMenu/SettingsIcon.png
-  artifactKey: Guid(633dfc5b678688d4895298aee31c0686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/MainMenu/SettingsIcon.png using Guid(633dfc5b678688d4895298aee31c0686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8046af5cec12d939d34dfa5a40e5b43a') in 0.021605 seconds 
+  Time since last request: 344.482432 seconds.
+  path: Assets/Rubic_Prefabs/RubiC_Scripts/Slice_RayCaster.cs
+  artifactKey: Guid(79a8ec909815b384bbd63117dccb8479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/RubiC_Scripts/Slice_RayCaster.cs using Guid(79a8ec909815b384bbd63117dccb8479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb1ac078d4630f9e123ae85f89d9896') in 0.018341 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004063 seconds.
+Registered in 0.013180 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.844 seconds
+- Completed reload, in  1.101 seconds
 Domain Reload Profiling:
-	ReloadAssembly (844ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (707ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (300ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.0 MB.
-System memory in use after: 195.2 MB.
-
-Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4037.
-Total: 4.787200 ms (FindLiveObjects: 0.295900 ms CreateObjectMapping: 0.187100 ms MarkObjects: 4.276000 ms  DeleteObjects: 0.027500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003638 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.856 seconds
-Domain Reload Profiling:
-	ReloadAssembly (857ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (1101ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (718ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (944ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (312ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.0 MB.
-System memory in use after: 195.3 MB.
-
-Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4041.
-Total: 5.334700 ms (FindLiveObjects: 0.516700 ms CreateObjectMapping: 0.291300 ms MarkObjects: 4.495200 ms  DeleteObjects: 0.030900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 321.908923 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(3e8de622f7c96ad469079f19d4e3a5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(3e8de622f7c96ad469079f19d4e3a5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5eb97ed3674c824f86b4937b4ebfb6') in 0.012396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.129371 seconds.
-  path: Assets/Scenes/RubiC_1.unity
-  artifactKey: Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/RubiC_1.unity using Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6670b498551fe3b2c39c8008229968') in 0.007007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.943248 seconds.
-  path: Assets/Scenes/PlayFabScene1.unity
-  artifactKey: Guid(aea21fd09cfec774a80534d4e28bf2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PlayFabScene1.unity using Guid(aea21fd09cfec774a80534d4e28bf2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b57b40d407a7a13afa3aa0c53334ca0') in 0.009154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.753946 seconds.
-  path: Assets/Scenes/Store.unity
-  artifactKey: Guid(a04ceaa32e9ef9d4f9bb707f46ca51be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Store.unity using Guid(a04ceaa32e9ef9d4f9bb707f46ca51be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fa4102608b2c4166e915f70da3638b') in 0.009083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.148950 seconds.
-  path: Assets/Scenes/Main Menu.unity
-  artifactKey: Guid(6dbeac9ee6c7ff94d8aac90f71ed50f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Menu.unity using Guid(6dbeac9ee6c7ff94d8aac90f71ed50f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e126f7f9883c835b5d9291e4f1692a') in 0.007850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.253520 seconds.
-  path: Assets/Scenes/LevelSelect.unity
-  artifactKey: Guid(507ffeb8a46270945942507b0d444c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevelSelect.unity using Guid(507ffeb8a46270945942507b0d444c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f3ba75f23c6768d7441b8dda0367f8') in 0.006343 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003640 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.820 seconds
-Domain Reload Profiling:
-	ReloadAssembly (821ms)
-		BeginReloadAssembly (88ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (690ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (299ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (206ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.0 MB.
-System memory in use after: 195.3 MB.
-
-Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4045.
-Total: 4.717600 ms (FindLiveObjects: 0.264900 ms CreateObjectMapping: 0.163000 ms MarkObjects: 4.261000 ms  DeleteObjects: 0.028100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 349.340952 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/fade_backBackground.png
-  artifactKey: Guid(37535ba251b1dcc428975fc14e74100a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/fade_backBackground.png using Guid(37535ba251b1dcc428975fc14e74100a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf49b5abda0c2243574449129ad844d') in 0.102250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.891007 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/fade_backBackground.png
-  artifactKey: Guid(37535ba251b1dcc428975fc14e74100a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/fade_backBackground.png using Guid(37535ba251b1dcc428975fc14e74100a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c01f867716fafeb21a0c09491f8f2a9') in 0.019869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 65.494573 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/selectcolourBlue.png
-  artifactKey: Guid(005a5674e202d8343926dd44bc3ca273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/selectcolourBlue.png using Guid(005a5674e202d8343926dd44bc3ca273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf1645c20544dc9456c45460fdd5b0e') in 0.017776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.934173 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/selectcolourBlue.png
-  artifactKey: Guid(005a5674e202d8343926dd44bc3ca273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/selectcolourBlue.png using Guid(005a5674e202d8343926dd44bc3ca273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b0bd42af2056907f385d607b5917f1') in 0.010221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.033371 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/selectcolourBlue.png
-  artifactKey: Guid(005a5674e202d8343926dd44bc3ca273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/selectcolourBlue.png using Guid(005a5674e202d8343926dd44bc3ca273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7683a398bb9f081376849184ad017ef6') in 0.031326 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003638 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.835 seconds
-Domain Reload Profiling:
-	ReloadAssembly (835ms)
-		BeginReloadAssembly (95ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (698ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (300ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (205ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.1 MB.
-System memory in use after: 195.3 MB.
-
-Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4050.
-Total: 4.708600 ms (FindLiveObjects: 0.280300 ms CreateObjectMapping: 0.158300 ms MarkObjects: 4.239900 ms  DeleteObjects: 0.029500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 917.627165 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel
-  artifactKey: Guid(00ae964bbc72d7548b66a1edf2e88532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel using Guid(00ae964bbc72d7548b66a1edf2e88532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51dc22f572cf897fae3dcfa3fe34014') in 0.011691 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.058133 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/blueGlow.png
-  artifactKey: Guid(5b291fa18e22fc447b431a5d72e7a91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/blueGlow.png using Guid(5b291fa18e22fc447b431a5d72e7a91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec36e84813a369e08b7ad981a2f9585') in 0.046589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/X.png
-  artifactKey: Guid(1d14e3c30e295e44b8e06685d939c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/X.png using Guid(1d14e3c30e295e44b8e06685d939c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bf4e5a8b84b5e5fb6c606d0aa28a09') in 0.008573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/redGlow.png
-  artifactKey: Guid(7536bb633ec564a4ba222f79c5d8f3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/redGlow.png using Guid(7536bb633ec564a4ba222f79c5d8f3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7506e2aa666eb3fbe623262c18043746') in 0.012597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/hardTitle.png
-  artifactKey: Guid(d76f7e703a5412c489aadd850364f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/hardTitle.png using Guid(d76f7e703a5412c489aadd850364f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c463c664a62915d614abc6ab771b2d97') in 0.014120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/greenGlow.png
-  artifactKey: Guid(797fef668280a7e4e9a84d656ebccdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/greenGlow.png using Guid(797fef668280a7e4e9a84d656ebccdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0940376e85ea599ac1e39eea98df784') in 0.011915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/easyTitle.png
-  artifactKey: Guid(231d38c1b9b44e544853d2988bba0832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/easyTitle.png using Guid(231d38c1b9b44e544853d2988bba0832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd72a8d752597a54f95bbe239bb7375') in 0.011657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/playIcon.png
-  artifactKey: Guid(abc95d30255a4d145b7be8f5059e4996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/playIcon.png using Guid(abc95d30255a4d145b7be8f5059e4996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd347c2f89f0781c41bcf9f4f7bc08cca') in 0.012134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/SelectingSongBackgroundPanel.png
-  artifactKey: Guid(edb5aab6de1f47d46a1322e20e470414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/SelectingSongBackgroundPanel.png using Guid(edb5aab6de1f47d46a1322e20e470414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e60da0bb68e90876981ce9945d7dc8') in 0.014699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/normalTitle.png
-  artifactKey: Guid(38b43f7a6365f5449aaed6c50a973a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/normalTitle.png using Guid(38b43f7a6365f5449aaed6c50a973a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f868c14299bb0c5cac87312e4cb455ff') in 0.009725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.157940 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/blueGlow.png
-  artifactKey: Guid(5b291fa18e22fc447b431a5d72e7a91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/blueGlow.png using Guid(5b291fa18e22fc447b431a5d72e7a91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a16da4c333d9d4adcba2f787ba2a24') in 0.010834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.580562 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/easyTitle.png
-  artifactKey: Guid(231d38c1b9b44e544853d2988bba0832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/easyTitle.png using Guid(231d38c1b9b44e544853d2988bba0832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c246529afde18f16d8d1f53ca92fab7') in 0.011318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.366084 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/greenGlow.png
-  artifactKey: Guid(797fef668280a7e4e9a84d656ebccdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/greenGlow.png using Guid(797fef668280a7e4e9a84d656ebccdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f091decafc6ac0597f3dd4afe3a88eef') in 0.009274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.390864 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/hardTitle.png
-  artifactKey: Guid(d76f7e703a5412c489aadd850364f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/hardTitle.png using Guid(d76f7e703a5412c489aadd850364f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b20d4d2bd7fa6aa152e7bf323177c9') in 0.010049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.265367 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/normalTitle.png
-  artifactKey: Guid(38b43f7a6365f5449aaed6c50a973a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/normalTitle.png using Guid(38b43f7a6365f5449aaed6c50a973a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a7fd99357637e8a54245d90ed0d61a') in 0.011480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.236671 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/playIcon.png
-  artifactKey: Guid(abc95d30255a4d145b7be8f5059e4996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/playIcon.png using Guid(abc95d30255a4d145b7be8f5059e4996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1066116bddd51e413a298141208b8924') in 0.010957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.701789 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/redGlow.png
-  artifactKey: Guid(7536bb633ec564a4ba222f79c5d8f3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/redGlow.png using Guid(7536bb633ec564a4ba222f79c5d8f3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9339e19411f31128cabed5a0b8a1f2db') in 0.008967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.215227 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/SelectingSongBackgroundPanel.png
-  artifactKey: Guid(edb5aab6de1f47d46a1322e20e470414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/SelectingSongBackgroundPanel.png using Guid(edb5aab6de1f47d46a1322e20e470414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ab1e188cb816a6ec02b6583953409b') in 0.014006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.219034 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/X.png
-  artifactKey: Guid(1d14e3c30e295e44b8e06685d939c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/X.png using Guid(1d14e3c30e295e44b8e06685d939c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479c2d6bfcd6746b8c8d090be7ebe024') in 0.009685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 181.518919 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/fade_backBackground.png
-  artifactKey: Guid(3c8a3bf1ed77a69479f5bb80d5c71059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/fade_backBackground.png using Guid(3c8a3bf1ed77a69479f5bb80d5c71059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69a69c6d4fac633d16bc6fde65d711d') in 0.012452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.677229 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/fade_backBackground.png
-  artifactKey: Guid(3c8a3bf1ed77a69479f5bb80d5c71059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/fade_backBackground.png using Guid(3c8a3bf1ed77a69479f5bb80d5c71059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417c954228072ec97bb4ddb12af6beef') in 0.020326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.526527 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/fade_backBackground.png
-  artifactKey: Guid(3c8a3bf1ed77a69479f5bb80d5c71059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/fade_backBackground.png using Guid(3c8a3bf1ed77a69479f5bb80d5c71059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f598d3d79b9c78fd18e29323dd8b414') in 0.034139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 61.105391 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/SelectingSongBackgroundPanel.png
-  artifactKey: Guid(edb5aab6de1f47d46a1322e20e470414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/SelectingSongBackgroundPanel.png using Guid(edb5aab6de1f47d46a1322e20e470414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd49cc2a5605050e2053339a301b42a') in 0.024209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.172924 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/greenGlow.png
-  artifactKey: Guid(797fef668280a7e4e9a84d656ebccdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/greenGlow.png using Guid(797fef668280a7e4e9a84d656ebccdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550b924a09df427e43d6c03aa24782bf') in 0.014565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.311030 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/easyTitle.png
-  artifactKey: Guid(231d38c1b9b44e544853d2988bba0832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/easyTitle.png using Guid(231d38c1b9b44e544853d2988bba0832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cf5692a16893b5fa85436ece3b4a5c') in 0.013760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.273278 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/playIcon.png
-  artifactKey: Guid(abc95d30255a4d145b7be8f5059e4996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/playIcon.png using Guid(abc95d30255a4d145b7be8f5059e4996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12545beb7ff03c2fd7960036fbf0e31') in 0.014701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 376.463147 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/blueGlow.png
-  artifactKey: Guid(5b291fa18e22fc447b431a5d72e7a91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/blueGlow.png using Guid(5b291fa18e22fc447b431a5d72e7a91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3fee59a67a0433a976700c020a173e') in 0.018507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.447321 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/normalTitle.png
-  artifactKey: Guid(38b43f7a6365f5449aaed6c50a973a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/normalTitle.png using Guid(38b43f7a6365f5449aaed6c50a973a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eeb15468a95f218bd0b729e560aabbe') in 0.016432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.872140 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/redGlow.png
-  artifactKey: Guid(7536bb633ec564a4ba222f79c5d8f3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/redGlow.png using Guid(7536bb633ec564a4ba222f79c5d8f3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3dc6459ecafaf5439644e6fb377d4a') in 0.017573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.112668 seconds.
-  path: Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/hardTitle.png
-  artifactKey: Guid(d76f7e703a5412c489aadd850364f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rubic_Prefabs/UI/LevelSelect/colourbot_LevelSelection/SelectLevelScreen/SelectingSongPanel/hardTitle.png using Guid(d76f7e703a5412c489aadd850364f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d3b8a9035daddab4dbac19c912fe14') in 0.018410 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003660 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.824 seconds
-Domain Reload Profiling:
-	ReloadAssembly (824ms)
-		BeginReloadAssembly (92ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (689ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (295ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (412ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (202ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.1 MB.
-System memory in use after: 195.4 MB.
+Release of invalid GC handle. The handle is from a previous domain. The release operation is skipped.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+Release of invalid GC handle native callstack: 
+0x00007ff7bcf1f11c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff7bcf26719 (Unity) StackWalker::ShowCallstack
+0x00007ff7bdcbcdac (Unity) GetStacktrace
+0x00007ff7bce4bdf2 (Unity) ScriptingGCHandle::ReleaseAndClear
+0x00007ff7bd5961fc (Unity) UploadHandlerRaw::`vector deleting destructor'
+0x00007ff7bd596cad (Unity) UploadHandler::Release
+0x00007ff7bd58f9ca (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::~UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>
+0x00007ff7bd58fc90 (Unity) UnityWebRequest::`vector deleting destructor'
+0x00007ff7bc4b2877 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Release
+0x00007ff7bd591195 (Unity) UnityWebRequestAsyncOperation::InvokeCoroutine
+0x00007ff7bd591361 (Unity) UnityWebRequestProto<UnityWebRequestTransport,AtomicRefCounter,RedirectHelper,ResponseHelper,DownloadHandler,UploadHandler,CertificateHandler,HeaderHelper,AsyncOperation>::Job_InvokeCoroutine
+0x00007ff7bcb2007a (Unity) BackgroundJobQueue::ExecuteMainThreadJobs
+0x00007ff7bcbbb93f (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff7bdda82f6 (Unity) <lambda_cdc90be1cd3f929cae4009468e10a5ee>::operator()
+0x00007ff7bde377c2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7bde23662 (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7bde25574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff7bde35aff (Unity) IOService::Run
+0x00007ff7bddd17cb (Unity) RunAssetImportWorkerClientV2
+0x00007ff7bddd1820 (Unity) RunAssetImporterV2
+0x00007ff7bd8459c8 (Unity) Application::InitializeProject
+0x00007ff7bdcc7132 (Unity) WinMain
+0x00007ff7bf393dfe (Unity) __scrt_common_main_seh
+0x00007ff818e27614 (KERNEL32) BaseThreadInitThunk
+0x00007ff81a6626b1 (ntdll) RtlUserThreadStart
+System memory in use before: 198.2 MB.
+System memory in use after: 198.4 MB.
 
-Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4067.
-Total: 4.614100 ms (FindLiveObjects: 0.265600 ms CreateObjectMapping: 0.162000 ms MarkObjects: 4.159500 ms  DeleteObjects: 0.026200 ms)
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 3986.
+Total: 6.287300 ms (FindLiveObjects: 0.301900 ms CreateObjectMapping: 0.173200 ms MarkObjects: 5.720900 ms  DeleteObjects: 0.090500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1086ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (897ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (395ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.3 MB.
+System memory in use after: 198.5 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3990.
+Total: 7.501900 ms (FindLiveObjects: 0.534400 ms CreateObjectMapping: 0.326600 ms MarkObjects: 6.599400 ms  DeleteObjects: 0.039900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1077,8 +339,691 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2816.205627 seconds.
-  path: Assets/Particlecollection_Modular/Material/hit_02.mat
-  artifactKey: Guid(53a1831dc0bd279498de291748ee856f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particlecollection_Modular/Material/hit_02.mat using Guid(53a1831dc0bd279498de291748ee856f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a35ca0db8c791641ae341989f69db1') in 0.068790 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 700.772595 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab
+  artifactKey: Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab using Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f612a1d06f3bd031f143f69db3ee7c88') in 0.556033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Rubic_Prefabs/Slices/FallingFX.prefab
+  artifactKey: Guid(82368436ea8dd604a8e195eabde06f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/FallingFX.prefab using Guid(82368436ea8dd604a8e195eabde06f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8017c4b7a72d435e3100d198bb7da50d') in 0.020167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab
+  artifactKey: Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab using Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7682460c8ae77400bbdcff81a6827078') in 0.017809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab
+  artifactKey: Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab using Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241aef6d8137a8fe841250d4c3f3bd6d') in 0.018707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab
+  artifactKey: Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab using Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286c353b732625455ac118138a719b7b') in 0.017328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab
+  artifactKey: Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab using Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d74d20cd652b15c70088240ec903416') in 0.027452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_BLACK_RC_N.prefab
+  artifactKey: Guid(5b141b5d3c33bd648b3a42cb324e239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_BLACK_RC_N.prefab using Guid(5b141b5d3c33bd648b3a42cb324e239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b42c17614853cda1eb9a37d376c8f64') in 0.018295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab
+  artifactKey: Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab using Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edf5d9048e921a93e722c78170a580d') in 0.018541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GOLDHAMMER.prefab
+  artifactKey: Guid(957af980506237541b45f77674da5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GOLDHAMMER.prefab using Guid(957af980506237541b45f77674da5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6eb824e9f491b58cb162b094365325c') in 0.121926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Boost_Effect.prefab
+  artifactKey: Guid(b416625466eb9f848b92ee7b1d3a7d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Boost_Effect.prefab using Guid(b416625466eb9f848b92ee7b1d3a7d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96566d7992e6cdb7ea02f08ed333b4c2') in 0.022115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab
+  artifactKey: Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab using Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2ef69c5ab8bdf6e94c88abceb8b440') in 0.023381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 143.791484 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Red 1.mat
+  artifactKey: Guid(fd63f8e6a6a47e44a9347549bd7cceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Red 1.mat using Guid(fd63f8e6a6a47e44a9347549bd7cceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908298883898836dd918fb7ded4e3eb3') in 0.050401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.714278 seconds.
+  path: Assets/Rubic_Prefabs/Slices/robotBlock_red.png
+  artifactKey: Guid(c1d96e6ddfc80e5429387a34979136de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/robotBlock_red.png using Guid(c1d96e6ddfc80e5429387a34979136de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c4c1e14cd924f6035ba010a556bca9') in 0.067454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Rubic_Prefabs/Slices/robotBlock_redSkull.png
+  artifactKey: Guid(cdbe032a53825174d816611811137540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/robotBlock_redSkull.png using Guid(cdbe032a53825174d816611811137540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3591b631338397daff4a8de7a0edeeb6') in 0.012787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.920276 seconds.
+  path: Assets/Rubic_Prefabs/Slices/RedBomb.mat
+  artifactKey: Guid(fd63f8e6a6a47e44a9347549bd7cceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/RedBomb.mat using Guid(fd63f8e6a6a47e44a9347549bd7cceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68003db4177908fbb82e99f3cb96171') in 0.014089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.790440 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab
+  artifactKey: Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab using Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebe7747be97b4f9cfd4bee82f30c564') in 0.015667 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008931 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.428 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1429ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1207ms)
+			LoadAssemblies (232ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (581ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (420ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.5 MB.
+System memory in use after: 198.8 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 4029.
+Total: 6.788400 ms (FindLiveObjects: 0.274100 ms CreateObjectMapping: 0.181600 ms MarkObjects: 6.215100 ms  DeleteObjects: 0.116200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 128.826210 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab
+  artifactKey: Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab using Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf78dc2f22b72b4549e7ee6aff4d53b') in 0.098509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab
+  artifactKey: Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab using Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58768c4d57d7356c32ea20e2c0693acd') in 0.016853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.856380 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab
+  artifactKey: Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab using Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20062656663b817f82cedbafaf267bf7') in 0.017022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.571801 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Boost_Effect.prefab
+  artifactKey: Guid(b416625466eb9f848b92ee7b1d3a7d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Boost_Effect.prefab using Guid(b416625466eb9f848b92ee7b1d3a7d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b84ce0d0938b618b3d689fd1e6478d') in 0.017266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Rubic_Prefabs/Slices/FallingFX.prefab
+  artifactKey: Guid(82368436ea8dd604a8e195eabde06f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/FallingFX.prefab using Guid(82368436ea8dd604a8e195eabde06f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efc4fd17ea3d0e433d71ee6ca124c0a') in 0.008200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab
+  artifactKey: Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab using Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6641304c91c1c8e41f35badcca26d0') in 0.017736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab
+  artifactKey: Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab using Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040476ae1f6ad5e72eddc00ed7b72925') in 0.023668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab
+  artifactKey: Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab using Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310a5eff6e8224cc7f0f16a44c7d64d2') in 0.014266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab
+  artifactKey: Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab using Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c36b99f2e72c61eb5dae1606a6712a') in 0.021355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab
+  artifactKey: Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab using Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e561e11d8199d0e7b5b2577e0e673393') in 0.038518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Rubic_Prefabs/Slices/RedBomb.mat
+  artifactKey: Guid(fd63f8e6a6a47e44a9347549bd7cceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/RedBomb.mat using Guid(fd63f8e6a6a47e44a9347549bd7cceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa6bafcfc5672efe0a5e3bad0629b1c') in 0.027030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Red.mat
+  artifactKey: Guid(86f20ccfb0d77dc45b491ad023cac2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Red.mat using Guid(86f20ccfb0d77dc45b491ad023cac2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2038c8b5a18395694998516c4e0e709f') in 0.018296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_BLACK_RC_N.prefab
+  artifactKey: Guid(5b141b5d3c33bd648b3a42cb324e239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_BLACK_RC_N.prefab using Guid(5b141b5d3c33bd648b3a42cb324e239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cf8529a95de62621fefb911d520e16') in 0.022863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab
+  artifactKey: Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab using Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d9762a1ccedcc46b0f27c611bbcc9e') in 0.014184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GOLDHAMMER.prefab
+  artifactKey: Guid(957af980506237541b45f77674da5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GOLDHAMMER.prefab using Guid(957af980506237541b45f77674da5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5572fe662bad82596f888d8bfa4968') in 0.134416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab
+  artifactKey: Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab using Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03fd75abcdd179cc338fabf14228520') in 0.017712 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009904 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1334ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1127ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.6 MB.
+System memory in use after: 198.8 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 4034.
+Total: 5.797700 ms (FindLiveObjects: 0.298400 ms CreateObjectMapping: 0.192200 ms MarkObjects: 5.223800 ms  DeleteObjects: 0.082200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010168 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1123ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (971ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (468ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.6 MB.
+System memory in use after: 198.8 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4038.
+Total: 6.728900 ms (FindLiveObjects: 0.538500 ms CreateObjectMapping: 0.414400 ms MarkObjects: 5.732200 ms  DeleteObjects: 0.042600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 308.997876 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab
+  artifactKey: Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab using Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3daeb23b81210898385bfc26eec69a8') in 0.143571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab
+  artifactKey: Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab using Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccb3bd49b97dce4cca31f7111bda64a') in 0.022927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab
+  artifactKey: Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab using Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a108f740548d88f805e889f7ff3ca6ea') in 0.026516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab
+  artifactKey: Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab using Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c598f47c38855da3933965ee200a5154') in 0.017519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab
+  artifactKey: Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab using Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dbf389eeca317f90201ed9809ac9ef') in 0.027189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_BLACK_RC_N.prefab
+  artifactKey: Guid(5b141b5d3c33bd648b3a42cb324e239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_BLACK_RC_N.prefab using Guid(5b141b5d3c33bd648b3a42cb324e239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384c99a5ddc1eed64bb82d7b4cb341c9') in 0.020654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab
+  artifactKey: Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab using Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197972774baa7e2d3f3a935a45943e93') in 0.016477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GOLDHAMMER.prefab
+  artifactKey: Guid(957af980506237541b45f77674da5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GOLDHAMMER.prefab using Guid(957af980506237541b45f77674da5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298cb3c4534c7e19b31b8d538c616417') in 0.085312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab
+  artifactKey: Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab using Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4243cafce0290336c8eb23b5a837d151') in 0.020332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.559706 seconds.
+  path: Assets/Scenes/RubiC_1.unity
+  artifactKey: Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RubiC_1.unity using Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ce3c1018b9708f08ceffe2c40d179e') in 0.012562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.244163 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_BLACK_RC_N.prefab
+  artifactKey: Guid(5b141b5d3c33bd648b3a42cb324e239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_BLACK_RC_N.prefab using Guid(5b141b5d3c33bd648b3a42cb324e239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f5013e209345ae252e3ca2369ab44e') in 0.020442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab
+  artifactKey: Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab using Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0f4357b1040a0755b596cbd7cc26d5') in 0.018427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab
+  artifactKey: Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab using Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f12dd93ee8a8f7a2731488dabd39c40') in 0.016845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab
+  artifactKey: Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab using Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9fd8b7d136cde5807bd7838730be6a') in 0.015892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab
+  artifactKey: Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab using Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f03ce7acc609448f34bd8c8a836ba5d') in 0.015427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab
+  artifactKey: Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_CHANGER.prefab using Guid(5e5526d64f1531846a9e33c4c122dd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680983995d2ad818d200e8a080a9bb3e') in 0.021904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab
+  artifactKey: Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_YELLOW_RC_N.prefab using Guid(2d17208d2ea136b48b4c5c2d0604546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d47dab3913505b5b9b2b288ea1db62') in 0.015055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GOLDHAMMER.prefab
+  artifactKey: Guid(957af980506237541b45f77674da5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GOLDHAMMER.prefab using Guid(957af980506237541b45f77674da5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccdd2ff01f484345bc0821d1fbc3fe9') in 0.057655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab
+  artifactKey: Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab using Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bdcee013d600c4791ec2b3f038105a') in 0.015540 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1217ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (976ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (463ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.7 MB.
+System memory in use after: 198.9 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 4043.
+Total: 7.326300 ms (FindLiveObjects: 0.485300 ms CreateObjectMapping: 0.367500 ms MarkObjects: 6.391100 ms  DeleteObjects: 0.081000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008736 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.111 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1112ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.7 MB.
+System memory in use after: 198.9 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4047.
+Total: 6.334100 ms (FindLiveObjects: 0.691500 ms CreateObjectMapping: 0.409200 ms MarkObjects: 5.192400 ms  DeleteObjects: 0.040000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012136 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1130ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (971ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.7 MB.
+System memory in use after: 198.9 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4051.
+Total: 5.950500 ms (FindLiveObjects: 0.354200 ms CreateObjectMapping: 0.244400 ms MarkObjects: 5.294100 ms  DeleteObjects: 0.056500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1241.305091 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(6dbeac9ee6c7ff94d8aac90f71ed50f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(6dbeac9ee6c7ff94d8aac90f71ed50f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f54557c26d43ba0a7c77af95aab132') in 0.043937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.927286 seconds.
+  path: Assets/Scenes/LevelSelect.unity
+  artifactKey: Guid(507ffeb8a46270945942507b0d444c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelSelect.unity using Guid(507ffeb8a46270945942507b0d444c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9553ae1d21406866735369392aa45240') in 0.025493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.204077 seconds.
+  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BackToMenuIcon.png
+  artifactKey: Guid(70d935dacbf4dd4458b2bf20f1252f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BackToMenuIcon.png using Guid(70d935dacbf4dd4458b2bf20f1252f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab0ee62236261b4fe641f48835b3094') in 0.823136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Rubic_Prefabs/UI/MainMenu/layoutMENU_robot_SCREENSHOT.png
+  artifactKey: Guid(dce8945a6d124bc49b7ec1f5f87062f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/MainMenu/layoutMENU_robot_SCREENSHOT.png using Guid(dce8945a6d124bc49b7ec1f5f87062f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9709b858155aa4763e4b3998dbbe95af') in 0.025624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/VLights/Resources/VLights/MenuSkin.guiskin
+  artifactKey: Guid(37f22541fdf8e7544b73693fad89040a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VLights/Resources/VLights/MenuSkin.guiskin using Guid(37f22541fdf8e7544b73693fad89040a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe69e8f73b1581c505f7082ab7ba63e') in 0.038008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/SimpleIAPSystem/Textures/UI/ListVerticalMenu.png
+  artifactKey: Guid(6dac4599bc17b2f438d0502f6a9307c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleIAPSystem/Textures/UI/ListVerticalMenu.png using Guid(6dac4599bc17b2f438d0502f6a9307c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e604a59945405b3a5f2f813357991054') in 0.028033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/SimpleIAPSystem/Textures/UI/ListHorizontalMenu.png
+  artifactKey: Guid(a4a9df3dbefffda46acd3d1acf944b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleIAPSystem/Textures/UI/ListHorizontalMenu.png using Guid(a4a9df3dbefffda46acd3d1acf944b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbeac1059a0d14ec2d06a387a5aca3e') in 0.025686 seconds 
