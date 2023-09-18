@@ -71,7 +71,7 @@ public class Slice_RayCaster : MonoBehaviour
     void Start()
     {
         int diceRoll = 0;
-        diceRoll = UnityEngine.Random.Range(0, 4);
+        diceRoll = UnityEngine.Random.Range(0, 7);
         if(diceRoll == 3)
         {
             isBomb = true;

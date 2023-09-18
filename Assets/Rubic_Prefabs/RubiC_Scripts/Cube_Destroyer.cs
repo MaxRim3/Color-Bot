@@ -9,6 +9,8 @@ public class Cube_Destroyer : MonoBehaviour
     public List<GameObject> cubesToDestroy = new List<GameObject>();
     public GameObject sliceSpawner;
     public GameObject DestroyFX;
+
+    public GameObject explosionFX;
     public Animator screenAnimator;
     public GameObject screen;
     public bool vHappy;
@@ -158,7 +160,7 @@ public class Cube_Destroyer : MonoBehaviour
                 }
 
 
-
+                int cubesToDestroyCount = cubesToDestroy.Count;
 
                 if (cubesToDestroy.Count >= 3)
                 {
@@ -228,7 +230,7 @@ public class Cube_Destroyer : MonoBehaviour
 
                     }
                     //print("cubes destroyed");
-                    cubesToDestroy.Clear();
+                 
                     /* foreach (GameObject cube in cubesToDestroy)
                      {
                          //SIS.DBManager.IncreaseFunds("beats", 1);
@@ -238,11 +240,22 @@ public class Cube_Destroyer : MonoBehaviour
 
                     SoundManager.GetComponent<AudioManager>().blockDisappear();
                     vHappy = false;
-                    if(bombCount >= 3)
+                    if(bombCount == cubesToDestroyCount)
                     {
+                                            for (int i = 0; i < cubesToDestroy.Count; i++)
+                    {
+
+                        if (cubesToDestroy[i])
+                        {
+                            Instantiate(explosionFX, cubesToDestroy[i].transform.position, cubesToDestroy[i].transform.rotation);
+                        }
+
+                    }
+
                         GameOver();
                     }
                 }
+                cubesToDestroy.Clear();
             }
             yield return null;
         }

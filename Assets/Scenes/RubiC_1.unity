@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4650749, g: 0.1694476, b: 0.22730345, a: 1}
+  m_IndirectSpecularColor: {r: 0.46508622, g: 0.16945723, b: 0.22730902, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -774,6 +774,8 @@ MonoBehaviour:
   cubesToDestroy: []
   sliceSpawner: {fileID: 1947917204}
   DestroyFX: {fileID: 4934103800305077041, guid: fc817a99849448d4f82fffc2bc8d1f6c,
+    type: 3}
+  explosionFX: {fileID: 1000012903210382, guid: eb71e8a1ec8ef764f9b1bf9c7e1f0b31,
     type: 3}
   screenAnimator: {fileID: 0}
   screen: {fileID: 1769550257}
@@ -1533,6 +1535,7 @@ GameObject:
   - component: {fileID: 191656135}
   - component: {fileID: 191656134}
   - component: {fileID: 191656133}
+  - component: {fileID: 191656136}
   m_Layer: 8
   m_Name: Camera
   m_TagString: MainCamera
@@ -1837,6 +1840,20 @@ MonoBehaviour:
   SHADER_MASrenderShadowUmbraIntens: 0.1
   SHADER_OPfragmentSize: {x: 0, y: 0, z: 0}
   SHADER_OPfragmentDirect: {x: 1, y: 1, z: 1}
+--- !u!114 &191656136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191656126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df803e29c7b536f41894030fae626089, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubeDestroyer: {fileID: 59985319}
+  explosion: {fileID: 1000012903210382, guid: eb71e8a1ec8ef764f9b1bf9c7e1f0b31, type: 3}
 --- !u!1 &193017253
 GameObject:
   m_ObjectHideFlags: 0
@@ -21910,7 +21927,7 @@ MonoBehaviour:
   Tutorial: 0
   slices:
   - {fileID: 5314645480544143747, guid: 70b74931ed133a346a578f3eea72a41d, type: 3}
-  - {fileID: 3364623260608616528, guid: 68b505efa44f4a14485bdf911bd13af3, type: 3}
+  - {fileID: 3364623260608616528, guid: c1c5d6b639600b146b7c402bca58b1e4, type: 3}
   - {fileID: 5314645480544143747, guid: e35e9c1a688b56445addf79f38bc7260, type: 3}
   - {fileID: 3364623260608616528, guid: 6f7cda9732421a44b8c95ca2533c4221, type: 3}
   blackSlice: {fileID: 3364623260608616528, guid: 5b141b5d3c33bd648b3a42cb324e239d,
