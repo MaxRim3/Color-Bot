@@ -394,3 +394,255 @@ Received Import Request.
   path: Assets/Rubic_Prefabs/Slices/CyanWarning.mat
   artifactKey: Guid(c20d5818bee41fc40bbae159360d809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Rubic_Prefabs/Slices/CyanWarning.mat using Guid(c20d5818bee41fc40bbae159360d809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c10bc285d5624c6b973947ef793ff0') in 0.013013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.281290 seconds.
+  path: Assets/Rubic_Prefabs/Slices/BlueWarning.mat
+  artifactKey: Guid(40ba963071db22342b76f265141ae6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/BlueWarning.mat using Guid(40ba963071db22342b76f265141ae6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff72f48f6825cfa30d2ceb3c0616b9f9') in 0.012329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Rubic_Prefabs/Slices/CyanWarning.mat
+  artifactKey: Guid(c20d5818bee41fc40bbae159360d809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/CyanWarning.mat using Guid(c20d5818bee41fc40bbae159360d809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580a6a51ad5e65ee8c0fe8829fc6c328') in 0.009435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Rubic_Prefabs/Slices/MagentaWarning.mat
+  artifactKey: Guid(84c3ea09587bccd49939313f5493bc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/MagentaWarning.mat using Guid(84c3ea09587bccd49939313f5493bc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a82434bfb140a6b87e216f86a62747f') in 0.009449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Rubic_Prefabs/Slices/RedWarning.mat
+  artifactKey: Guid(bd88ba84eab396b42a01e022ad1daaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/RedWarning.mat using Guid(bd88ba84eab396b42a01e022ad1daaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeff5711868cc6f005aaa02796800204') in 0.009607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 239.002326 seconds.
+  path: Assets/Rubic_Prefabs/UI/HowToPlayPanel
+  artifactKey: Guid(1b73b86a5ef38d44b90fd65e3f94d08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/HowToPlayPanel using Guid(1b73b86a5ef38d44b90fd65e3f94d08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29fada7b366647aa86f2ffd8aa650bd') in 0.006471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.087270 seconds.
+  path: Assets/Rubic_Prefabs/UI/HowToPlayPanel/fade_backBackground.png
+  artifactKey: Guid(30d805bcb67b787479a7541cdb6055cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/HowToPlayPanel/fade_backBackground.png using Guid(30d805bcb67b787479a7541cdb6055cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffeeb149e995c1d37ef2eca2f9d04b31') in 0.028594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Rubic_Prefabs/UI/HowToPlayPanel/HowtoPlay_backgroundpanel.png
+  artifactKey: Guid(f0c69f0f8c1591a4ba90b53484455a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/HowToPlayPanel/HowtoPlay_backgroundpanel.png using Guid(f0c69f0f8c1591a4ba90b53484455a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c49be3cf2e4891f113a13250163d1e') in 0.014446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.919763 seconds.
+  path: Assets/Rubic_Prefabs/UI/icons
+  artifactKey: Guid(0e96513c5f906a54dbf97258fb0d6b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/icons using Guid(0e96513c5f906a54dbf97258fb0d6b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bb4a4134ea9d58c38c3cbf2d218fc5') in 0.005819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.752490 seconds.
+  path: Assets/Rubic_Prefabs/UI/Settings/fade_backBackground.png
+  artifactKey: Guid(413bc93720a0ca0449156dc6e8b11e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/Settings/fade_backBackground.png using Guid(413bc93720a0ca0449156dc6e8b11e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2788b3effb9a0cc52bad1ffa2de8ba5') in 0.021454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Rubic_Prefabs/UI/Settings/High.png
+  artifactKey: Guid(525a7e186cfb5f04aae0fb4ba478698d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/Settings/High.png using Guid(525a7e186cfb5f04aae0fb4ba478698d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ecd9b3314f97cb77891e7e8ad68ed1') in 0.017857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Rubic_Prefabs/UI/Settings/Graphics.png
+  artifactKey: Guid(d6ee0e1bdfcf36741ad9a14e899ffeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/Settings/Graphics.png using Guid(d6ee0e1bdfcf36741ad9a14e899ffeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8190a44c36adaf11532f294cc2fe417') in 0.013928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Rubic_Prefabs/UI/Settings/volumeIcon.png
+  artifactKey: Guid(4d1ace88bc4258943a47c160fc41e38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/Settings/volumeIcon.png using Guid(4d1ace88bc4258943a47c160fc41e38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7f75ee0d4d0723fdbface3900d7520') in 0.015532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Rubic_Prefabs/UI/Settings/Sound.png
+  artifactKey: Guid(f8a3c1c087ca7e24ea8be10639f261a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/Settings/Sound.png using Guid(f8a3c1c087ca7e24ea8be10639f261a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803ea58529e26203887ec916e0ee4311') in 0.019061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Rubic_Prefabs/UI/Settings/medium.png
+  artifactKey: Guid(9db549e6c48b6dd46aaf6ca19730d463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/Settings/medium.png using Guid(9db549e6c48b6dd46aaf6ca19730d463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28883abf9795162ff05f9383591d1b99') in 0.017722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Rubic_Prefabs/UI/Settings/ultra.png
+  artifactKey: Guid(17b55a96660d720468bb61782f208d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/Settings/ultra.png using Guid(17b55a96660d720468bb61782f208d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcbf7386b8e8efeca17054630188046') in 0.009014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Rubic_Prefabs/UI/Settings/Low.png
+  artifactKey: Guid(553f76c2748e05043b8334deffe2fa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/Settings/Low.png using Guid(553f76c2748e05043b8334deffe2fa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efb2808b4f435c160580a9ea02b0c16') in 0.009338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Rubic_Prefabs/UI/Settings/settingsBackground.png
+  artifactKey: Guid(f5f3446478f657a46bf2ba9c4ccfd13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/Settings/settingsBackground.png using Guid(f5f3446478f657a46bf2ba9c4ccfd13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b97b48796d920d9fa99193474a039ff') in 0.014341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.439170 seconds.
+  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels
+  artifactKey: Guid(795e131d99f5a744a9317a22ba630f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels using Guid(795e131d99f5a744a9317a22ba630f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127efe3a7260b8e30612e8cd45a76bf6') in 0.005682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081154 seconds.
+  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BackToMenuIcon.png
+  artifactKey: Guid(70d935dacbf4dd4458b2bf20f1252f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BackToMenuIcon.png using Guid(70d935dacbf4dd4458b2bf20f1252f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab0ee62236261b4fe641f48835b3094') in 0.020043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/RedDefeat.png
+  artifactKey: Guid(9c895067addfc3143af0c40afbca23d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/RedDefeat.png using Guid(9c895067addfc3143af0c40afbca23d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7153715fc93e0b48a7e670a1411fcb8d') in 0.016185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/GreenVictory.png
+  artifactKey: Guid(1caecc495c4ca1b40b478fbffad8bc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/GreenVictory.png using Guid(1caecc495c4ca1b40b478fbffad8bc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdba337ea27ccdce3efd9651f2c13e4') in 0.008956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/DEFEAT.png
+  artifactKey: Guid(8cc4c44bce985944c9bda49bc4bb7780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/DEFEAT.png using Guid(8cc4c44bce985944c9bda49bc4bb7780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97addc68d6dc1b8303660ef3ebc68c92') in 0.009903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/VICTORY.png
+  artifactKey: Guid(866dd71c1bae23545a67ba201da977aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/VICTORY.png using Guid(866dd71c1bae23545a67ba201da977aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0084e125b034fcf2a7ffbc289d6aef') in 0.010093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BeatsIcon.png
+  artifactKey: Guid(43b6703eede49ff46abad26bf7866d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/BeatsIcon.png using Guid(43b6703eede49ff46abad26bf7866d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f5fb5fdd4d2c1626615076e5003f39') in 0.011843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/fade_backBackground.png
+  artifactKey: Guid(79c3155bc04c4a04982ec061450c8d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/fade_backBackground.png using Guid(79c3155bc04c4a04982ec061450c8d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a4e62b17695103b9366867d25c39ad') in 0.009895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ReplayIcon.png
+  artifactKey: Guid(83fb0a0c1df05c241bb85dde0fb12865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ReplayIcon.png using Guid(83fb0a0c1df05c241bb85dde0fb12865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fba45c6559009136f44f910c90f245b') in 0.008926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ConditionBackgroundPanel.png
+  artifactKey: Guid(33d7bd16a8b48fa4e9cff27fa40a8036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/WinLoseConditionPanels/ConditionBackgroundPanel.png using Guid(33d7bd16a8b48fa4e9cff27fa40a8036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfceab0517d9cda1def32ffe11b8294c') in 0.012880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 321.724586 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab
+  artifactKey: Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_Blue.prefab using Guid(70b74931ed133a346a578f3eea72a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a18bcd4715c284818655e2435f755f') in 0.013309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.736679 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab
+  artifactKey: Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_GREEN_RC_N.prefab using Guid(e35e9c1a688b56445addf79f38bc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbd51a4fe86524047ab451d59f728ec') in 0.010805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.765590 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab
+  artifactKey: Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_ORANGE_RC_N.prefab using Guid(c1c5d6b639600b146b7c402bca58b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b744f7c40d66138ba708175a64eb18b0') in 0.010951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.061188 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab
+  artifactKey: Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_PINK_RC_N.prefab using Guid(68b505efa44f4a14485bdf911bd13af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13475c7ed120c84a54d03cf3c39ce3a8') in 0.011043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.478629 seconds.
+  path: Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab
+  artifactKey: Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/Slices/Rubic_Slice_RED_RC_N.prefab using Guid(6f7cda9732421a44b8c95ca2533c4221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1061950195366be105532e1b7f77ece8') in 0.011264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.772106 seconds.
+  path: Assets/Scenes/RubiC_1.unity
+  artifactKey: Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RubiC_1.unity using Guid(ffe39c9f07453db41928c633a4afdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905030dc937e13e4ac46b4f9544e00ad') in 0.005814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.131069 seconds.
+  path: Assets/Projectile Arsenal Pack/Texture/Glow_Main.png
+  artifactKey: Guid(90ac4690d68170647b546be39539f2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Projectile Arsenal Pack/Texture/Glow_Main.png using Guid(90ac4690d68170647b546be39539f2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9194b52b6761dfc4ce90c9b62c1a688') in 0.008737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Particlecollection_Modular/Scene/Main Camera_noshow.prefab
+  artifactKey: Guid(fa1d28cf8ddec4848a57e054036e1dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particlecollection_Modular/Scene/Main Camera_noshow.prefab using Guid(fa1d28cf8ddec4848a57e054036e1dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563eea76cc48f7de542ca1b40ac54fd3') in 0.017387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/SimpleIAPSystem/Prefabs/VR/MainCamera.prefab
+  artifactKey: Guid(ccf8c8cc05aad7b40a8deb4f73296da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleIAPSystem/Prefabs/VR/MainCamera.prefab using Guid(ccf8c8cc05aad7b40a8deb4f73296da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155a643e27edfcfe9007d6eb4da350ac') in 0.112201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/MainCanvasTitleBg.png
+  artifactKey: Guid(bdb42c87b8801e94e886c5c0d60b3014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/MainCanvasTitleBg.png using Guid(bdb42c87b8801e94e886c5c0d60b3014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c030b0f134fc2e8dccde567ec865bb9') in 0.056899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Rubic_Prefabs/UI/MainMenu/VideoMainBackground.mp4
+  artifactKey: Guid(0b181afa9422c41459aecb2cee3a3463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/MainMenu/VideoMainBackground.mp4 using Guid(0b181afa9422c41459aecb2cee3a3463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cbadaaa40d8e03e35674d71b1703d4') in 0.017355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/GUISkins/MainSkin.guiskin
+  artifactKey: Guid(57482289c346f104a8162a3a79aaff9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/GUISkins/MainSkin.guiskin using Guid(57482289c346f104a8162a3a79aaff9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93a78a29f14c9b5b7d8c7563d2fd931') in 0.042985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Rubic_Prefabs/UI/MainMenu/RenderTextMainVideo.renderTexture
+  artifactKey: Guid(3097b095805f749439977640a5307117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rubic_Prefabs/UI/MainMenu/RenderTextMainVideo.renderTexture using Guid(3097b095805f749439977640a5307117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c043a3acfb080d8ceff6b6eb7b87106') in 0.036500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Official/TemplateExamples/PostProcess/Sobel/SobelMain.asset
+  artifactKey: Guid(481788033fe47cd4893d0d4673016cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Official/TemplateExamples/PostProcess/Sobel/SobelMain.asset using Guid(481788033fe47cd4893d0d4673016cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53cf289a3c081c5fd9156c3252abe939') in 0.032378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.633398 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(6dbeac9ee6c7ff94d8aac90f71ed50f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(6dbeac9ee6c7ff94d8aac90f71ed50f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e126f7f9883c835b5d9291e4f1692a') in 0.006295 seconds 
