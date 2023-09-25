@@ -7,15 +7,18 @@ using UnityEngine.UI;
 public class VolumeManager : MonoBehaviour
 {
     public AudioSource audioSrc;
+
     public AudioSource buttonSrc;
+
     public Slider soundSlider;
+
     public GameObject soundSliderOBJ;
+
     public GameObject SliderCanvas;
 
     public GameObject settingsMenu;
 
-   // public GameObject soundManager;
-   
+    // public GameObject soundManager;
     public float musicVolume;
 
     // Start is called before the first frame update
@@ -25,12 +28,12 @@ public class VolumeManager : MonoBehaviour
     {
         if (instance != null)
         {
-            Destroy(gameObject);
+            Destroy (gameObject);
         }
         else
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad (gameObject);
         }
     }
 
@@ -46,22 +49,36 @@ public class VolumeManager : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == ("Main Menu"))
         {
-
-            soundSliderOBJ = GameObject.FindWithTag("MainMenuVolumeSlider");
-            soundSlider = soundSliderOBJ.GetComponent<Slider>();
-            soundSlider.value = musicVolume;
-
-            if (!audioSrc)
+            if (soundSlider)
             {
+                soundSliderOBJ = GameObject.FindWithTag("MainMenuVolumeSlider");
+                if (soundSliderOBJ)
                 {
-                    audioSrc = GameObject.FindWithTag("MainMenuAudioSource").GetComponent<AudioSource>();
-                    buttonSrc = GameObject.FindWithTag("MainMenuButtonAS").GetComponent<AudioSource>();
+                    soundSlider = soundSliderOBJ.GetComponent<Slider>();
+                    soundSlider.value = musicVolume;
+
+                    if (!audioSrc)
+                    {
+                        {
+                            audioSrc =
+                                GameObject
+                                    .FindWithTag("MainMenuAudioSource")
+                                    .GetComponent<AudioSource>();
+                            buttonSrc =
+                                GameObject
+                                    .FindWithTag("MainMenuButtonAS")
+                                    .GetComponent<AudioSource>();
+                        }
+                    }
                 }
             }
         }
 
         settingsMenu = GameObject.FindWithTag("SettingsMenu");
-        settingsMenu.SetActive(false);
+        if(settingsMenu)
+        {
+            settingsMenu.SetActive(false);
+        }
     }
 
     /*public void OnCanvasActivation()
@@ -93,14 +110,10 @@ public class VolumeManager : MonoBehaviour
         settingsMenu = GameObject.FindWithTag("SettingsMenu");
         settingsMenu.SetActive(false);
     }*/
-
     private void ChangedActiveScene(Scene current, Scene next)
     {
-
-
         if (SceneManager.GetActiveScene().name == ("Main Menu"))
         {
-            
             soundSliderOBJ = GameObject.FindWithTag("MainMenuVolumeSlider");
             soundSlider = soundSliderOBJ.GetComponent<Slider>();
             soundSlider.value = musicVolume;
@@ -108,15 +121,20 @@ public class VolumeManager : MonoBehaviour
             if (!audioSrc)
             {
                 {
-                    audioSrc = GameObject.FindWithTag("MainMenuAudioSource").GetComponent<AudioSource>();
-                    buttonSrc = GameObject.FindWithTag("MainMenuButtonAS").GetComponent<AudioSource>();
+                    audioSrc =
+                        GameObject
+                            .FindWithTag("MainMenuAudioSource")
+                            .GetComponent<AudioSource>();
+                    buttonSrc =
+                        GameObject
+                            .FindWithTag("MainMenuButtonAS")
+                            .GetComponent<AudioSource>();
                 }
             }
 
             settingsMenu = GameObject.FindWithTag("SettingsMenu");
             settingsMenu.SetActive(false);
         }
-        
 
         /*if (SceneManager.GetActiveScene().name == ("Main Menu"))
         {
@@ -126,8 +144,6 @@ public class VolumeManager : MonoBehaviour
         {
             SliderCanvas.SetActive(false);
         }*/
-
-
         PlayerPrefs.SetFloat("GameVolume", musicVolume);
     }
 
@@ -143,8 +159,6 @@ public class VolumeManager : MonoBehaviour
             audioSrc.volume = musicVolume;
             buttonSrc.volume = musicVolume;
         }
-        
-
     }
 
     public void SetVolume(float vol)
