@@ -1021,7 +1021,7 @@ public class BuyAndUseCard : MonoBehaviour
         robotSpawner.GetComponent<Robot_Spawner>().InstantiateArmrod();
         robotSpawner.GetComponent<Robot_Spawner>().InstantiateSpeaker();
 
-        equipmentControl.GetComponent<EquipmentController>().changeEquipmentCard();
+        //equipmentControl.GetComponent<EquipmentController>().changeEquipmentCard();
     }
 
     public void ActivateEquipment()

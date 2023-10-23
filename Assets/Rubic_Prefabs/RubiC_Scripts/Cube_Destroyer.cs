@@ -100,7 +100,7 @@ public class Cube_Destroyer : MonoBehaviour
 
 
 
-    public void GameOver()
+    public void GameOver(bool victory = false)
     {
         endGameAdEarnings = GameManager.CoinCount / 5;
         if (endGameAdText && !tutorial)
@@ -112,10 +112,16 @@ public class Cube_Destroyer : MonoBehaviour
         {
             sliceSpawner.SetActive(false);
         }
-        StartCoroutine(GameOverEffects());
+        if(!victory)
+        {
+            StartCoroutine(GameOverEffects());
+        }
         if (!tutorial)
         {
-            Camera.GetComponent<StartEffects>().callGameOver();
+            if(!victory)
+            {
+                Camera.GetComponent<StartEffects>().callGameOver();
+            }
             StartCoroutine(endGamePanel());
         }
         gameOver = true;

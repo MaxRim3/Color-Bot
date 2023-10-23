@@ -15,11 +15,11 @@ public class EquipmentController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        changeEquipmentCard();
+        //changeEquipmentCard();
 
         findCanvasElements();
 
-        changeEquipmentCard();
+        //changeEquipmentCard();
     }
 
     // Update is called once per frame
