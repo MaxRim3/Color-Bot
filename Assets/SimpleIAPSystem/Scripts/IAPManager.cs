@@ -550,9 +550,9 @@ namespace SIS
             #elif UNITY_ANDROID
                 switch(StandardPurchasingModule.Instance().appStore)
                 {
-                    case AppStore.SamsungApps:
-                        extensions.GetExtension<ISamsungAppsExtensions>().RestoreTransactions(OnTransactionsRestored);
-                        break;
+                    // case AppStore.SamsungApps:
+                    //     extensions.GetExtension<ISamsungAppsExtensions>().RestoreTransactions(OnTransactionsRestored);
+                    //     break;
                 
                     /*
                     case AndroidStore.CloudMoolah:

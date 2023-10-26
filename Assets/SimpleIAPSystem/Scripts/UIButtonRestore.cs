@@ -23,8 +23,8 @@ namespace SIS
 
             #if SIS_IAP
 	            #if UNITY_ANDROID
-	                if (StandardPurchasingModule.Instance().appStore == AppStore.SamsungApps)
-	                    supportedPlatform = true;
+	                // if (StandardPurchasingModule.Instance().appStore == AppStore.SamsungApps)
+	                //     supportedPlatform = true;
 	            #elif UNITY_IOS
 	                supportedPlatform = true;
 	            #endif
