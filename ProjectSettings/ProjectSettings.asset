@@ -134,7 +134,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 36
+  bundleVersion: 41
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -154,17 +154,17 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DreamstateStudios.ColorBot
+    Android: com.dss.roblockDrop
     Standalone: com.Dreamstate-Studios.Color-Bot
     iPhone: com.Dreamstate-Studios.Color-Bot
   buildNumber:
     Standalone: 0
-    iPhone: 24
+    iPhone: 41
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 0
-  AndroidBundleVersionCode: 26
+  overrideDefaultApplicationIdentifier: 1
+  AndroidBundleVersionCode: 40
   AndroidMinSdkVersion: 19
-  AndroidTargetSdkVersion: 0
+  AndroidTargetSdkVersion: 33
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   stripEngineCode: 1
